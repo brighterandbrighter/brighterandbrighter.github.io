@@ -10,7 +10,7 @@ body {
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #42bfc2;
+	color: #eaecf0;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -28,8 +28,8 @@ h2 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
-::selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::-moz-selection { background: #eaecf0; color: #fff; text-shadow: none; }
+::selection { background: #eaecf0; color: #fff; text-shadow: none; }
 
 
 /***** Coming Soon *****/
