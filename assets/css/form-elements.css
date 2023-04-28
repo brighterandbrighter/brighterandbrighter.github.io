@@ -41,7 +41,7 @@ input[type="text"]::-webkit-input-placeholder { color: #fff; }
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
-    background: #ff5a56;
+    background: #d19a89;
     border: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
@@ -63,7 +63,7 @@ input[type="text"]::-webkit-input-placeholder { color: #fff; }
 }
 
 .subscribe button:hover {
-    background: #555;
+    background: #AD7E6F;
     color: #fff;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -74,7 +74,7 @@ input[type="text"]::-webkit-input-placeholder { color: #fff; }
 
 .subscribe button:active {
 	outline: 0;
-    background: #555;
+    background: #AD7E6F;
     color: #fff;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -83,12 +83,12 @@ input[type="text"]::-webkit-input-placeholder { color: #fff; }
 
 .subscribe button:focus {
 	outline: 0;
-	background: #555;
+	background: #AD7E6F;
 	color: #fff;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline: 0;
-	background: #555;
+	background: #AD7E6F;
 	color: #fff;
 }
