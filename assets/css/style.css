@@ -7,11 +7,11 @@ body {
     text-align: center;
 }
 
-.about {
+body.aboutpage {
 text-align: left;
 }
 
-.about .logo {
+body.aboutpage .logo {
 	text-align:center;
 
 strong { font-weight: 700; color: #d19a89;}
