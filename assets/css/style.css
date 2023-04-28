@@ -1,6 +1,6 @@
 
 body {
-    background: #235951;
+    background: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #fff;
@@ -10,7 +10,7 @@ body {
 strong { font-weight: 700; }
 
 a, a:hover, a:focus {
-	color: #d19a89;
+	color: #42bfc2;
 	text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -28,8 +28,8 @@ h2 {
 
 img { max-width: 100%; }
 
-::-moz-selection { background: #d19a89; color: #fff; text-shadow: none; }
-::selection { background: #d19a89; color: #fff; text-shadow: none; }
+::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::selection { background: #42bfc2; color: #fff; text-shadow: none; }
 
 
 /***** Coming Soon *****/
@@ -48,13 +48,12 @@ img { max-width: 100%; }
 
 .coming-soon .logo h1 {
 	margin: 0;
-	height: 200px;
 }
 
 .coming-soon .logo a {
 	display: inline-block;
-	width: 350px;
-	height: 350px;
+	width: 200px;
+	height: 110px;
 	background: url(../img/logo.png) center center no-repeat;
 	text-indent: -99999px;
 }
