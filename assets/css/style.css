@@ -7,11 +7,15 @@ body {
     text-align: center;
 }
 
-strong { font-weight: 700; }
+body.about {
+text-align: left;
+}
+
+strong { font-weight: 700; color: #d19a89;}
 
 a, a:hover, a:focus {
 	color: #d19a89;
-	text-decoration: none;
+	text-decoration: underline;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
