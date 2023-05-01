@@ -23,6 +23,9 @@
 		
 padding: 20px 10px;
 }
+	.subscribe button, .subscribe button a {
+	max-width: 95%;
+	}
 
 }
 
