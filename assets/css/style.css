@@ -172,6 +172,7 @@ height: 50px;
 list-style: none;
 text-transform: uppercase;
 	display: inline;
+	width: 100px;
 }
 
 .header ul li a {
