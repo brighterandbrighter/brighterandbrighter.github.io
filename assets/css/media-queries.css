@@ -26,6 +26,7 @@ padding: 20px 10px;
 	max-width: 95%;
 		white-space:normal !important;
 word-wrap:break-word;
+		height: auto;
 	}
 
 }
