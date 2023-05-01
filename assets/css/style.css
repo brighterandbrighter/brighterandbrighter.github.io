@@ -179,4 +179,6 @@ text-transform: uppercase;
 list-style: none;
 text-transform: uppercase;
 	display: inline-block;
+	font-size: 1.2rem;
+	padding: 50px;
 }
