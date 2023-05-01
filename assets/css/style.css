@@ -11,6 +11,10 @@ body {
 text-align: left;
 }
 
+.aboutpage .header {
+text-align: center;
+}
+
 .aboutpage .logo {
 	text-align:center; }
 
