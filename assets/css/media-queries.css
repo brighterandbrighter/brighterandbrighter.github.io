@@ -20,7 +20,8 @@
 	.footer-copyright { padding-bottom: 15px; }
 	
 	.header ul li {
-display: block;
+		
+padding: 50px 10px;
 }
 
 }
