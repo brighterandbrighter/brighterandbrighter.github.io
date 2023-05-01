@@ -18,6 +18,10 @@
 	
 	.footer-copyright p, .footer-social { text-align: center; }
 	.footer-copyright { padding-bottom: 15px; }
+	
+	.header ul li {
+display: block;
+}
 
 }
 
