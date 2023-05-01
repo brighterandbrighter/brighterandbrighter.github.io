@@ -168,7 +168,8 @@ footer {
 height: 50px;
 }
 
-.header ul li {
+.header ul li a {
 list-style: none;
 text-transform: uppercase;
+	display: inline-block;
 }
