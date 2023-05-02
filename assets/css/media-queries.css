@@ -10,6 +10,13 @@
 
 }
 
+@media (max-width: 768px) {
+	.header ul li a, .header ul li {	
+	display: block;
+	}
+}
+
+
 @media (max-width: 767px) {
 	
 	.coming-soon p { padding: 0; }
