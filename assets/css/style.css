@@ -170,14 +170,18 @@ footer {
 
 .header {
 	text-align: center;
+	float:none;
 }
 
 .header ul li {
 list-style: none;
 text-transform: uppercase;
 	padding: 20px;
+	display:inline-block;
+	float:none;
 
 }
+
 
 .header ul li a {
 list-style: none;
