@@ -169,11 +169,13 @@ footer {
 .social-icon.google-plus { background-image: url(../img/social-icons/google-plus.png); }
 
 .header {
+	text-align: center;
 }
 
 .header ul li {
 list-style: none;
 text-transform: uppercase;
+	padding: 20px;
 
 }
 
