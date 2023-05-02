@@ -194,3 +194,7 @@ text-transform: uppercase;
 .navbar-toggle .icon-bar{
   background-color: #d19a89;
 }
+
+.navbar-nav {
+float: none !important;
+}
