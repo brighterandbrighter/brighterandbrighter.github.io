@@ -20,7 +20,7 @@
 	.footer-copyright { padding-bottom: 15px; }
 	
 	.header ul li a {	
-padding: 20px 10px;
+display: block;
 }
 	.subscribe button, .subscribe button a {
 	max-width: 95%;
