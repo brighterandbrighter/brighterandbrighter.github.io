@@ -1082,6 +1082,13 @@
 				e.preventDefault();
 				menu.slideToggle();
 			});
+
+			$(document).click((e) => { 
+  if (!$(e.target).closest('#resp-menu').length && !$(e.target).closest('.menu').length) {
+   e.preventDefault();
+				menu.slideUp();
+  }
+});
 			
 			$(window).resize(function(){
 				var w = $(window).width();
@@ -1090,8 +1097,12 @@
 				}
 			});			
 		});
+
+
+		
 	</script>
 	
+
 	
 	
 	
@@ -1320,5 +1331,8 @@ $('a.back-to-top').click(function() {
   }, 2000);
   return false;
 });</script>
+
+
+
 </body>
 </html>
