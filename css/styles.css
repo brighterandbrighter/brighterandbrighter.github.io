@@ -3454,6 +3454,10 @@ section .gutter {
 .about-emma .menu li a {
 	padding: 65px 20px;
 }
+
+.about-emma .section-header h2 {
+		font-size:6rem;
+	}
 	.text-rotator, .hero-text {
 		font-size:6rem;
 	}
@@ -3511,6 +3515,7 @@ section .gutter {
 		left:0;
 		margin-left: 6rem;
 		margin-top: -20px;
+		display:none;
 	}
 
 	.logo img {
