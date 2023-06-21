@@ -3510,8 +3510,7 @@ section .gutter {
 	}
 	.logo {
 		margin-left: 6rem;
-		margin-top: 0px;
-		
+		margin-top: -2rem;
 	}
 
 	.about-emma .services-1 {
