@@ -3521,6 +3521,10 @@ section .gutter {
     border-radius: 100px 100px 0 0;
 }
 
+.about-emma .services-2, .about-emma .services-3 {
+    border-radius: 0;
+}
+
 .about-emma.about-coaching .wrapper {
 	margin-top: 5rem;
 }
