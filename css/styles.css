@@ -3512,11 +3512,23 @@ section .gutter {
 		text-align:center;
 	}
 	.logo {
-		left:0;
 		margin-left: 6rem;
-		margin-top: -20px;
-		display:none;
+		margin-top: 0px;
+		
 	}
+
+	.about-emma .services {
+    border-radius: 100px 100px 0 0;
+}
+
+.about-emma.about-coaching .wrapper {
+	margin-top: 5rem;
+}
+
+	.logo img {
+	max-width:100px;
+
+}
 
 	.logo img {
 		left: 0;
@@ -3528,7 +3540,9 @@ section .gutter {
 
 .about-emma .menu li a {
 	padding: 65px 20px;
+	margin-top: 0rem;
 }
+
 
 	.social-top {
 		top:20px;
