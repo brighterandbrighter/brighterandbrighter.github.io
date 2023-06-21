@@ -3535,6 +3535,10 @@ section .gutter {
 		left: 0;
 		top: 0;
 	}
+
+	.affiliations img {
+	max-width: 80px;
+}
 .about-emma .menu-wrapper {
 	padding-top: 3.5rem;
 }
