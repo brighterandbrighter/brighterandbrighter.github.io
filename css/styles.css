@@ -3566,9 +3566,14 @@ section .gutter {
 	}
 
 	.about-emma .section-header h2 {
-		font-size:6rem;
+		font-size:5rem;
 	}
-	
+
+	.about-emma.about-coaching .section-header-wrapper h2 {
+    margin-top: 12rem;
+    letter-spacing: normal;
+}
+
 	.section-header p, 
 	.services-info-content p {
 		font-size:3rem;
