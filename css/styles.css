@@ -3648,6 +3648,10 @@ section .gutter {
 	.testimonials .tab-content h5 {
 		margin-bottom:10px;
 	}
+
+	.intro-content-wrapper button {
+		margin-top: 0px;
+	}
 }
 	
 	
