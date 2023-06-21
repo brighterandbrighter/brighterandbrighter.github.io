@@ -2935,6 +2935,7 @@ section .gutter {
 	}
 	.section-header-wrapper {
 		padding:80px 0 30px;
+		max-width: 100%;
 	}
 	.text-rotator, 
 	.intro-heading h2, 
