@@ -454,6 +454,8 @@
 
 								<p>I have ADHD, ASD, and a PhD. I've always found the hard things easy and the easy things hard. But I've harnessed my brain to do a lot of brilliant things. You can too. Let's figure it out together.</p>
 
+								<p>Before I was a coach, I worked in tech, academia, and as an artist and touring musician - so if you're a creative or geeky type, we'll probably have a lot in common!</p>
+
 								<p>I've been in training at ADDCA in the USA since 2022, and am seeing clients at a reduced rate as I work towards certification and credentialling this summer.
 
 							</div><!-- .about-content -->
@@ -1084,11 +1086,10 @@
 			});
 
 			$(document).click((e) => { 
-  if (!$(e.target).closest('#resp-menu').length && !$(e.target).closest('.menu').length) {
-   e.preventDefault();
+  			if (!$(e.target).closest('#resp-menu').length && !$(e.target).closest('.menu-wrapper').length && menu.not(':hidden') && $(window).width() < 768) {
 				menu.slideUp();
-  }
-});
+  				}
+			});
 			
 			$(window).resize(function(){
 				var w = $(window).width();
