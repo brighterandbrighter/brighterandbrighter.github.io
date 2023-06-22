@@ -2375,8 +2375,20 @@ section .gutter {
 	z-index:2;
 }
 
+.calendly-inline-widget {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.about-emma.bookings .wrapper,
+.about-emma.about-coaching .wrapper {
+	margin-top: 5rem;
+}
 
 
+.about-emma.bookings .section-header-wrapper {
+    padding-top: 0px;
+}
 
 /* ---------------------------------------- 
 	Contact Form
