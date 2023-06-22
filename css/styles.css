@@ -345,9 +345,6 @@ color: #000;
 	height:100vh;
 }
 
-
-
-
 /* ---------------------------------------- 
 	Logo
 ---------------------------------------- */
@@ -667,7 +664,7 @@ button.btn-top {
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 }
-.introduction {
+.introduction, .fees {
 	/* background:rgba(91,192,190,1);
 	background:-webkit-gradient(left top, right bottom, color-stop(0%, rgba(91,192,190,1)), color-stop(100%, rgba(58,80,107,1)));
 	background:-webkit-linear-gradient(-45deg, rgba(91,192,190,1) 0%, rgba(58,80,107,1) 100%);
@@ -685,7 +682,13 @@ button.btn-top {
 	-ms-grid-columns:1fr 10fr 12fr 1fr;
 	grid-template-columns:1fr 10fr 12fr 1fr;
 }
-.intro-wrapper, .about-wrapper {	
+
+.fees {
+	-ms-grid-columns:4fr 10fr 12fr 4fr;
+	grid-template-columns:4fr 10fr 12fr 4fr;
+	margin-top: -20px;
+}
+.intro-wrapper, .about-wrapper, .fees-wrapper  {	
 	display:-ms-grid;
 	display:grid;
 	-ms-grid-columns:10fr 12fr;
@@ -738,7 +741,7 @@ section .gutter {
 	font-size: 2.8rem;
 }
 
-.intro-heading-wrapper, .about-heading-wrapper {
+.intro-heading-wrapper, .about-heading-wrapper, .fees-heading-wrapper  {
 	display:-ms-grid;
 	display:grid;
 	-ms-grid-column:1;
@@ -784,7 +787,7 @@ section .gutter {
 	max-height: 530px;
 }
 
-.intro-heading, .about-heading {
+.intro-heading, .about-heading, .fees-heading {
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
@@ -795,7 +798,7 @@ section .gutter {
 	grid-column:1;
 	position:relative;
 }
-.intro-heading h2, .about-heading h2 {
+.intro-heading h2, .about-heading h2, .fees-heading h2 {
 	font-size:9rem;
 	word-spacing:500px;
 	max-width:500px;
@@ -804,7 +807,7 @@ section .gutter {
 	margin:0;
 }
 
-.about-heading h2 {
+.about-heading h2  {
 	color: #000;
 	word-spacing: normal;
 }
@@ -837,7 +840,7 @@ section .gutter {
     transition: all .3s;
   }
 
-.intro-content-wrapper, .about-content-wrapper {	
+.intro-content-wrapper, .about-content-wrapper, .fees-content-wrapper {	
 	display:-ms-grid;
 	display:grid;
 	-ms-grid-columns:12fr;
@@ -850,7 +853,7 @@ section .gutter {
 	overflow:hidden;
 	z-index:2;
 }
-.intro-content, .about-content {
+.intro-content, .about-content, .fees-content {
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
@@ -863,8 +866,12 @@ section .gutter {
 	font-size: 2rem;
 }
 
-.about-content {
+.about-content, .fees-content {
 	display: block;
+}
+
+.fees-content p {
+	font-size: 2.5rem;
 }
 
 .about-content-wrapper {
@@ -911,7 +918,7 @@ section .gutter {
 .intro-nav i:hover {
 	opacity:.6;
 }
-.intro-text header {
+.intro-text header, .fees-text header {
 	font-size:5rem;
 	border-bottom:1px solid #fff;
 	position:relative;
@@ -926,10 +933,10 @@ section .gutter {
 	text-align:right;
 	width:60px;
 }
-.intro-text h2 {
+.intro-text h2, .fees-text h2 {
 	font-size:5rem;
 }
-.intro-text p {
+.intro-text p, .fees-text p {
 	font-size:1.8rem;
 }
 
@@ -975,7 +982,7 @@ section .gutter {
 .sessiontext {
 	padding: 20px;
 	font-size: 2.2rem;
-	min-height: 500px;
+	min-height: 700px;
 	color: #fff;
 }
 
@@ -1164,6 +1171,17 @@ section .gutter {
 }
 
 
+.low-cost {
+	-ms-grid-column:2;
+	-ms-grid-column-span:1;
+	grid-column:2/3;
+	font-size: 2rem;
+}
+
+.fees-wrapper {
+    -ms-grid-columns: 11fr 12fr;
+    grid-template-columns: 11fr 12fr;
+}
 
 
 /* ---------------------------------------- 
@@ -2681,6 +2699,35 @@ section .gutter {
 	.blog-index {
 		font-size:30rem;
 	}
+
+	.contact-wrapper {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 10fr 2fr 10fr 2fr;
+	}
+
+	.contact-image-wrapper {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+	}
+
+.contact-content-wrapper {
+    
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6; 
+}
+
+	.footer {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 12fr 10fr 2fr;
+	}
+
+	.contact-form-wrapper {
+		    padding-right: 40px;
+	}
 }
 
 
@@ -2713,6 +2760,35 @@ section .gutter {
 	.blog-index {
 		font-size:25rem;
 	}
+
+	.contact-wrapper {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 10fr 2fr 10fr 2fr;
+	}
+
+	.contact-image-wrapper {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+	}
+
+.contact-content-wrapper {
+    
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6; 
+}
+
+	.footer {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 12fr 10fr 2fr;
+	}
+
+	.contact-form-wrapper {
+		    padding-right: 40px;
+	}
 }
 
 
@@ -2741,6 +2817,35 @@ section .gutter {
 	.modal-wrapper {
 		-ms-grid-columns:4fr 5fr 12fr 5fr 4fr;
 		grid-template-columns:4fr 5fr 12fr 5fr 4fr;
+	}
+
+	.contact-wrapper {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 10fr 2fr 10fr 2fr;
+	}
+
+	.contact-image-wrapper {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+	}
+
+.contact-content-wrapper {
+    
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6; 
+}
+
+	.footer {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 12fr 10fr 2fr;
+	}
+
+	.contact-form-wrapper {
+		    padding-right: 40px;
 	}
 }
 
@@ -2771,6 +2876,35 @@ section .gutter {
 		-ms-grid-columns:3fr 5fr 12fr 5fr 3fr;
 		grid-template-columns:3fr 5fr 12fr 5fr 3fr;
 	}
+
+	.contact-wrapper {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 10fr 2fr 10fr 2fr;
+	}
+
+	.contact-image-wrapper {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+	}
+
+.contact-content-wrapper {
+    
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6; 
+}
+
+	.footer {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 12fr 10fr 2fr;
+	}
+.contact-form-wrapper {
+		    padding-right: 40px;
+	}
+
 }
 
 
@@ -2803,7 +2937,8 @@ section .gutter {
 	.text-rotator,
 	.intro-heading h2, 
 	.skills-heading h2,
-	.hero-text {
+	.hero-text,
+	.fees-heading h2 {
 		font-size:10rem;
 	}
 	.section-header h2 {
@@ -2812,8 +2947,41 @@ section .gutter {
 	.services-info-content h2 {
 		font-size:9rem;
 	}
+
+		.contact-form-wrapper {
+		    padding-right: 40px;
+	}
+
+	.contact-wrapper {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 10fr 2fr 10fr 2fr;
+	}
+
+	.contact-image-wrapper {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+	}
+
+.contact-content-wrapper {
+    
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6; 
 }
 
+	.footer {
+
+		-ms-grid-columns: 2fr 10fr 12fr 2fr;
+    	grid-template-columns: 2fr 12fr 10fr 2fr;
+	}
+
+	.contact-form-wrapper {
+		    padding-right: 40px;
+	}
+
+}
 
 
 
@@ -2856,6 +3024,10 @@ section .gutter {
 	}
 	.testimonials .tab-content h5 {
 		margin-bottom:10px;
+	}
+
+	.contact-form-wrapper {
+		    padding-right: 40px;
 	}
 }
 
@@ -3499,6 +3671,20 @@ section .gutter {
 
 /* Max 599px */
 @media only screen and (max-width:599px) {
+	.fees {
+	-ms-grid-columns:1fr 10fr 12fr 1fr;
+	grid-template-columns:1fr 10fr 12fr 1fr;
+	display:grid;
+	}
+
+	.fees-wrapper {
+		grid-template-columns: 1fr 10fr 1fr;
+	}
+
+	.fees-heading-wrapper {
+		grid-column: 2;
+	}
+
 	html {
 		font-size:45%;
 	}
