@@ -2728,6 +2728,14 @@ section .gutter {
 	.contact-form-wrapper {
 		    padding-right: 40px;
 	}
+
+	.about-emma .logo {
+    	margin-top: 2.5rem;
+	}
+
+	.about-emma .btn-top {
+    	margin-top: 4.5rem;
+	}
 }
 
 
@@ -2789,6 +2797,14 @@ section .gutter {
 	.contact-form-wrapper {
 		    padding-right: 40px;
 	}
+
+	.about-emma .logo {
+    	margin-top: 1rem;
+	}
+
+	.about-emma .btn-top {
+    	margin-top: 4rem;
+	}
 }
 
 
@@ -2847,6 +2863,16 @@ section .gutter {
 	.contact-form-wrapper {
 		    padding-right: 40px;
 	}
+
+	.about-emma .logo {
+    	margin-top: 1.5rem;
+	}
+
+	.about-emma .btn-top {
+    	margin-top: 4rem;
+	}
+
+
 }
 
 
@@ -2904,6 +2930,16 @@ section .gutter {
 .contact-form-wrapper {
 		    padding-right: 40px;
 	}
+
+	.about-emma .logo {
+    	margin-top: 2rem;
+	}
+
+	.about-emma .btn-top {
+    	margin-top: 5rem;
+	}
+
+	
 
 }
 
@@ -2981,6 +3017,14 @@ section .gutter {
 		    padding-right: 40px;
 	}
 
+	.about-emma .btn-top {
+    	margin-top: 4rem;
+	}
+
+	.about-emma .logo {
+    	margin-top: 1rem;
+	}
+
 }
 
 
@@ -3029,6 +3073,19 @@ section .gutter {
 	.contact-form-wrapper {
 		    padding-right: 40px;
 	}
+
+	.logo {
+    	margin-top: 0px;
+	}
+
+	.about-emma .btn-top {
+    	margin-top: 3rem;
+	}
+
+	.about-emma .logo {
+    	margin-top: 0px;
+	}
+
 }
 
 
@@ -3593,20 +3650,26 @@ section .gutter {
 	 	display: block;
 	 }
 
-.about-heading-wrapper {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-column: 2;
-    grid-column: 2;
-    -ms-grid-columns: 10fr;
-    grid-template-columns: 10fr;
-    margin-top: 120px;
-}
+	.about-heading-wrapper {
+	    display: -ms-grid;
+	    display: grid;
+	    -ms-grid-column: 2;
+	    grid-column: 2;
+	    -ms-grid-columns: 10fr;
+	    grid-template-columns: 10fr;
+	    margin-top: 120px;
+	}
 
-.about-content-wrapper {
-    color: #000;
-    grid-column: 2/3;
-}
+	.about-content-wrapper {
+	    color: #000;
+	    grid-column: 2/3;
+	}
+
+
+	.about-emma .menu li a {
+	    padding: 10rem 3rem;
+	    margin-top: 0;
+	}
 
 }
 
