@@ -699,6 +699,16 @@ button.btn-top {
 	padding:13rem 0;
 }
 
+.services p.location {
+	font-family: 'Figtree', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	-ms-grid-column:2;
+	-ms-grid-column-span:1;
+	grid-column:2/3;
+	padding-top: 2rem;
+	font-size: 3rem;
+}
 
 .about-wrapper {	
 	display:-ms-grid;
