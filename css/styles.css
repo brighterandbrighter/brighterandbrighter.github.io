@@ -4028,6 +4028,8 @@ section .gutter {
 	color: #fff;
 	position: absolute;
 	z-index: 99999;
+	width: 100%;
+
 }
 
 .notice a {
@@ -4038,6 +4040,7 @@ section .gutter {
 .notice span {
 	font-size:2rem;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .header .parallax {
