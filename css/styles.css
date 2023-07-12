@@ -4026,7 +4026,7 @@ section .gutter {
 	justify-content: center;
 	background-color: #1c2541;
 	color: #fff;
-	position: relative;
+	position: absolute;
 	z-index: 99999;
 }
 
@@ -4042,4 +4042,13 @@ section .gutter {
 
 .header .parallax {
 	margin-top: 11rem;
+}
+
+/* with notice */
+.logo {
+	top: 120px;
+}
+
+button.btn-top {
+	margin-top: 80px;
 }
