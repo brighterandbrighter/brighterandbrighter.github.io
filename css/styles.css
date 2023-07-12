@@ -699,6 +699,10 @@ button.btn-top {
 	padding:13rem 0;
 }
 
+.fees a {
+	color: #fff;
+}
+
 .services p.location {
 	font-family: 'Figtree', sans-serif;
 	font-weight: normal;
