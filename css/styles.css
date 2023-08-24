@@ -4052,6 +4052,10 @@ section .gutter {
 	top: 120px;
 }
 
+.about-emma .logo, .about-coaching .logo {
+	top: 0;
+}
+
 button.btn-top {
 	margin-top: 80px;
 }
