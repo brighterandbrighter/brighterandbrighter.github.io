@@ -4053,7 +4053,7 @@ section .gutter {
 }
 
 .about-emma .logo, .about-coaching .logo {
-	top: 0;
+	top: 50px;
 }
 
 button.btn-top {
