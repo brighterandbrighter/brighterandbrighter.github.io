@@ -181,13 +181,13 @@
 							<div class="team-content-wrapper">
 								
 								<div class="team-container">
-								<p><center><iframe frameborder="0" src="https://itch.io/embed-upload/9523304?color=222222" allowfullscreen="" width="640" height="660"><a href="https://brighteradhd.itch.io/walkthroughtime">Play Walk Through Time on itch.io</a></iframe></center></p>
+								<p><center><iframe frameborder="0" src="https://itch.io/embed-upload/9523304?color=222222" allowfullscreen="" width="640" height="660" class="box" id="box"><a href="https://brighteradhd.itch.io/walkthroughtime">Play Walk Through Time on itch.io</a></iframe></center></p>
 								<p><center>Use your keyboard or touchscreen to move the character.</center></p>
 								<p>Based on Sarah Ward's Walk Through Time banner.</p>
 								<p>It can be tricky for ADHDers to make time "feel real".</p> 
 								<p>Sarah Ward's Walk Through Time exercise involves placing a banner with 15-minute divisions marked on it on the floor, and having a client walk along it, narrating their activities in both time and space, learning to create an internal image of their tasks and how long they take.</p>
 								<p>This exercise is, of course, rather difficult to do in a virtual coaching space! The application above is a simple implementation of the Walk Through Time concept, introducing some tactile and interactive aspects to make time feel more vivid as the ADHDer narrates.</p> 
-								<p>Try talking through your daily activities as you navigate through your day. How much time do you have to complete your daily routine? How much time do you need? How does it feel to notice time passing?</p>
+								<p>Try talking through your daily activities as you navigate through your day. How long do your tasks take? How much time do you have to complete your daily routine? How much time do you need?</p>
 
 							</div>
 					
@@ -605,5 +605,23 @@ $('a.back-to-top').click(function() {
   }, 2000);
   return false;
 });</script>
+
+<script>
+var timer,
+    $win = $(window); 
+
+$win.on('resize',function(){
+    clearTimeout(timer);
+    timer = setTimeout(function(){
+        $("#box").height($("#box").width());
+    }, 500);
+
+});
+
+$( document ).ready(function() {
+        $("#box").height($("#box").width());
+});
+  
+</script>
 </body>
 </html>
