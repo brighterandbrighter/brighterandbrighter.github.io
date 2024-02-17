@@ -220,7 +220,6 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 	margin-top: 2rem;
 }
 
-
 .about-emma .services, .pages .services {
 	border-radius: 300px 300px 0 0;
 }
@@ -976,8 +975,8 @@ section .gutter {
 	display:grid;
 	/*-ms-grid-columns:10fr 6fr 6fr;
 	grid-template-columns:10fr 6fr 6fr;*/
-	-ms-grid-columns:6fr 6fr 6fr;
-	grid-template-columns:6fr 6fr 6fr;
+	-ms-grid-columns:12fr 6fr;
+	grid-template-columns:12fr 6fr;
 	-ms-grid-column:2;
 	-ms-grid-column-span:1;
 	grid-column:2/3;
