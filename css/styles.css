@@ -196,7 +196,7 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 	overflow:hidden;
 }
 
-.about-emma, .pages {
+.pages, .pages {
 	background-color: #1D723B;
 	background: rgb(35,89,81);
     background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
@@ -206,35 +206,35 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 
 
-.about-emma .header, .pages .header {
+.pages .header, .pages .header {
 	height: 22rem;
 	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
 	background-size:cover;
 }
 
-.about-emma .logo, .about-emma .btn-top, .pages .logo, .pages .btn-top {
+.pages .logo, .pages .btn-top, .pages .logo, .pages .btn-top {
 	z-index: 200;
 }
 
-.about-emma .btn-top, .pages .btn-top {
+.pages .btn-top {
 	margin-top: 2rem;
 }
 
-.about-emma .services, .pages .services {
+.pages .services {
 	border-radius: 300px 300px 0 0;
 }
 
-.about-emma .services-2,
-.about-emma .services-3 {
+.pages .services-2,
+.pages .services-3 {
 	border-radius: 0;
 	margin-top:-20px;
 }
 
-.about-emma .services-2 {
+.pages .services-2 {
 	background-color: #fff;
 }
 
-.about-emma .wrapper {
+.pages .wrapper {
 	margin-top: 20rem;
 	background: rgb(35,89,81);
     background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
@@ -242,7 +242,7 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 }
 
-.about-emma .page-content-wrapper {
+.pages .page-content-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 22fr 1fr;
@@ -250,16 +250,16 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
     margin-bottom: 20px;
 }
 
-.about-emma .main-nav {
+.pages .main-nav {
 	padding: 3.5rem 0 0;
 
 }
 
-.about-emma ul ul {
+.pages ul ul {
 	margin-left: 1rem;
 }
 
-.about-emma .secondary-nav {
+.pages .secondary-nav {
     position: relative;
     width: 100%;
     z-index: 100;
@@ -272,11 +272,11 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 }
 
-.about-emma .responsive-menu {
+.pages .responsive-menu {
 	padding: 5.5rem 0;
 }
 
-.about-emma .secondary-nav a {
+.pages .secondary-nav a {
 
 color: #000;
     text-decoration: none;
@@ -285,7 +285,7 @@ color: #000;
     font-size: 2.5rem;
 }
 
-.about-emma .secondary-nav ul {
+.pages .secondary-nav ul {
 	-ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
@@ -293,20 +293,20 @@ color: #000;
 
 }
 
-.about-emma .page-container,
-.about-emma .page-container-2,
-.about-emma .page-container-3{
+.pages .page-container,
+.pages .page-container-2,
+.pages .page-container-3{
 	grid-column: 2;
 	font-size: 2.5rem;
 	    padding-bottom: 10rem;
 }
 
 
-.about-emma .page-container-2 {
+.pages .page-container-2 {
 	background-color: #f1f3f7;
 }
 
-.about-emma .page-container img {
+.pages .page-container img {
 	max-width: 40rem;
 	border-radius: 300px;
 	position: absolute;
@@ -316,12 +316,16 @@ color: #000;
 	margin-top: 25rem;
 }
 
-.about-emma .section-header-wrapper h2 {
+.pages .page-container ul li {
+	margin-left: 4rem;
+}
+
+.pages .section-header-wrapper h2 {
 	margin-top: 12rem;
 	letter-spacing: -1px;
 }
 
-.about-emma footer {
+.pages footer {
 	margin-top:-20px;
 }
 
@@ -567,7 +571,7 @@ button.btn-top {
 	z-index:100;
 }
 
-.about-emma .main-nav {
+.pages .main-nav {
 	top: 0;
 	background:rgba(58,80,107,.1);
 	position:absolute;
@@ -577,7 +581,7 @@ button.btn-top {
 }
 
 
-.about-emma .menu li a {
+.pages .menu li a {
 	padding: 10rem 3rem;
 	margin-top: -3.6rem;
 }
@@ -2393,13 +2397,13 @@ section .gutter {
 	margin: 0 auto;
 }
 
-.about-emma.bookings .wrapper,
-.about-emma.about-coaching .wrapper {
+.pages.bookings .wrapper,
+.pages.about-coaching .wrapper {
 	margin-top: 5rem;
 }
 
 
-.about-emma.bookings .section-header-wrapper {
+.pages.bookings .section-header-wrapper {
     padding-top: 0px;
 }
 
@@ -2754,11 +2758,11 @@ section .gutter {
 		    padding-right: 40px;
 	}
 
-	.about-emma .logo {
+	.pages .logo {
     	margin-top: 2.5rem;
 	}
 
-	.about-emma .btn-top {
+	.pages .btn-top {
     	margin-top: 4.5rem;
 	}
 }
@@ -2823,11 +2827,11 @@ section .gutter {
 		    padding-right: 40px;
 	}
 
-	.about-emma .logo {
+	.pages .logo {
     	margin-top: 1rem;
 	}
 
-	.about-emma .btn-top {
+	.pages .btn-top {
     	margin-top: 4rem;
 	}
 }
@@ -2889,11 +2893,11 @@ section .gutter {
 		    padding-right: 40px;
 	}
 
-	.about-emma .logo {
+	.pages .logo {
     	margin-top: 1.5rem;
 	}
 
-	.about-emma .btn-top {
+	.pages .btn-top {
     	margin-top: 4rem;
 	}
 
@@ -2956,11 +2960,11 @@ section .gutter {
 		    padding-right: 40px;
 	}
 
-	.about-emma .logo {
+	.pages .logo {
     	margin-top: 2rem;
 	}
 
-	.about-emma .btn-top {
+	.pages .btn-top {
     	margin-top: 5rem;
 	}
 
@@ -3042,11 +3046,11 @@ section .gutter {
 		    padding-right: 40px;
 	}
 
-	.about-emma .btn-top {
+	.pages .btn-top {
     	margin-top: 4rem;
 	}
 
-	.about-emma .logo {
+	.pages .logo {
     	margin-top: 1rem;
 	}
 
@@ -3103,11 +3107,11 @@ section .gutter {
     	margin-top: 0px;
 	}
 
-	.about-emma .btn-top {
+	.pages .btn-top {
     	margin-top: 3rem;
 	}
 
-	.about-emma .logo {
+	.pages .logo {
     	margin-top: 0px;
 	}
 
@@ -3692,7 +3696,7 @@ section .gutter {
 	}
 
 
-	.about-emma .menu li a {
+	.pages .menu li a {
 	    padding: 10rem 3rem;
 	    margin-top: 0;
 	}
@@ -3708,11 +3712,11 @@ section .gutter {
 		font-size:50%;
 	}
 
-	.about-emma .menu-wrapper {
+	.pages .menu-wrapper {
 	padding-top: 3.5rem;
 }
 
-.about-emma .menu li a {
+.pages .menu li a {
 	padding: 65px 20px;
 }
 
@@ -3788,15 +3792,15 @@ section .gutter {
 		margin-top: -1rem;
 	}
 
-	.about-emma .services-1 {
+	.pages .services-1 {
     border-radius: 100px 100px 0 0;
 }
 
-.about-emma .services-2, .about-emma .services-3 {
+.pages .services-2, .pages .services-3 {
     border-radius: 0;
 }
 
-.about-emma.about-coaching .wrapper {
+.pages.about-coaching .wrapper {
 	margin-top: 5rem;
 }
 
@@ -3813,11 +3817,11 @@ section .gutter {
 	.affiliations img {
 	max-width: 80px;
 }
-.about-emma .menu-wrapper {
+.pages .menu-wrapper {
 	padding-top: 3.5rem;
 }
 
-.about-emma .menu li a {
+.pages .menu li a {
 	padding: 65px 20px;
 	margin-top: 0rem;
 }
@@ -3843,11 +3847,11 @@ section .gutter {
 		font-size:7rem;
 	}
 
-	.about-emma .section-header h2 {
+	.pages .section-header h2 {
 		font-size:5rem;
 	}
 
-	.about-emma.about-coaching .section-header-wrapper h2 {
+	.pages.about-coaching .section-header-wrapper h2 {
     margin-top: 0rem;
     letter-spacing: normal;
 }
