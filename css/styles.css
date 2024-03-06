@@ -242,7 +242,7 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 }
 
-.about-emma .sessions-content-wrapper {
+.about-emma .page-content-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 22fr 1fr;
@@ -293,20 +293,20 @@ color: #000;
 
 }
 
-.about-emma .sessions-container,
-.about-emma .sessions-container-2,
-.about-emma .sessions-container-3{
+.about-emma .page-container,
+.about-emma .page-container-2,
+.about-emma .page-container-3{
 	grid-column: 2;
 	font-size: 2.5rem;
 	    padding-bottom: 10rem;
 }
 
 
-.about-emma .sessions-container-2 {
+.about-emma .page-container-2 {
 	background-color: #f1f3f7;
 }
 
-.about-emma .sessions-container img {
+.about-emma .page-container img {
 	max-width: 40rem;
 	border-radius: 300px;
 	position: absolute;
@@ -3308,6 +3308,7 @@ section .gutter {
 	}
 	.intro-wrapper, 
 	.sessions-content-wrapper,
+	.page-content-wrapper,
 	.contact-content-wrapper, 
 	.footer-wrapper {
 		grid-template-columns:22fr;
