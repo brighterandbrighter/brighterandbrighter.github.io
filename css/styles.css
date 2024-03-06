@@ -242,7 +242,7 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 }
 
-.about-emma .session-content-wrapper {
+.about-emma .sessions-content-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 22fr 1fr;
@@ -293,20 +293,20 @@ color: #000;
 
 }
 
-.about-emma .session-container,
-.about-emma .session-container-2,
-.about-emma .session-container-3{
+.about-emma .sessions-container,
+.about-emma .sessions-container-2,
+.about-emma .sessions-container-3{
 	grid-column: 2;
 	font-size: 2.5rem;
 	    padding-bottom: 10rem;
 }
 
 
-.about-emma .session-container-2 {
+.about-emma .sessions-container-2 {
 	background-color: #f1f3f7;
 }
 
-.about-emma .session-container img {
+.about-emma .sessions-container img {
 	max-width: 40rem;
 	border-radius: 300px;
 	position: absolute;
@@ -957,20 +957,20 @@ section .gutter {
 
 
 /* ---------------------------------------- 
-	session
+	sessions
 ---------------------------------------- */
-.session * {
+.sessions * {
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 }
-.session {
+.sessions {
 	display:-ms-grid;
 	display:grid;
 	-ms-grid-columns:1fr 22fr 1fr;
 	grid-template-columns:1fr 22fr 1fr;
 	margin-bottom:20px;
 }
-.session-content-wrapper {
+.sessions-content-wrapper {
 	display:-ms-grid;
 	display:grid;
 	/*-ms-grid-columns:10fr 6fr 6fr;
@@ -2688,7 +2688,7 @@ section .gutter {
 		font-size:70%;
 	}
 	.section-header-wrapper, 
-	.session, 
+	.sessions, 
 	.portfolio-content-wrapper, 
 	.testimonials .testimonials-content-wrapper, 
 	.testimonials .tab-content-wrapper {
@@ -2769,7 +2769,7 @@ section .gutter {
 /* Min 2200 - Max 2399 */
 @media only screen and (min-width:2200px) and (max-width:2399px) {	
 	.section-header-wrapper, 
-	.session, 
+	.sessions, 
 	.portfolio-content-wrapper, 
 	.testimonials .testimonials-content-wrapper, 
 	.testimonials .tab-content-wrapper {
@@ -2838,7 +2838,7 @@ section .gutter {
 /* Min 2000 - Max 2199 */
 @media only screen and (min-width:2000px) and (max-width:2199px) {	
 	.section-header-wrapper, 
-	.session, 
+	.sessions, 
 	.portfolio-content-wrapper, 
 	.testimonials .testimonials-content-wrapper, 
 	.testimonials .tab-content-wrapper {
@@ -2906,7 +2906,7 @@ section .gutter {
 /* Min 1800 - Max 1999 */
 @media only screen and (min-width:1800px) and (max-width:1999px) {	
 	.section-header-wrapper, 
-	.session, 
+	.sessions, 
 	.portfolio-content-wrapper, 
 	.testimonials .testimonials-content-wrapper, 
 	.testimonials .tab-content-wrapper {
@@ -2974,7 +2974,7 @@ section .gutter {
 /* Min 1600 - Max 1799 */
 @media only screen and (min-width:1600px) and (max-width:1799px) {
 	.section-header-wrapper, 
-	.session, 
+	.sessions, 
 	.portfolio-content-wrapper, 
 	.testimonials .testimonials-content-wrapper, 
 	.testimonials .tab-content-wrapper {
@@ -3214,7 +3214,7 @@ section .gutter {
 	.services-info-content h2 {
 		font-size:9rem;
 	}
-	.session {
+	.sessions {
 		margin-bottom:10px;
 	}
 	.session-content {
@@ -3267,7 +3267,7 @@ section .gutter {
 @media only screen and (max-width:899px) {
 	.introduction, 
 	.section-header, 
-	.session, 
+	.sessions, 
 	.skills-heading, 
 	.skills-progress,
 	.portfolio-content-wrapper,
@@ -3281,7 +3281,7 @@ section .gutter {
 	@supports (display:grid) {
 		.introduction, 
 		.section-header, 
-		.session, 
+		.sessions, 
 		.skills-heading, 
 		.skills-progress, 
 		.portfolio-content-wrapper, 
@@ -3307,7 +3307,7 @@ section .gutter {
 		transform:none !important;
 	}
 	.intro-wrapper, 
-	.session-content-wrapper,
+	.sessions-content-wrapper,
 	.contact-content-wrapper, 
 	.footer-wrapper {
 		grid-template-columns:22fr;
@@ -3417,7 +3417,7 @@ section .gutter {
 	.intro-text h2 {
 		display:inline-block;
 	}
-	.session {
+	.sessions {
 		margin-bottom:0;
 	}
 	.session {
