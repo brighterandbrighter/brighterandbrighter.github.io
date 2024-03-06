@@ -4061,4 +4061,6 @@ button.btn-top {
 
 .home .header {
 	background-color: #1c2541;
+	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
+	background-size:cover;
 }
