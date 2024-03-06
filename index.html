@@ -1,12 +1,5 @@
 
 <!DOCTYPE html>
-
-<!--
-	Theme: Torr v.1.0
-	Author: adraft [https://themeforest.net/user/adraft?ref=adraft]
-	Date: 01-09-2017
-	Last update: 01-09-2017
--->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -431,17 +424,15 @@
 				
 				
 				<!-- ======================================
-					About Us
+					About Emma
 				======================================= -->
 				<section class="about" id="emma">
-					
 					
 					<div class="about-wrapper">
 						<div class="gutter"></div>
 
 						<div class="background">
 								<img src="img/demo/profile-new.jpeg"/>
-
 						</div>
 						
 						<!-- Intro Heading -->						
@@ -451,13 +442,8 @@
 							</div>
 						</div><!-- .intro-heading-wrapper -->
 						
-						
 						<!-- Intro Content -->
 						<div class="about-content-wrapper">
-							
-								
-										
-							
 							
 							<div class="about-content">					
 								
@@ -489,29 +475,22 @@
 					
 					<div class="affiliations-wrapper">
 					
-						<!-- Intro Heading -->						
+						<!-- Affiliations Heading -->						
 						<div class="affiliations-header-wrapper">	
 							<div class="gutter"></div>
 							<div class="section-header">	
 								<h2>Affiliations</h2>
 							</div>
 						</div><!-- .intro-heading-wrapper -->
-				
-						
-						
-						<!-- Intro Content -->
+
+						<!-- Affiliations Content -->
 						<div class="affiliations-content-wrapper">
 							
-								
-										
-							
-							
 							<div class="affiliations-content">					
-								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="img/demo/icf-acc-badge.png"/></a>
-								
-								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="img/demo/icf-member-badge.png"/></a>
-								<img src="img/demo/addca.png"/> 
-								<a href="https://www.adhdcoaches.org/"><img src="img/demo/aco.png"/></a>
+								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="img/demo/icf-acc-badge.png" alt="International Coaching Federation - Associate Certified Coach"/></a>
+								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="img/demo/icf-member-badge.png" alt="International Coaching Federation Member"/></a>
+								<img src="img/demo/addca.png" alt="Trained and certified at ADDCA"/> 
+								<a href="https://www.adhdcoaches.org/"><img src="img/demo/aco.png" alt="ACO Member" /></a>
 
 
 								<p>I am a member of the <a href="https://coachingfederation.org/find-a-coach/verify-a-coach">International Coaching Federation</a>, holding an ACC-level credential, and abide by the ICF's Code of Ethics. I am AACC-certified by my training organisation ADDCA.</p>
@@ -707,8 +686,6 @@
 	<script src="js/simplezoom.min.js"></script><!-- Portfolio Lightbox (https://github.com/kennyooi/simplezoom) -->
 	<script src="js/jquery.blog-carousel.js"></script><!-- Blog Carousel (https://codepen.io/paulnoble/pen/yVyQxv) -->
 	<script src="js/animatedModal.min.js"></script><!-- Animated Modal (Blog) (https://github.com/joaopereirawd/animatedModal.js) -->
-	<!--script src="https://maps.googleapis.com/maps/api/js?v=3"></script> <!-- Google Map API (https://maps.googleapis.com) - Change it to your API Key, e.g.: https://maps.googleapis.com/maps/api/js?key=YOUR-KEY-HERE -->
-	<!--script src="js/map.js"></script><!-- Google Map -->
 	<!--script src="js/contact-form.js"></script><!-- Contact Form (http://blog.teamtreehouse.com/create-ajax-contact-form) -->
 	
 	<!-- Place this script at the end of the body tag -->
@@ -727,19 +704,19 @@
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission! I will aim to respond within 24 hours, or 48 hours on weekends. If you do not hear from me, email hi@brighteradhd.com.";
+          status.innerHTML = "Thanks for your submission! I will aim to respond within 24 hours, or 48 hours on weekends. If you do not hear from me, email brightercoach@gmail.com.";
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
-              status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email hi@brighteradhd.com with your query."
+              status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email brightercoach@gmail.com with your query."
             }
           })
         }
       }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email hi@brighteradhd.com with your query."
+        status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email brightercoach@gmail.com with your query."
       });
     }
     form.addEventListener("submit", handleSubmit)

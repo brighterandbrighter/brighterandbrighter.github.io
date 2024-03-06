@@ -274,44 +274,6 @@
 	<script src="js/simplezoom.min.js"></script><!-- Portfolio Lightbox (https://github.com/kennyooi/simplezoom) -->
 	<script src="js/jquery.blog-carousel.js"></script><!-- Blog Carousel (https://codepen.io/paulnoble/pen/yVyQxv) -->
 	<script src="js/animatedModal.min.js"></script><!-- Animated Modal (Blog) (https://github.com/joaopereirawd/animatedModal.js) -->
-	<script src="https://maps.googleapis.com/maps/api/js?v=3"></script> <!-- Google Map API (https://maps.googleapis.com) - Change it to your API Key, e.g.: https://maps.googleapis.com/maps/api/js?key=YOUR-KEY-HERE -->
-	<script src="js/map.js"></script><!-- Google Map -->
-	<!--script src="js/contact-form.js"></script><!-- Contact Form (http://blog.teamtreehouse.com/create-ajax-contact-form) -->
-	
-	<!-- Place this script at the end of the body tag -->
-<script>
-    var form = document.getElementById("ajax-contact");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("form-messages");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Thanks for your submission! I will aim to respond within 24 hours, or 48 hours on weekends. If you do not hear from me, email hi@brighteradhd.com.";
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email hi@brighteradhd.com with your query."
-            }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email hi@brighteradhd.com with your query."
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
-	
 	
 	<!-- ======================================
 		Text Rotator
@@ -369,7 +331,6 @@
 				}
 			});			
 		});
-
 
 		
 	</script>
