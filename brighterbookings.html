@@ -11,7 +11,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Brighter ADHD and Neurodivergent Coaching</title>
+	<title>Brighter ADHD and Neurodiversity Coaching</title>
 	<meta name="description" content="ADHD, AuDHD, and executive functioning coaching for neurodivergent people. You and your brain are welcome here.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<!--meta http-equiv="refresh" content="0; URL=http://brighterbookings.as.me" /-->
@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="about-emma about-coaching">
+<body class="about-emma about-coaching bookings">
 	<a href="#" class="back-to-top" style="display: none;">Back to Top</a>
 	<!-- ======================================
 		Header
@@ -298,19 +298,19 @@
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission! I will aim to respond within 24 hours, or 48 hours on weekends. If you do not hear from me, email hi@brighteradhd.com.";
+          status.innerHTML = "Thanks for your submission! I will aim to respond within 24 hours, or 48 hours on weekends. If you do not hear from me, email brightercoach@gmail.com with your query.";
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
-              status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email hi@brighteradhd.com with your query."
+              status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email brightercoach@gmail.com with your query."
             }
           })
         }
       }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email hi@brighteradhd.com with your query."
+        status.innerHTML = "Oops! There was a problem submitting your form. Please try again, or email brightercoach@gmail.com with your query."
       });
     }
     form.addEventListener("submit", handleSubmit)
