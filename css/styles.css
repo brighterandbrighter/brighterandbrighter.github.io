@@ -232,6 +232,10 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 	background-color: #fff;
 }
 
+.pages.about .services {
+	margin-top: 200px;
+}
+
 .pages .wrapper {
 	margin-top: 4rem;
 	background: rgb(35,89,81);
