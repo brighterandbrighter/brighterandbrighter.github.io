@@ -653,7 +653,7 @@ button.btn-top {
 }
 
 .section-header-wrapper#mainheader {
-	padding-bottom: 0px;
+	padding-bottom: 0px;	
 }
 
 .section-header p,
@@ -3016,6 +3016,10 @@ section .gutter {
 	}
 	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
+	}
+
+	#mainheader .section-header h1 {
+		font-size: 4rem;
 	}
 	.services-info-content h2 {
 		font-size:9rem;
