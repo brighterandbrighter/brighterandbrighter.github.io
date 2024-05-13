@@ -333,6 +333,12 @@ color: #000;
 	font-size: 6rem;
 }
 
+.pages.about .section-header-wrapper h1 {
+	margin-top: 12rem;
+	letter-spacing: -1px; 
+	font-size: 10rem;
+}
+
 .pages footer {
 	margin-top:-20px;
 }
