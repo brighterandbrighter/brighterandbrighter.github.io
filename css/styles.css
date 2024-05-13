@@ -656,6 +656,10 @@ button.btn-top {
 	padding-bottom: 0px;	
 }
 
+.section-header-wrapper#what {
+	padding-top: 0px;
+}
+
 .section-header p,
 .services-info-content p {
 	font-size:4rem;
