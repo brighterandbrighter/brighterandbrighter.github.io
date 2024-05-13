@@ -72,6 +72,48 @@
 			}
 		}
 	</style>
+
+	<style>
+		.header-content {
+		    position: relative;
+		    z-index: 10;
+		    color: #fff;
+		    height: 100vh;
+		}
+		
+		.text-rotator, .hero-text {
+		    position: relative;
+		    font-family: "Ginkgo", sans-serif;
+		    font-variant-ligatures: discretionary-ligatures;
+		    /* font-variant-ligatures: none; */
+		    letter-spacing: normal;
+		    text-align: center;
+		    font-size: 10rem;
+		    text-shadow: 0 1px 0 black;
+		}
+		
+		.hero-text .inner {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    opacity: 1;
+		    clip: rect(0, 100vw, 100vh, 0);
+		    display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: flex;
+		    flex-wrap: wrap;
+		    -webkit-box-align: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    -webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		    justify-content: center;
+		    width: 80vw;
+		    height: 100vh;
+		    padding: 0 10vw;
+		    line-height: 1;
+		}
+	</style>
 	
 	<!-- Scripts -->
 	<script src="https://use.fontawesome.com/3e2da29de5.js"></script><!-- Font Awesome (http://fontawesome.io/) -->
