@@ -638,7 +638,7 @@ button.btn-top {
 	-ms-grid-column-span:1;
 	grid-column:2/3;
 }
-.section-header h2 {
+.section-header h1, .section-header h2 {
 	font-size:10rem;
 	line-height:1;
 	margin:0;
@@ -3002,7 +3002,7 @@ section .gutter {
 	.fees-heading h2 {
 		font-size:10rem;
 	}
-	.section-header h2 {
+	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
 	}
 	.services-info-content h2 {
@@ -3066,7 +3066,7 @@ section .gutter {
 	.skills-heading h2 {
 		font-size:8rem;
 	}
-	.section-header h2 {
+	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
 	}
 	.services-info-content h2 {
@@ -3128,7 +3128,7 @@ section .gutter {
 	.skills-heading h2 {
 		font-size:8rem;
 	}
-	.section-header h2 {
+	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
 	}
 	.skills-content, 
@@ -3197,7 +3197,7 @@ section .gutter {
 	.hero-text {
 		font-size:8rem;
 	}
-	.section-header h2 {
+	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
 	}
 	.skills-content, 
@@ -3723,7 +3723,7 @@ section .gutter {
 	.skills-heading h2 {
 		font-size:8rem;
 	}
-	.section-header h2 {
+	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
 	}
 	.social li {
@@ -3839,11 +3839,11 @@ section .gutter {
 	.skills-heading h2 {
 		font-size:6rem;
 	}
-	.section-header h2 {
+	.section-header h1, .section-header h2 {
 		font-size:7rem;
 	}
 
-	.pages .section-header h2 {
+	.pages .section-header h1, .pages .section-header h2 {
 		font-size:5rem;
 	}
 
