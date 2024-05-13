@@ -664,6 +664,10 @@ button.btn-top {
 	padding-top: 0px;
 }
 
+.pages .section-header-wrapper#what h2 {
+	margin-top: 6rem;
+}
+
 .section-header p,
 .services-info-content p {
 	font-size:4rem;
