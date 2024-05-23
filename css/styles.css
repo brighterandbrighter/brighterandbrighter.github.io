@@ -4098,6 +4098,11 @@ button.btn-top {
 	margin-top: 80px;
 } */
 
+/* without notice */
+.home .logo {
+	top: 0; 
+}
+
 .home .header {
 	background-color: #1c2541;
 }
