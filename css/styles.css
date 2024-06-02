@@ -911,6 +911,10 @@ section .gutter {
 	z-index:2;
 }
 
+.affiliations {
+	max-width: 100%;
+}
+
 .affiliations-content-wrapper {
 	display:-ms-grid;
 	display:grid;
