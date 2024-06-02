@@ -979,7 +979,7 @@ section .gutter {
 .intro-nav i:hover {
 	opacity:.6;
 }
-.intro-text header, .fees-text header,  {
+.intro-text header, .fees-text header  {
 	font-size:5rem;
 	border-bottom:1px solid #fff;
 	position:relative;
