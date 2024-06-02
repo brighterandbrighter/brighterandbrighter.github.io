@@ -1,0 +1,66 @@
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#main, #scoring {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  margin: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+#container {
+  width: 80%;
+}
+
+#categories, #scoring {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+#final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid gray;
+  padding-bottom: 2rem;
+}
+
+p {
+  text-align: justify;
+  max-width: var(--input-width);
+  font-size: 2rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+#chart {
+  max-width: 450px;
+  margin: auto;
+}
+
+.ico-download {
+  background-color: #1c2541;
+  color: #fff;
+  border: 0 none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#scoring {
+  border-top: 1px solid gray;
+  max-width: 80%;
+  margin-top: 2rem;
+  margin: 0 auto;
+}
