@@ -2393,6 +2393,8 @@ section .gutter {
 	background: rgb(35,89,81);
     background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
     background: -webkit-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 	width:100%;
 	height:140%;
 	/*-webkit-filter:grayscale(1);
