@@ -1041,6 +1041,11 @@ section .gutter {
 	-ms-grid-columns:1fr 22fr 1fr;
 	grid-template-columns:1fr 22fr 1fr;
 }
+
+section.sessions .gutter {
+	height: 8rem;
+}
+
 .sessions-content-wrapper {
 	display:-ms-grid;
 	display:grid;
@@ -3309,7 +3314,7 @@ section .gutter {
 		font-size:9rem;
 	}
 	.sessions {
-		margin-bottom:10px;
+		/* margin-bottom:10px; */
 	}
 	.session-content {
 		padding-left:10px;
