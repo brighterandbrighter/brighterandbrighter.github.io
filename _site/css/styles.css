@@ -3852,6 +3852,10 @@ section.sessions .gutter {
 	.testimonials .tab-content h5 {
 		margin-bottom:10px;
 	}
+
+	section.sessions .gutter {
+		height: 0rem;
+	}
 }
 
 
@@ -4013,6 +4017,14 @@ section.sessions .gutter {
 	.testimonials .tab-content-main, 
 	.contact-content {
 		padding:40px 15px;
+	}
+
+	section.sessions .gutter {
+		height: 0rem;
+	}
+
+	.session {
+		margin-bottom: 20px;
 	}
 
 .contact-content {
