@@ -2439,6 +2439,11 @@ section .gutter {
 	-ms-grid-row:1;
 	grid-row:1/3;
 	z-index:2;
+	background: rgb(35,89,81);
+    background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 }
 .contact-content {
 	display:-ms-grid;
@@ -2452,6 +2457,11 @@ section .gutter {
 	grid-row:1/3;
 	padding:13rem 0;
 	z-index:2;
+	ackground: rgb(35,89,81);
+    background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 }
 .contact-form-wrapper {
 	display:-webkit-box;
