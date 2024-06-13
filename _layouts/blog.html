@@ -1,39 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-  <!--body-->
-     <head>
+---
+layout: default
+---
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Blog - </title>
+	<title>{{ page.title }} - {{ site.title }}</title>
 	<meta name="description" content="ADHD, AuDHD, and executive functioning coaching for neurodivergent people with certified coach Emma Winston. You and your brain are welcome here.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 	<!-- Favicons and touch icons -->	
-	<link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="assets/ico/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="assets/ico/apple-iabcon.png">
-    <link rel="shortcut icon" href="assets/ico/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
-	<link rel="manifest" href="assets/ico/site.webmanifest">
-	<link rel="apple-touch-icon" href="assets/ico/apple-touch-icon-iphone-60x60.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-touch-icon-ipad-76x76.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-touch-icon-iphone-retina-120x120.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-touch-icon-ipad-retina-152x152.png">
-	<meta property="og:image" content="assets/logo.png">
+	<link rel="shortcut icon" href="/assets/ico/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/assets/ico/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/ico/apple-iabcon.png">
+    <link rel="shortcut icon" href="/assets/ico/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+	<link rel="manifest" href="/assets/ico/site.webmanifest">
+	<link rel="apple-touch-icon" href="/assets/ico/apple-touch-icon-iphone-60x60.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/ico/apple-touch-icon-ipad-76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/ico/apple-touch-icon-iphone-retina-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/ico/apple-touch-icon-ipad-retina-152x152.png">
+	<meta property="og:image" content="/assets/logo.png">
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="500">
 	<meta property="og:image:height" content="500">
-	<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#1d5850">
+	<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#1d5850">
 	<meta name="msapplication-TileColor" content="#1d5850">
 	<meta name="theme-color" content="#1d5850">
 
 	<!-- Styles -->
-	<link href="css/normalize.css" rel="stylesheet" media="all"><!-- Normalize (https://github.com/necolas/normalize.css/) -->
-	<link href="css/styles.css" rel="stylesheet" media="all"><!-- Main Styles -->
-	<link href="css/animate.min.css" rel="stylesheet" media="all"><!-- Animated Modal (Blog) (https://github.com/joaopereirawd/animatedModal.js) -->
-	<link href="css/owl.carousel.min.css" rel="stylesheet" media="all"><!-- Owl Carousel (https://github.com/OwlCarousel2/OwlCarousel2) -->
+	<link href="/css/normalize.css" rel="stylesheet" media="all"><!-- Normalize (https://github.com/necolas/normalize.css/) -->
+	<link href="/css/styles.css" rel="stylesheet" media="all"><!-- Main Styles -->
+	<link href="/css/animate.min.css" rel="stylesheet" media="all"><!-- Animated Modal (Blog) (https://github.com/joaopereirawd/animatedModal.js) -->
+	<link href="/css/owl.carousel.min.css" rel="stylesheet" media="all"><!-- Owl Carousel (https://github.com/OwlCarousel2/OwlCarousel2) -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:300,400,500" rel="stylesheet"><!-- Google Fonts (https://fonts.google.com/) -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +60,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 	<![endif]-->
 
-	<link rel="canonical" href="https://brighter.coach/coaching.html">
+	<link rel="canonical" href="https://brighter.coach/blog">
 </head>
 
 
@@ -77,30 +78,13 @@
 			<!-- Logo -->
 			<div class="logo">
 				<a href="/">
-					<img class="normal" src="img/brighter-logo-white.png" alt="Logo">
-					<img class="hover" src="img/brighter-logo-rainbow.png" alt="Logo">
+					<img class="normal" src="/img/brighter-logo-white.png" alt="Logo">
+					<img class="hover" src="/img/brighter-logo-rainbow.png" alt="Logo">
 				</a>
 			</div><!-- .logo -->
 
 
-			<!-- Navigation -->
-			<nav class="navigation main-nav">
-			
-				<a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i></a>  
-				
-				<div class="menu-wrapper">
-					<ul class="menu">
-						<li><a href="/">Home</a></li>
-						<li><a href="/#introduction">About Coaching</a></li>
-						<li><a href="/#emma">About Emma</a></li>
-						<li><a href="/#fees">Fees</a></li>
-						<li><a href="/copingstrategytraining.html">Coping Strategy Training</a></li>
-						<li><a href="/brighterbookings">Book a call</a></li>
-						<li><a href="/#contact">Contact</a></li>
-					</ul>
-				</div>
-				
-			</nav><!-- .navigation -->
+			{% include nav.html %}
 
 			<a href="/brighterbookings"><button class="btn btn-top">Book a call</button></a>
 	
@@ -127,7 +111,7 @@
 				<section class="services services-1">
 					<header id="mainheader" class="section-header-wrapper">
 						<div class="section-header">
-							<h1>Blog</h1>
+							<h1>{{ page.title }}</h1>
 						</div>
 					</header>			
 					
@@ -140,15 +124,17 @@
 								
 								<div class="page-container">
 
-									<ul class="myposts">
-										
-
-										
-    										<li>
-    											<a href="/2024/05/31/my-first-post.html">My First Post</a>
-    											<span class="postDate">May 31, 2024</span>
-    										</li>
-										
+									<div class="posts">
+										{{ content }}
+										{% for post in site.posts %}
+    										<div class="blog-post">
+    											<a href="{{ post.url }}">
+    												<img src="{{ post.image }}" class="blog-img" />
+    												<span class="postTitle">{{ post.title}}</span>
+    												<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    											</a>
+    										</div>
+										{% endfor %}
 									</ul>
 
 								</div>
@@ -473,7 +459,4 @@ $('a.back-to-top').click(function() {
   return false;
 });</script>
 </body>
-</html>
-
-  <!--/body-->
 </html>
