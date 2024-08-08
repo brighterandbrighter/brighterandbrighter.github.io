@@ -17,7 +17,7 @@
 }
 ::selection {
 	background:#1c2541;
-	color:#fff;
+	color:#fff; 
 	text-shadow:none;
 }
 
@@ -4361,7 +4361,7 @@ section.sessions .gutter {
 }
 
 /* with notice */
-/* .home .logo {
+.home .logo {
 	top: 120px;
 }
 
@@ -4371,12 +4371,12 @@ section.sessions .gutter {
 
 button.btn-top {
 	margin-top: 80px;
-} */
+} 
 
 /* without notice */
-.home .logo {
+/* .home .logo {
 	top: 0; 
-}
+} */
 
 .home .header {
 	background-color: #1c2541;
