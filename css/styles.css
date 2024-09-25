@@ -737,7 +737,7 @@ p.contactme {
 }
 
 p.contactme a {
-	color: #fff;
+	color:;
 }
 
 .intro-content-wrapper button, .about-content-wrapper button {
@@ -4099,6 +4099,11 @@ section.sessions .gutter {
 
 /* Max 599px */
 @media only screen and (max-width:599px) {
+	button.btn-top {
+	width: 150px;
+	}
+
+
 	.posts {
 		display:block;
 	}
