@@ -4097,6 +4097,66 @@ section.sessions .gutter {
 
 
 
+/* FOR NOTICE */
+
+
+.notice {
+	margin-top: 0rem;
+	min-height: 10rem;
+	padding: 0.5rem;
+	margin-top: 0rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1c2541;
+	color: #fff;
+	position: absolute;
+	z-index: 99999;
+	width: 100%;
+
+}
+
+.notice a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.notice span {
+	font-size:2rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header .parallax {
+	/* margin-top: 11rem; */
+}
+
+/* with notice */
+.home .logo {
+	/*top: 120px; */
+}
+
+.pages .logo {
+	top: 50px;
+}
+
+button.btn-top {
+	/*margin-top: 80px; */
+	margin-top: 20px;
+} 
+
+/* without notice */
+/* .home .logo {
+	top: 0; 
+} */
+
+.home .header {
+	background-color: #1c2541;
+}
+
+
+
 /* Max 599px */
 @media only screen and (max-width:599px) {
 	button.btn-top {
@@ -4418,60 +4478,4 @@ section.sessions .gutter {
 	}
 }
 
-/* FOR NOTICE */
 
-
-.notice {
-	margin-top: 0rem;
-	min-height: 10rem;
-	padding: 0.5rem;
-	margin-top: 0rem;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #1c2541;
-	color: #fff;
-	position: absolute;
-	z-index: 99999;
-	width: 100%;
-
-}
-
-.notice a {
-	color: #fff;
-	font-weight: bold;
-}
-
-.notice span {
-	font-size:2rem;
-	text-align: center;
-	margin: 0 auto;
-}
-
-.header .parallax {
-	/* margin-top: 11rem; */
-}
-
-/* with notice */
-.home .logo {
-	/*top: 120px; */
-}
-
-.pages .logo {
-	top: 50px;
-}
-
-button.btn-top {
-	/*margin-top: 80px; */
-	margin-top: 20px;
-} 
-
-/* without notice */
-/* .home .logo {
-	top: 0; 
-} */
-
-.home .header {
-	background-color: #1c2541;
-}
