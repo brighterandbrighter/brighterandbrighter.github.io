@@ -17,7 +17,7 @@
 }
 ::selection {
 	background:#1c2541;
-	color:#fff;
+	color:#fff; 
 	text-shadow:none;
 }
 
@@ -185,6 +185,58 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 	clear:both;
 }
 
+/* The Modal (background) */
+.modalsignup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+position: fixed;
+    left: 0 !important;
+    top: 0 !important;
+    /* transform: translate(-50%, -50%); */
+  width: 100%; /* Full width */
+  /* max-width: 800px; */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#mc_embed_shell {
+	display:flex;
+}
+
+#mc_embed_signup {
+	margin: 0 auto;
+}
+
+#mc_info {
+	width: 30%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 4px solid #888;
+  width: 70%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 
@@ -678,6 +730,14 @@ button.btn-top:hover, button.btn-top:focus {
 button.btn-top {
 	font-size: 2rem;
 	padding: 1rem 2rem;
+}
+
+p.contactme {
+	font-size: 2rem;
+}
+
+p.contactme a {
+	color: #fff;
 }
 
 .intro-content-wrapper button, .about-content-wrapper button {
@@ -3939,6 +3999,12 @@ section.sessions .gutter {
 
 }
 
+@media only screen and (min-width:900px) and (max-width:999px) {
+	#mc_embed_signup {
+	width: 400px !important;
+}
+
+}
 
 
 
@@ -3960,6 +4026,14 @@ section.sessions .gutter {
 	flex-grow: 3;
 	margin-left: 4rem;
 
+}
+
+#mc_embed_signup {
+	width: 300px !important;
+}
+
+#mc_info {
+	width: 50%;
 }
 
 .inner-post .section-header .post-meta {
@@ -4037,6 +4111,19 @@ section.sessions .gutter {
     margin: 0 auto;
 }
 
+/* Modal Content/Box */
+#mc_embed_shell {
+  display: block;
+}
+
+#mc_embed_signup {
+	width: auto !important;
+}
+
+#mc_info {
+	margin: 20px;
+	width: 90%;
+}
 
 .inner-post .section-header img {
 	max-width: 100%;
@@ -4361,8 +4448,8 @@ section.sessions .gutter {
 }
 
 /* with notice */
-/* .home .logo {
-	top: 120px;
+.home .logo {
+	/*top: 120px; */
 }
 
 .pages .logo {
@@ -4370,13 +4457,14 @@ section.sessions .gutter {
 }
 
 button.btn-top {
-	margin-top: 80px;
-} */
+	/*margin-top: 80px; */
+	margin-top: 20px;
+} 
 
 /* without notice */
-.home .logo {
+/* .home .logo {
 	top: 0; 
-}
+} */
 
 .home .header {
 	background-color: #1c2541;
