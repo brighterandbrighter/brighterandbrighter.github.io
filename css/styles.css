@@ -4101,6 +4101,7 @@ section.sessions .gutter {
 @media only screen and (max-width:599px) {
 	button.btn-top {
 	width: 150px;
+	margin-top: 0;
 	}
 
 
