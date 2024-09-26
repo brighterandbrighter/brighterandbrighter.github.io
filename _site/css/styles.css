@@ -186,7 +186,7 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 }
 
 /* The Modal (background) */
-.modalsignup {
+.modsign {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 100; /* Sit on top */
@@ -240,7 +240,7 @@ position: static;
 }
 
 /* Modal Content/Box */
-.modal-content {
+.mod-content {
   background-color: #fefefe;
   margin: 5% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -248,7 +248,7 @@ position: static;
   width: 70%; /* Could be more or less, depending on screen size */
 }
 
-.pagesignup .modal-content {
+.pagesign .mod-content {
 background-color: #fff;
   margin: 0 auto; /* 15% from the top and centered */
   padding: 20px;
@@ -257,7 +257,7 @@ background-color: #fff;
   box-sizing: border-box;
 }
 
-.pagesignup .modal-content .close {
+.pagesign .mod-content .close {
 	display:none;
 }
 

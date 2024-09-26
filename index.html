@@ -939,11 +939,11 @@
 	</footer>
 	
 	
-	<!-- The Modal -->
-	<div id="myModal" class="modalsignup">
+	<!-- The Mod -->
+	<div id="myMod" class="modsign">
 
-	  <!-- Modal content -->
-	  <div class="modal-content">
+	  <!-- Mod content -->
+	  <div class="mod-content">
 	    <span class="close">&times;</span>
 	    <div id="mc_embed_shell">
       <link href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -1327,7 +1327,7 @@ $('a.back-to-top').click(function() {
 
 <script type="text/javascript">
 // Get the modal
-var modal = document.getElementById("myModal");
+var mod = document.getElementById("myMod");
 
 // Get the button that opens the modal
 var btn = document.querySelectorAll(".myBtn");
@@ -1338,19 +1338,19 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 for(item of btn) {
 	item.onclick = function() {
-	  modal.style.display = "block";
+	  mod.style.display = "block";
 	}
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+  mod.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == mod) {
+    mod.style.display = "none";
   }
 }
 </script>

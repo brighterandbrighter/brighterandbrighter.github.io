@@ -939,11 +939,11 @@
 	</footer>
 	
 	
-	<!-- The Modal -->
-	<div id="myModal" class="modalsignup">
+	<!-- The Mod -->
+	<div id="myMod" class="modsign">
 
-	  <!-- Modal content -->
-	  <div class="modal-content">
+	  <!-- Mod content -->
+	  <div class="mod-content">
 	    <span class="close">&times;</span>
 	    <div id="mc_embed_shell">
       <link href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -976,6 +976,7 @@
 </div>
 <div id="mc_info">
     	<p>I am currently fully booked. If you are interested in working together, entering your name and email address here will allow me to send you an email notification as soon as I have capacity to see new clients. When a slot that suits your needs becomes available, you will be able to book in for an initial chat if you're still interested (first-come, first-served).</p>
+    	<p><strong>If you cannot see the form, please turn off content blockers in your browser.</strong></p>
     	<p>I will never spam you, and will never use your details for anything other than notifying you of available spaces for coaching. You can unsubscribe from availability notifications at any time.</p>
     	<p>I expect to have some coaching slots open up in December 2024, but you will receive a notification straight away if any spaces become available sooner.</p>
 </div>
@@ -1326,7 +1327,7 @@ $('a.back-to-top').click(function() {
 
 <script type="text/javascript">
 // Get the modal
-var modal = document.getElementById("myModal");
+var mod = document.getElementById("myMod");
 
 // Get the button that opens the modal
 var btn = document.querySelectorAll(".myBtn");
@@ -1337,19 +1338,19 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 for(item of btn) {
 	item.onclick = function() {
-	  modal.style.display = "block";
+	  mod.style.display = "block";
 	}
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+  mod.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == mod) {
+    mod.style.display = "none";
   }
 }
 </script>
