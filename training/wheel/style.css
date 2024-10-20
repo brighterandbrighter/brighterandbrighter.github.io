@@ -14,9 +14,24 @@
   z-index: 1051 !important;
 }
 
+.modal-title {
+  display: block !important;
+  margin-top: 10px !important;
+}
+
+.modal-content ul {
+  display: block;
+  padding: 1rem 60px !important;
+}
+
+.closebutton {
+  text-align: center;
+  display: block;
+}
+
 footer {
   position: fixed;
-  margin: 10px;
+  margin: 12px;
   bottom: 0;
   right: 0;
 }
@@ -42,6 +57,15 @@ footer {
 
 section p {
   margin: 20px auto;
+}
+
+section span {
+  display: block;
+  background-color: #1D723B;
+  width: 100%;
+  color: #fff !important;
+  padding: 20px;
+  text-align: center;
 }
 
 input[type='range'] {
@@ -77,6 +101,13 @@ li {
   max-width: 80%;
   margin-top: 2rem;
   margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80% !important;
+        margin: 1.75rem auto;
+    }
 }
 
 @media screen and (max-width: 899px) {

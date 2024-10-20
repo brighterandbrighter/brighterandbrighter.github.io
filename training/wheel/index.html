@@ -96,47 +96,7 @@ https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.min.cs
   <div id="container">
     <div id="chart"></div>
     <div id="categories"></div>
-    <section id="final">
-      <h1>Questions we might ask:</h1>
-      <ul>
-        <li>How did you select the specific area of your life for each section of the life wheel?</li>
-
-<li>What is your specific definition
-for each of the life wheel
-categories? For example, what
-does emotional or financial
-mean to you? (Your definition
-is the only right one, but it is
-important that you know what
-you mean.)</li>
-
-<li>What did the number in each
-section reveal to you?
-How did you determine your
-level of satisfaction for each of
-your categories? (For example,
-how do you know that Physical
-was a 6?)</li>
-
-<li>What did you say to
-yourself after completing
-the life wheel?</li>
-
-<li>If you were to select one or
-two sections to improve upon,
-what would they be and why?</li>
-
-<li>If you were to improve a
-section by one number or level,
-what would that look like?</li>
-
-<li>What would it take to bring
-a section up one number or level?</li>
-</ul>
-      
-    </section>
-  </div>
-
+   
 
 
   <footer>
@@ -145,28 +105,6 @@ a section up one number or level?</li>
 </section>
 
 <div id="scoring">
-  <h2>Guidance for scoring the wheel (if you get stuck)</h2>
-  
-<section><h3>Levels 1-3</h3>
-<p>There is plenty that I wish to change. I might be actively working on this but bigger factors are getting in the way, I am stuck, or I might be making a minimal effort because this area is not presently a priority.</p></section>
-
-<section>
-  <h3>Levels 3-5</h3>
-<p>I have have reached a somewhat satisfying midpoint. This might be through circumstance or a moderate degree of effort. I wish to gain clarity in this area through further exploration to achieve a higher level of satisfaction.</p></section>
-
-<section><h3>Levels 6-7</h3>
-  <p>I have reached a comfortable midpoint midpoint and am fairly satisfied with this area of my life. I might still wish to enquire and explore to further develop my satisfaction, however.</p>
-</section>
-
-<section><h3>Levels 8-9</h3>
-  <p>I might have become actively inspired or excited by elements of this category, and have chosen to direct more effort and energy towards it to match my new standards and values.</p>
-</section>
-
-<section>
-  <h3>Level 10</h3>
-  <p>I feel I am truly my authentic self in this area, and living my life with high integrity. I am very satisfied.</p>
-  </section>
-
 
 </div>
 </div>
@@ -181,7 +119,7 @@ a section up one number or level?</li>
         name: 'Social',
         color: '#FF6F92',
         description: 'Communicating with spoken words verbally and non-verbally, in calls, meetings and when giving a presentation.',
-        link: '<p data-bs-toggle="modal" data-bs-target="#myModalSocial">Social Communication Strategies</p>',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalSocial">Social Communication Strategies</span>',
       },
       {
         name: 'Words',
@@ -254,14 +192,28 @@ a section up one number or level?</li>
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalSocial">&times;</button>
+        <h4 class="modal-title">Social Communication</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <ul>
+          <li>Get peer feedback - what specific areas could I do differently?</li>
+          <li>Record yourself - awkward, but can be helpful for gaining perspective</li>
+          <li>Imagine the conversation - envision different questions that might come up in a meeting, and write yourself some social scripts 
+          <li>Keep track of what went well - when did you succeed socially? What did you do? Celebrate this, you can learn from it!</li>
+          <li>Focus on key points - you don’t need to script every word. Focusing on an outline of what you want the person to understand frees you up to communicate it in a way that feels right to you.</li> 
+          <li>Pay attention to environmental factors - does a quieter or busier space help with answering the phone? Do headphones help/hinder?</li> 
+          <li>Take notes - knowing you won’t forget something important can help with feeling less stressed.</li> 
+          <li>Use sensory grounding techniques - fidget toys or worry stones - to help regulate your emotions before a difficult meeting or call.</li> 
+          <li>Ask to pause to think - “Can I think for a second?” “I find it hard to think on the spot. Can I pause this conversation and get back to you?”</li>
+          <li>Plan for difficult situations - Communicate openly with your colleagues or manager about what you need and come up with a plan to handle difficult situations, like a signal that means “I need extra time to think”.</li>
+          <li>Check your understanding - when responding to someone, say “can I check I’ve understood you fully?” and summarise your understanding of what they’ve said.</li>
+          <li>Tap out the syllables of what you want to say until there’s a pause in the conversation - movement can help with working memory. </li>
+          <li>Grounding - focus on physical sensations like your feet on the floor to stay feeling anchored and present.</li>
+        </ul>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalSocial">Close</p>
       </div>
     </div>
 
