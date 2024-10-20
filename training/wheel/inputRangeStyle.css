@@ -1,11 +1,11 @@
 #main, #scoring {
   --input-width: 20em;
-  --input-width-segment: 2em;
+  --input-width-segment: 4em;
 }
 @media screen and (max-width:360px) {
   #main, #scoring {
     --input-width: 15em;
-    --input-width-segment: 1.5em;
+    --input-width-segment: 3em;
   }
 }
 

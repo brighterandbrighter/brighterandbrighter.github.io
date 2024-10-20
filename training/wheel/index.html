@@ -14,6 +14,14 @@
   <meta name="description" content="Plot your strengths and struggles on to a graph, and consider interventions for places where you might need some support">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
+ <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.bundle.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.min.css
+" rel="stylesheet">
+
+
   <!-- Favicons --> 
   
 
@@ -68,6 +76,8 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+
 </head>
 
 <body>
@@ -161,68 +171,102 @@ a section up one number or level?</li>
 </div>
 </div>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="wheelOfLife.js"></script>
   <script>
     const defaultConfig = [
       {
-        name: 'Social Communication',
-        color: '#3DB549',
-        description: '',
+        name: 'Social',
+        color: '#FF6F92',
+        description: 'Communicating with spoken words verbally and non-verbally, in calls, meetings and when giving a presentation.',
+        link: '<button type="button" id="openModalButton" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">'
       },
       {
-        name: 'Reading/Writing',
-        color: '#2289B4',
-        description: '',
+        name: 'Words',
+        color: '#4DA3C0',
+        description: 'Spelling, reading, writing, typing, and otherwise processing text-based information.',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Numbers',
-        color: '#F79321',
-        description: '',
+        color: '#4BCB4B',
+        description: 'Managing calculations, times and dates, and other numerical information, whether in your head or on paper. Processing numerical information.',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Movement',
-        color: '#94AFDC',
-        description: '',
+        color: '#F6D600',
+        description: 'Moving around in the physical world. Doing sports, manipulating small an large tools and objects, getting from A to B smoothly.',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Creativity',
-        color: '#FF5F75',
-        description: '',
+        color: '#A47BC4',
+        description: 'Having new or novel ways of thinking about things or solving problems. May involve artistic ability, but not just limited to artistic ability.',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Time Management',
-        color: '#00ADEF',
-        description: '',
+        color: '#FF8F5B',
+        description: 'Knowing how long things take, feeling the urgency of time passing, getting things done on time, not leaving things until the last minute.',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Focus',
-        color: '#935FA7',
-        description: '',
+        color: '#009B77',
+        description: 'Keeping your concentration on the topic at hand, even when it is uninteresting or difficult',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Organising',
-        color: '#ED2527',
-        description: '',
+        color: '#FF5E40',
+        description: 'Keeping information and your physical space in order, knowing where things are stored and how to find them when you need them',
+        link: '<a href="this">Strategies</a>'
       },
       {
-        name: 'Analysing/Systems',
-        color: '#ED2527',
-        description: '',
+        name: 'Starting and stopping',
+        color: '#A74BC2',
+        description: 'Switching between tasks, managing interruptions, knowing what "done" looks like, starting and finishing at the times you intend.',
+        link: '<a href="this">Strategies</a>'
       },
       {
         name: 'Sensory Processing',
-        color: '#ED2527',
-        description: '',
+        color: '#00B2A9',
+        description: 'Managing distractions and stress even in busy/loud/bright environments.',
+        link: '<a href="this">Strategies</a>'
       },
       {
-        name: 'Emotional Regulation',
-        color: '#ED2527',
-        description: '',
+        name: 'Emotions',
+        color: '#FF7A30',
+        description: 'Staying cool in a crisis, managing frustration, handling rejection and criticism.',
+        link: '<a data-toggle="modal" href="#myModal">Strategies</a>'
       },
     ];
     WheelOfLife.setup(document.getElementById("chart"), document.getElementById("categories"), defaultConfig);
   </script>
+
+
 </body>
 
 </html>

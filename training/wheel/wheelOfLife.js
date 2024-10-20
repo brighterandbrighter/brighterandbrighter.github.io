@@ -110,6 +110,11 @@
         description.innerText = c.description;
         section.appendChild(description);
 
+        // Description
+        const link = document.createElement("p");
+        description.innerHTML = c.link;
+        section.appendChild(link);
+
         // Add section
         sectionsEl.appendChild(section);
       }
