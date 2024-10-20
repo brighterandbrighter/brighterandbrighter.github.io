@@ -105,6 +105,8 @@
           chart.updateSeries(chartSeries, false);
         };
         section.append(input);
+
+
         // Description
         const description = document.createElement("p");
         description.innerText = c.description;
@@ -112,7 +114,7 @@
 
         // Description
         const link = document.createElement("p");
-        description.innerHTML = c.link;
+        link.innerHTML = c.link;
         section.appendChild(link);
 
         // Add section

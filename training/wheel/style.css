@@ -10,6 +10,10 @@
   input-width-segment: 4em !important;
 }
 
+.modal {
+  z-index: 1051 !important;
+}
+
 footer {
   position: fixed;
   margin: 10px;

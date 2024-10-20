@@ -171,26 +171,7 @@ a section up one number or level?</li>
 </div>
 </div>
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
 
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="wheelOfLife.js"></script>
@@ -200,7 +181,7 @@ a section up one number or level?</li>
         name: 'Social',
         color: '#FF6F92',
         description: 'Communicating with spoken words verbally and non-verbally, in calls, meetings and when giving a presentation.',
-        link: '<button type="button" id="openModalButton" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">'
+        link: '<p data-bs-toggle="modal" data-bs-target="#myModalSocial">Social Communication Strategies</p>',
       },
       {
         name: 'Words',
@@ -266,6 +247,26 @@ a section up one number or level?</li>
     WheelOfLife.setup(document.getElementById("chart"), document.getElementById("categories"), defaultConfig);
   </script>
 
+<!-- Modal -->
+<div id="myModalSocial" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 </body>
 
