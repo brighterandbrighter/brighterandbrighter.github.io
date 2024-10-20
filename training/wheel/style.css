@@ -40,6 +40,14 @@ footer {
   padding-bottom: 2rem;
 }
 
+section p {
+  margin: 20px auto;
+}
+
+input[type='range'] {
+  box-shadow: 0 0 0 0;
+}
+
 p {
   text-align: justify;
   max-width: var(--input-width);
