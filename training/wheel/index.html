@@ -125,7 +125,7 @@ https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.min.cs
         name: 'Words',
         color: '#4DA3C0',
         description: 'Spelling, reading, writing, typing, and otherwise processing text-based information.',
-        link: '<a href="this">Strategies</a>'
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalWords">Words Strategies</span>'
       },
       {
         name: 'Numbers',
@@ -185,7 +185,7 @@ https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.min.cs
     WheelOfLife.setup(document.getElementById("chart"), document.getElementById("categories"), defaultConfig);
   </script>
 
-<!-- Modal -->
+<!-- Modal Social -->
 <div id="myModalSocial" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
@@ -214,6 +214,74 @@ https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.min.cs
       </div>
       <div class="modal-footer">
         <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalSocial">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalWords" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalWords">&times;</button>
+        <h4 class="modal-title">Words</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>If you want to speed up your reading, practise scanning a text to answer a specific question you have about it, rather than looking to understand every detail.</li>
+          <li>If you tend to skim-read, practise deliberately slowing yourself down by increasing the size of text on your screen, covering up most of the page, or printing the document and highlighting as you go.</li>
+          <li>Think about what senses distract you the most when proofreading, and modify your environment to adjust for this. Can you experiment with doing a proofreading task in a quieter space? Wearing headphones? What changes for you?</li>
+          <li>Use speech to text to read your own writing back to you (it's built into a lot of modern devices). You might find you are able to pick up errors listening back which you weren't able to spot before.</li>
+          <li>Experiment with adjusting screen settings like font size and typeface, dark mode and light mode, to see what feels easiest on your eyes. Try a different setup for a few hours or a whole day, then try a different one, and see how your work changes.</li>
+          <li>Try changing how your writing looks - handwrite instead of typing, use a different colour for font or paper, change the size of the page or the spatial layout to make it more interesting and increase focus.</li>
+          <li>Do you prefer to think about ideas one at a time, or do you prefer to look at the "big picture"? If a document you're working on has too many ideas at once on it and you need to progress through one by one, try covering up or sectioning off the part you're working on. If you'd rather think about the whole picture, take a pause to think about the purpose of, and perhaps read through, the whole document you're working on before you start writing anything.</li>
+          <li>Create a checklist of your most common errors (this might be something you need to do over a period of time). Do you have trouble with words that sound like each other? With punctuation? With adding syllables? With past/present tense? Giving yourself a list of things to look for gives you a more specific set of tasks to approach the problem.</li>
+          <li>Set expectations. If you need extra time to proofread, ask for it with plenty of time to spare - let the person know that you're looking to give them the best material possible.</li>
+          <li>Know when to delegate! If you have a colleague who's a particularly strong reader, find out if you can share the final stage of proofreading with them.</li>
+          <li>If typing or writing is difficult, think about how you could try out different kinds of physical support - proprioception (your sense of where you are in space) can change the experience of writing for some people. You could try sitting in a different type of chair, planting your feet on the floor, sitting cross legged or kneeling, or wearing clothes with some compression to slightly support your joints - see if this makes even a slight difference to the experience of typing or writing.</li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalWords">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalNumbers" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalNumbers">&times;</button>
+        <h4 class="modal-title">Numbers</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>If you want to speed up your reading, practise scanning a text to answer a specific question you have about it, rather than looking to understand every detail.</li>
+          <li>If you tend to skim-read, practise deliberately slowing yourself down by increasing the size of text on your screen, covering up most of the page, or printing the document and highlighting as you go.</li>
+          <li>Think about what senses distract you the most when proofreading, and modify your environment to adjust for this. Can you experiment with doing a proofreading task in a quieter space? Wearing headphones? What changes for you?</li>
+          <li>Use speech to text to read your own writing back to you (it's built into a lot of modern devices). You might find you are able to pick up errors listening back which you weren't able to spot before.</li>
+          <li>Experiment with adjusting screen settings like font size and typeface, dark mode and light mode, to see what feels easiest on your eyes. Try a different setup for a few hours or a whole day, then try a different one, and see how your work changes.</li>
+          <li>Try changing how your writing looks - handwrite instead of typing, use a different colour for font or paper, change the size of the page or the spatial layout to make it more interesting and increase focus.</li>
+          <li>Do you prefer to think about ideas one at a time, or do you prefer to look at the "big picture"? If a document you're working on has too many ideas at once on it and you need to progress through one by one, try covering up or sectioning off the part you're working on. If you'd rather think about the whole picture, take a pause to think about the purpose of, and perhaps read through, the whole document you're working on before you start writing anything.</li>
+          <li>Create a checklist of your most common errors (this might be something you need to do over a period of time). Do you have trouble with words that sound like each other? With punctuation? With adding syllables? With past/present tense? Giving yourself a list of things to look for gives you a more specific set of tasks to approach the problem.</li>
+          <li>Set expectations. If you need extra time to proofread, ask for it with plenty of time to spare - let the person know that you're looking to give them the best material possible.</li>
+          <li>Know when to delegate! If you have a colleague who's a particularly strong reader, find out if you can share the final stage of proofreading with them.</li>
+          <li>If typing or writing is difficult, think about how you could try out different kinds of physical support - proprioception (your sense of where you are in space) can change the experience of writing for some people. You could try sitting in a different type of chair, planting your feet on the floor, sitting cross legged or kneeling, or wearing clothes with some compression to slightly support your joints - see if this makes even a slight difference to the experience of typing or writing.</li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalNumbers">Close</p>
       </div>
     </div>
 
