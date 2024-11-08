@@ -898,6 +898,8 @@ p.contactme a {
 	width: 99%;
 	height: 100%;
 	padding-bottom: 20px;
+
+border: none; outline: none;
 }
 
 
