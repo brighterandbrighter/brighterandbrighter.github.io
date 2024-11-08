@@ -895,8 +895,9 @@ p.contactme a {
 }
 
 #mytable textarea {
-	width: 100%;
+	width: 99%;
 	height: 100%;
+	padding-bottom: 20px;
 }
 
 
