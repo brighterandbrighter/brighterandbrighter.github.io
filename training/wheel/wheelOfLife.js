@@ -57,6 +57,7 @@
         colors: chartColors,
         yaxis: {
           max: 5,
+          stepSize: 1,
           beginAtZero: true
         },
         xaxis: {
