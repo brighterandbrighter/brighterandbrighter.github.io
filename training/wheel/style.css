@@ -59,13 +59,14 @@ section p {
   margin: 20px auto;
 }
 
-section span {
+section span.stratbutton {
   display: block;
   background-color: #1D723B;
   width: 100%;
   color: #fff !important;
   padding: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 input[type='range'] {
