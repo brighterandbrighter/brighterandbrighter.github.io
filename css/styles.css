@@ -2528,7 +2528,7 @@ section.sessions .gutter {
 .testimonials .testimonials-container-wrapper {
 	-ms-grid-column:1;
 	-ms-grid-column-span:3;
-	grid-column:1/4;
+	grid-column:2/3;
 	-ms-grid-rows:auto;
 	grid-template-rows:auto;
 	-ms-grid-row:2;
