@@ -809,6 +809,7 @@ p.contactme a {
 
 .affiliations img {
 	max-width: 130px;
+	width: auto;
 	text-align: center;
 	padding: 40px;
 }
