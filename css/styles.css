@@ -521,7 +521,7 @@ color: #000;
 	background: -o-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 	background: -ms-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 	color: #fff;
-	max-width: 100rem;
+	max-width: 95%;
 	flex-flow: row no-wrap;
     align-items: stretch;
     justify-content: space-between;
@@ -534,7 +534,7 @@ color: #000;
 }
 
 .inner-post .section-header img {
-	max-width: 100%;
+	max-width: 50%;
 	height: auto;
 }
 
