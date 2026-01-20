@@ -1,5 +1,5 @@
 ---
-title: What to expect in an ADHD coaching discovery call (and why I call mine an "initial chat" instead)
+title: What to expect in an ADHD coaching discovery call
 layout: post
 author: Emma Winston
 authorlink: /about.html
