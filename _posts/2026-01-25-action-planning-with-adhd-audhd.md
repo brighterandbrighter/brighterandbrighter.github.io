@@ -175,7 +175,7 @@ It can be very tempting to make plans based on our best days, when we have the m
 
 Consider at least entertaining the idea that even a version that feels way too small might still be more useful than doing nothing - if I’m wrong and acting on it feels like a waste of time, you don’t have to listen to me again in the future. ;) 
 
-For example:
+<p>For example:</p>
 
 <ul>
     <li>What is the smallest possible version of this?</li>
