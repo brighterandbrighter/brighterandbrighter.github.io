@@ -10,21 +10,19 @@ One of the absolute most common struggles people bring to ADHD coaching sessions
 
 Implementing those ideas, though, is another matter entirely. Taking those intentions and plans, and putting them into practice in a way that survives contact with the real world, is the hard part. 
 
-If you’re reading this and relating, the first thing I want to name is that this isn’t down to some kind of character flaw. It isn’t because you’re not trying hard enough. I promise. “Just trying harder” is a trap many of us are prone to setting for ourselves! 
-
 Setting an intention to reflect or take action is difficult because it makes a number of demands on several executive functions: future thinking, sequencing, time awareness, task initiation, emotional regulation, and memory, to name a few. 
 
 This kind of stuff is disproportionately hard and energy-intensive for a lot of ADHDers, and for those of us who experience executive functioning challenges in connection with being autistic, dyslexic, dyspraxic, otherwise neurodivergent, or chronically ill. It can also be difficult for people experiencing executive dysfunction for reasons which might be more temporary, like perimenopause, grief, significant stress or burnout, or sleep deprivation. So while executive dysfunction is arguably a defining feature of ADHD, it can show up for lots of different reasons. 
 
 I’m an [AuDHD coach](/about.html) (and an AuDHD person!) with significant executive dysfunction. I’ve experienced it my whole life, and none of this comes automatically or easily to me. The approaches I’m going to describe here - which I use myself as well as shaping my conversations with my clients - aren’t a quick fix, but aim to provide scaffolding to make action more accessible. 
 
-Instead of trying harder or brute-forcing action, it is often more helpful to ask how we can lower the barrier to entry, and make it easier to recover if we get off-course.
+This article is long, so here is a table of contents to navigate to its different sections: 
 
-Below is a [reference guide](#infobox) to the absolute most important methods contained in this article, a series of questions to ask yourself which you can apply right now with no context or explanation. 
-
-If you’d like some of the context, [keep reading to section 2](#coreprinciples) for a summary of what tends to work for me, and for many of the wonderful people I work with (though we are all different, and modified approaches are often useful!). 
-
-And if you’re a fan of detail, or a practitioner yourself, and want a more detailed breakdown including research citations, you’ll want to continue to [the final section](#context), but my aim here is to give you a usable resource whether or not you decide to go deeper.
+<ol> 
+	<li><a href="#infobox">Quick reference guide</a></li>
+	<li><a href="#coreprinciples">3 core principles - a little more detail</a>a</li>
+	<li><a href="#context">Context, evidence and background for practitioners or fans of detail</a></li>
+</ol>
 
 
 <div id="infobox" class="framed">
