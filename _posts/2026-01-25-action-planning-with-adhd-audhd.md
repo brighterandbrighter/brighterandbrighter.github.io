@@ -26,7 +26,7 @@ This article is long, so here is a table of contents to navigate to its differen
 
 Without further ado: the reference guide...
 
-<hr></hr>
+<hr>
 
 <div id="infobox" class="framed">
 
@@ -79,6 +79,7 @@ You do not need to answer every question below. Pick one or two that feel most r
 
 </div>
 
+<hr>
 
 <section id="coreprinciples">
 <h2>Designing actions that survive contact with the real world: 3 core principles</h2>
@@ -92,6 +93,8 @@ I try to keep three main things in mind when designing actions for myself or ask
   </ol>
 </section>
 
+
+<hr>
 
 <section id="why-what-who-where-when-how">
 <h2>Make “why, when, where, what, who, how” plans</h2>
@@ -163,6 +166,8 @@ You can write your answers down, talk them through with someone else, or even tr
   </ul>
 </section>
 
+<hr>
+
 <section id="planworsedays">
 <h2>Plan for worse days, and consider anything else a bonus</h2>
 
@@ -201,20 +206,25 @@ Suffering less is usually preferable to suffering more, so all-or-nothing thinki
 
 </section>
 
+<hr>
 
 <h2>Do more of the parts that worked</h2>
 
 Sometimes when a plan doesn’t go as we hoped, it can feel like we didn’t make any progress at all. This feeling is not always as accurate as it initially seems. Even plans that apparently failed nearly always contain some useful data. We might ask:
 
-* If I managed this even once, what helped?
-* Did I get anything at all out of this, even if I didn’t meet my original goal?
-* Were there any parts that felt less difficult, even slightly?
-* What did I do to stop this from going even worse than it did?
+<ul>
+	<li>If I managed this even once, what helped?
+	<li>Did I get anything at all out of this, even if I didn’t meet my original goal?
+	<li>Were there any parts that felt less difficult, even slightly?
+	<li>What did I do to stop this from going even worse than it did?
+</ul>
 
 Then the key question:
 
-* How could I do a bit more of that next time?
+<ul><li>How could I do a bit more of that next time?</li></ul>
 
+
+<hr>
 
 <section id="context">
 <h2>Context, background, evidence (optional extra detail)</h2>
