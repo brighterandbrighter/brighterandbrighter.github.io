@@ -2769,6 +2769,8 @@ section.sessions .gutter {
 .pages .framed {
 	max-width: 60%;
 	border: 1px solid #000 !important;
+	padding: 2rem;
+	margin: 0 auto;
 }
 
 /* ---------------------------------------- 
