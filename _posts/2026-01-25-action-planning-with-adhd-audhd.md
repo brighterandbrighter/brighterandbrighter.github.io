@@ -29,57 +29,71 @@ And if you’re a fan of detail, or a practitioner yourself, and want a more det
 
 <div id="infobox" class="framed">
 
-## Action-planning: a quick reference guide 
+<h2>Action-planning: a quick reference guide</h2>
 
 You do not need to answer every question below. Pick one or two that feel most relevant and stop there.
 
-### WHEN
-* When could this realistically happen? Do I actually have time to fit it in?
-* How will I remind myself at the appropriate time?
+ <h3>WHEN</h3>
+  <ul>
+    <li>When could this realistically happen? Do I actually have time to fit it in?</li>
+    <li>How will I remind myself at the appropriate time?</li>
+  </ul>
 
-### WHERE
-* Where would I like this to take place? 
-* How will I remind myself when I’m in that space?
+  <h3>WHERE</h3>
+  <ul>
+    <li>Where would I like this to take place?</li>
+    <li>How will I remind myself when I’m in that space?</li>
+  </ul>
 
-### WHAT
-* What materials or information do I need to get started? 
+  <h3>WHAT</h3>
+  <ul>
+    <li>What materials or information do I need to get started?</li>
+  </ul>
 
-### WHO
-* Who could help me take action or remind myself? 
+  <h3>WHO</h3>
+  <ul>
+    <li>Who could help me take action or remind myself?</li>
+  </ul>
 
-### HOW
-* What is the very first step?
-* How will I know when to stop? What does “done enough” look like?
+  <h3>HOW</h3>
+  <ul>
+    <li>What is the very first step?</li>
+    <li>How will I know when to stop? What does “done enough” look like?</li>
+  </ul>
 
+  <h3>MAKE IT SMALLER</h3>
+  <ul>
+    <li>What is the smallest possible version of this?</li>
+    <li>What would still be doable on a low-energy or high-stress day?</li>
+    <li>On a scale from 0–10, how do I feel about this? What would need to change for that number to move up by one point?</li>
+  </ul>
 
-### MAKE IT SMALLER
-* What is the smallest possible version of this?
-* What would still be doable on a low-energy or high-stress day?
-* On a scale from 0–10, how do I feel about this? What would need to change for that number to move up by one point?
-
-
-### IF IT DOESN’T GO WELL
-* Did I do even a part of it?
-* Did anything help at all, even a little?
-* How did I stop it from being worse than it was?
-* What might I do more of next time?
+  <h3>IF IT DOESN’T GO WELL</h3>
+  <ul>
+    <li>Did I do even a part of it?</li>
+    <li>Did anything help at all, even a little?</li>
+    <li>How did I stop it from being worse than it was?</li>
+    <li>What might I do more of next time?</li>
+  </ul>
 
 </div>
 
 
 <section id="coreprinciples">
-## Designing actions that survive contact with the real world: 3 core principles
+<h2>Designing actions that survive contact with the real world: 3 core principles</h2>
 
 I try to keep three main things in mind when designing actions for myself or asking clients questions about their intentions. These are: 
 
-1. Make why-what-who-where-when-how plans
-2. Plan for the worst to set ourselves up for success
-3. Do more of what worked and less of what didn’t
+<ol>
+    <li>Make why-what-who-where-when-how plans</li>
+    <li>Plan for the worst to set ourselves up for success</li>
+    <li>Do more of what worked and less of what didn’t</li>
+  </ol>
 </section>
 
 
 <section id="why-what-who-where-when-how">
-## Make “why, when, where, what, who, how” plans
+<h2>Make “why, when, where, what, who, how” plans</h2>
 
 The evidence we have suggests that clarifying some of the conditions for your plan to take place can be helpful. This can be as comprehensive as feels accessible, but aiming for a perfect plan might backfire, so keep it fairly light-touch initially.
 
@@ -88,46 +102,68 @@ These questions draw on several evidence-based approaches, which are listed at t
 You can write your answers down, talk them through with someone else, or even try explaining them to an inanimate object (the ["rubber duck debugging"](https://en.wikipedia.org/wiki/Rubber_duck_debugging) approach) - whatever feels simplest. 
 
 
-### Why (do I even want to do this?)
-* What would I like to have happen?
-* What’s something I could do that might help me get more of what I want?
+<p><strong>Why (do I even want to do this?)</strong></p>
+  <ul>
+    <li>What would I like to have happen?</li>
+    <li>What’s something I could do that might help me get more of what I want?</li>
+  </ul>
 
-### When (will I do this?)
-* When could this realistically happen?
-* How long do I think this will take?
-    * Being absolutely honest with myself, do I actually have proof of that?
-    * If not, how could I gather some evidence?
-* How will I remind myself at the appropriate time?
+  <p><strong>When (will I do this?)</strong></p>
+  <ul>
+    <li>When could this realistically happen?</li>
+    <li>How long do I think this will take?
+      <ul>
+        <li>Being absolutely honest with myself, do I actually have proof of that?</li>
+        <li>If not, how could I gather some evidence?</li>
+      </ul>
+    </li>
+    <li>How will I remind myself at the appropriate time?</li>
+  </ul>
 
-### Where (will I be when I do this?)
-* Where will this happen?
-    * Does that match where I’m likely to be at the time I’ve chosen?
-    * Do I need to make the time or location more flexible, or change it altogether?
-* Is there anything about this environment that will make the task easier or harder?
+  <p><strong>Where (will I be when I do this?)</strong></p>
+  <ul>
+    <li>Where will this happen?
+      <ul>
+        <li>Does that match where I’m likely to be at the time I’ve chosen?</li>
+        <li>Do I need to make the time or location more flexible, or change it altogether?</li>
+      </ul>
+    </li>
+    <li>Is there anything about this environment that will make the task easier or harder?</li>
+  </ul>
 
-### What (do I need?)
-* What materials or information do I need?
-* Do I already have them?
-* If not, what’s the easiest way to get them, or what could work as a stopgap?
+  <p><strong>What (do I need?)</strong></p>
+  <ul>
+    <li>What materials or information do I need?</li>
+    <li>Do I already have them?</li>
+    <li>If not, what’s the easiest way to get them, or what could work as a stopgap?</li>
+  </ul>
 
-### Who (could help?)
-* Who could support me with this?
-* Is there anyone who could help me remind myself to do this?
+  <p><strong>Who (could help?)</strong></p>
+  <ul>
+    <li>Who could support me with this?</li>
+    <li>Is there anyone who could help me remind myself to do this?</li>
+  </ul>
 
-### How (will I start, continue, and stop?)
-* What is the very first step?
-    * Are there any hidden “pre-steps” that actually need to happen first?
-* How will I know when to stop? What does “done enough” look like?
-* How do I feel about this, really?
-    * Will it take more energy than I currently have?
-    * If so, could I make it smaller, easier, shorter, less frequent, or more interesting?
-* If this doesn’t go to plan, how would I like to pick it back up?
-
-If it starts to feel overwhelming, you can treat that as important data in and of itself - try picking just one or two conditions and see if it helps make action easier or more likely. 
+  <p><strong>How (will I start, continue, and stop?)</strong></p>
+  <ul>
+    <li>What is the very first step?
+      <ul>
+        <li>Are there any hidden “pre-steps” that actually need to happen first?</li>
+      </ul>
+    </li>
+    <li>How will I know when to stop? What does “done enough” look like?</li>
+    <li>How do I feel about this, really?
+      <ul>
+        <li>Will it take more energy than I currently have?</li>
+        <li>If so, could I make it smaller, easier, shorter, less frequent, or more interesting?</li>
+      </ul>
+    </li>
+    <li>If this doesn’t go to plan, how would I like to pick it back up?</li>
+  </ul>
 </section>
 
 <section id="planworsedays">
-## Plan for worse days, and consider anything else a bonus 
+<h2>Plan for worse days, and consider anything else a bonus</h2>
 
 It can be very tempting to make plans based on our best days, when we have the most energy, focus, and motivation. But those days are unpredictable, so it can be more effective to design a version of the action that would feel possible even on a difficult day. 
 
@@ -135,19 +171,26 @@ Consider at least entertaining the idea that even a version that feels way too s
 
 For example:
 
-* What is the smallest possible version of this?
-* What is a version I could do even on a very low-energy day?
-    * 30 seconds of movement?
-    * One journal sentence written?
-    * Opening a document or a book with no obligation to continue?
-* What is the minimum frequency that would still count as progress?
-* Does this need to produce a tangible output, or would reflecting, talking it through, or thinking about it be enough for now?
-* How much dread is present?
-    * On a scale from 0 (maximum dread) to 10 (no dread at all), where am I now?
-    * What would need to change for that number to move up by just one point?
+<ul>
+    <li>What is the smallest possible version of this?</li>
+    <li>What is a version I could do even on a very low-energy day?
+      <ul>
+        <li>30 seconds of movement?</li>
+        <li>One journal sentence written?</li>
+        <li>Opening a document or a book with no obligation to continue?</li>
+      </ul>
+    </li>
+    <li>What is the minimum frequency that would still count as progress?</li>
+    <li>Does this need to produce a tangible output, or would reflecting, talking it through, or thinking about it be enough for now?</li>
+    <li>How much dread is present?
+      <ul>
+        <li>On a scale from 0 (maximum dread) to 10 (no dread at all), where am I now?</li>
+        <li>What would need to change for that number to move up by just one point?</li>
+      </ul>
+    </li>
+  </ul>
 
-
-### A note about dread
+<h3>A note about dread</h3>
 
 Note that if one of the barriers to getting things done for you is dread, it may be necessary to accept that it might not be possible to eliminate that dread entirely.  
 
@@ -158,7 +201,7 @@ Suffering less is usually preferable to suffering more, so all-or-nothing thinki
 </section>
 
 
-## Do more of the parts that worked
+<h2>Do more of the parts that worked</h2>
 
 Sometimes when a plan doesn’t go as we hoped, it can feel like we didn’t make any progress at all. This feeling is not always as accurate as it initially seems. Even plans that apparently failed nearly always contain some useful data. We might ask:
 
@@ -173,26 +216,26 @@ Then the key question:
 
 
 <section id="context">
-## Context, background, evidence (optional extra detail)
+<h2>Context, background, evidence (optional extra detail)</h2>
 
-### ICF core competencies
+<h3>ICF core competencies</h3>
 “Designing post-session thinking, reflection, or action” is a PCC marker and falls under [competency 8, “Facilitates client growth”](https://coachingfederation.org/credentialing/coaching-competencies/icf-core-competencies/). I've noticed that coaching approaches appear to assume that sufficient emotional investment means that relatively little concrete planning needs to be done to ensure action is taken after the coaching session. This is true for some people, but assumes that motivation is sufficient on its own and does not take into account executive functioning challenges. Coaches working with clients who are experiencing executive functioning difficulties for any reason may therefore wish to experiment with some of the approaches described here in a more deliberate way, and to make space in the session to do so. If a client says that they do better with less detailed plans and more time spent on emotion, however, part of partnering as a coach is to listen to that!
 
-### Implementation intentions
+<h3>Implementation intentions</h3>
 This approach draws on research around “implementation intentions” or “if-then planning”. We know that specifying the conditions (when, where, how) an action will take place in significantly increases the likelihood of completing it (see [Gollwitzer, 2008](https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0065260106380021); [Bieleke et al, 2020](https://www.tandfonline.com/doi/full/10.1080/10463283.2020.1808936)), and that this also holds for people with ADHD [Gavrilow and Gollwitzer, 2008](https://psycnet.apa.org/record/2008-05566-008). There is also some evidence to suggest that a task planned using if-then planning will be perceived as subjectively easier, and that this creates measurable differences in physiological responses ([Wolff et al, 2018](https://www.nature.com/articles/s41598-018-34009-2).
 
-### WOOP
+<h3>WOOP</h3>
 Another evidence-based framework which this shares some features with but diverges from is the [WOOP framework](https://woopmylife.org) (Wish, Outcome, Obstacle, Plan). Shared features include identifying a desired outcome, anticipating obstacles, and translating intentions into a concrete plan for implementation. 
 
 WOOP does seem to assume, however, that unidentified or insufficient desire is often at the root of inaction. I am hesitant about applying this too freely in the context of executive dysfunction because ADHDers frequently report not only that lack of commitment or desire is often weaponised against them, but that higher-level desire still does not always create sufficient motivation unless immediate reward is also present. As such, focusing on scaffolding the core components of executive dysfunction like difficulty initiating, sequencing, remembering, and future thinking seems to me to be lower-hanging fruit which is more likely to set us up for success.
 
-### Motivational intensity theory
+<h3>Motivational intensity theory</h3>
 This suggests that capacity for effort increases when a task feels both important and achievable ([Brehm and Self, 1989](https://files01.core.ac.uk/download/pdf/213382307.pdf). Making actions feel smaller, clearer and more attainable should hopefully, therefore, make them feel more possible to engage in. One possible challenge here is that if an action is too small it may lose importance - I have personally found it crucial, therefore, to think about the smallest possible version which still feels meaningful.
 
-### Solution-focused tools
+<h3>Solution-focused tools</h3>
 Thinking ahead to a preferred future in which the task is being completed is one key aspect of solution-focused thought present here. I also use a scaling question (see, e.g., [Abdulla, 2025](https://www.researchgate.net/profile/Adam-Abdulla/publication/381345339_Solution-Focused_Scaling_Questions_Time_Taken_Words_Written_Expectancy_and_Commitment/links/66a27224c6e41359a83eacd9/Solution-Focused-Scaling-Questions-Time-Taken-Words-Written-Expectancy-and-Commitment.pdf) around dread to identify incremental shifts rather than aiming for a huge emotional change which might feel (and indeed be) impossible. Resource-finding questions to support learning from partial success are also a core solution-focused method (see, e.g. Berg & Szabó, 2005).
 
-### Executive function informed practice 
+<h3>Executive function informed practice</h3>
 A foundational principle here is Thomas Brown’s AFEEMA model of executive functioning in ADHD (see [Brown, 2025](https://www.brownadhdclinic.com/brown-ef-model-adhd)). I assume that scaffolding these areas in particular in likely to lead to a lower barrier to entry. I also use some specific formulations from Sarah Ward and Kristen Jacobsen’s “Get Ready, Do, Done” framework (see [Ward and Jacobsen, 2016](https://elycenter.com/wp-content/uploads/2023/09/Ward_et_al-2014-SIG_1_Perspectives_on_Language_Learning_and_Education.pdf)), particularly around “knowing what done will look like”, identifying materials needed to complete the task, and collecting evidence for the timeframe needed if this is uncertain. 
 </section>
 
