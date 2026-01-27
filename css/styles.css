@@ -2648,10 +2648,7 @@ section.sessions .gutter {
 }
 
 
-.framed {
-	max-width: 60%;
-	border: 1px solid #000;
-}
+
 
 
 /* ---------------------------------------- 
@@ -2767,6 +2764,11 @@ section.sessions .gutter {
 
 .pages.bookings .section-header-wrapper {
     padding-top: 0px;
+}
+
+.pages .framed {
+	max-width: 60%;
+	border: 1px solid #000 !important;
 }
 
 /* ---------------------------------------- 

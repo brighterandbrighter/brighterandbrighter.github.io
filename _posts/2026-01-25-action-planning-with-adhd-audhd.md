@@ -20,7 +20,7 @@ I’m an [AuDHD coach](/about.html) (and an AuDHD person!) with significant exec
 
 Instead of trying harder or brute-forcing action, it is often more helpful to ask how we can lower the barrier to entry, and make it easier to recover if we get off-course.
 
-Below is a [reference guide](#infobox)to the absolute most important methods contained in this article, a series of questions to ask yourself which you can apply right now with no context or explanation. 
+Below is a [reference guide](#infobox) to the absolute most important methods contained in this article, a series of questions to ask yourself which you can apply right now with no context or explanation. 
 
 If you’d like some of the context, [keep reading to section 2](#coreprinciples) for a summary of what tends to work for me, and for many of the wonderful people I work with (though we are all different, and modified approaches are often useful!). 
 
