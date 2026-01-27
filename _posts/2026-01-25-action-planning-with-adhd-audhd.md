@@ -103,7 +103,7 @@ The evidence we have suggests that clarifying some of the conditions for your pl
 
 These questions draw on several evidence-based approaches, which are listed at the end of this article. You do not need to ask or answer all of them - you can try choosing one question from each section, or just choose a couple that seem relevant, or even select just one or two at random. Every 
 
-You can write your answers down, talk them through with someone else, or even try explaining them to an inanimate object (the ["rubber duck debugging"](https://en.wikipedia.org/wiki/Rubber_duck_debugging) approach) - whatever feels simplest. 
+You can write your answers down, talk them through with someone else, or even try explaining them to an inanimate object (the <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck debugging"</a> approach) - whatever feels simplest. 
 
 
 <p><strong>Why (do I even want to do this?)</strong></p>
