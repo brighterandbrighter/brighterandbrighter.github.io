@@ -20,10 +20,13 @@ This article is long, so here is a table of contents to navigate to its differen
 
 <ol> 
 	<li><a href="#infobox">Quick reference guide</a></li>
-	<li><a href="#coreprinciples">3 core principles - a little more detail</a>a</li>
+	<li><a href="#coreprinciples">3 core principles - a little more detail</a></li>
 	<li><a href="#context">Context, evidence and background for practitioners or fans of detail</a></li>
 </ol>
 
+Without further ado: the reference guide...
+
+<hr></hr>
 
 <div id="infobox" class="framed">
 
