@@ -69,9 +69,9 @@ You do not need to answer every question below. Pick one or two that feel most r
     <li>On a scale from 0–10, how do I feel about this? What would need to change for that number to move up by one point?</li>
   </ul>
 
-  <h3>IF IT DOESN’T GO WELL</h3>
+  <h3>IF IT DOESN’T GO WELL (or even if it does!)</h3>
   <ul>
-    <li>Did I do even a part of it?</li>
+    <li>Did I do even a part of it? How?</li>
     <li>Did anything help at all, even a little?</li>
     <li>How did I stop it from being worse than it was?</li>
     <li>What might I do more of next time?</li>
