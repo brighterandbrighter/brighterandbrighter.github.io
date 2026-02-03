@@ -99,7 +99,7 @@ I try to keep three main things in mind when designing actions for myself or ask
 <section id="why-what-who-where-when-how">
 <h2>Make “why, when, where, what, who, how” plans</h2>
 
-<img src="/img/blog/whowhatwhen.jpg" alt="some polaroids lying on a wooden surface reading who, when, where, how, why, and what'"/>
+<img class="blogimg" src="/img/blog/whowhatwhen.jpg" alt="some polaroids lying on a wooden surface reading who, when, where, how, why, and what'"/>
 
 The evidence we have suggests that clarifying some of the conditions for your plan to take place can be helpful. This can be as comprehensive as feels accessible, but aiming for a perfect plan might backfire, so keep it fairly light-touch initially.
 
@@ -173,7 +173,7 @@ You can write your answers down, talk them through with someone else, or even tr
 <section id="planworsedays">
 <h2>Plan for worse days, and consider anything else a bonus</h2>
 
-<img src="/img/blog/badgoodday.jpg" alt="Some sad and grumpy 3D yellow stylised faces, and one happy one more in focus than the others"/>
+<img class="blogimg" src="/img/blog/badgoodday.jpg" alt="Some sad and grumpy 3D yellow stylised faces, and one happy one more in focus than the others"/>
 
 It can be very tempting to make plans based on our best days, when we have the most energy, focus, and motivation. But those days are unpredictable, so it can be more effective to design a version of the action that would feel possible even on a difficult day. 
 
