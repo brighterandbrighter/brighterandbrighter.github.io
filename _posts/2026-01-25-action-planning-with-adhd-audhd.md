@@ -213,6 +213,7 @@ Suffering less is usually preferable to suffering more, so all-or-nothing thinki
 <hr>
 
 <h2>Do more of the parts that worked</h2>
+<img class="blogimg" src="/img/blog/growwhatworks.jpg" alt="a person's hands potting a small growing plant. This is a metaphor!"/>
 
 Sometimes when a plan doesn’t go as we hoped, it can feel like we didn’t make any progress at all. This feeling is not always as accurate as it initially seems. Even plans that apparently failed nearly always contain some useful data. We might ask:
 
