@@ -1,5 +1,5 @@
 ---
-title: Action planning - an ADHD/AuDHD coach's approach
+title: Adapting coaching for AuDHD
 layout: post
 author: Emma Winston
 authorlink: /about.html
@@ -84,4 +84,5 @@ So I consider AuDHD coaching to be one of my specialisms, and I guess that makes
 <p>Coaching done well is supportive, curious, flexible, and respectful of how your brain works. We get to co-design the process together, and you are at the centre of that. If that sounds like something that might work well for you, you might consider <a href="/">adding yourself to my waiting list</a> by using the button on my front page, or <a href="/#contact">dropping me an email</a> - when space opens up, this might be a place where you can experiment, gently (always gently!) with doing things differently.</p>
 
 <p>And, if not, you’re also very welcome to just stay here and read my blog. That’s okay too. :)</p>
+
 
