@@ -1,5 +1,5 @@
 ---
-title: Action planning - an ADHD/AuDHD coach's approach
+title: Action planning - an ADHD coach's approach
 layout: post
 author: Emma Winston
 authorlink: /about.html
