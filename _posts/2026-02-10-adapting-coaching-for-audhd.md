@@ -1,5 +1,5 @@
 ---
-title: Adapting coaching for AuDHD
+title: Adapting ADHD coaching for AuDHD
 layout: post
 author: Emma Winston
 authorlink: /about.html
