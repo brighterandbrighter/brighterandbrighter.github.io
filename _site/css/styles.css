@@ -71,7 +71,7 @@ h2,
 h3, 
 h4, 
 h5, 
-h6 {
+h6, .testimonials .tab-content p.name {
 	font-family:"Ginkgo", sans-serif;
 	font-weight:700;
 	line-height:1.3;
@@ -89,7 +89,7 @@ h3 {
 h4 {
 	font-size:2.75rem;
 }
-h5 {
+h5, .testimonials .tab-content p.name {
 	font-size:2.5rem;
 }
 h6 {
@@ -297,7 +297,7 @@ background-color: #fff;
 
 .pages .header {
 	height: 22rem;
-	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
+	background:url("../img/demo/header.webp") 50% 0 no-repeat;
 	background-size:cover;
 }
 
@@ -344,6 +344,17 @@ background-color: #fff;
     max-width: 120rem;
     margin: 0 auto 20px auto;
 }
+
+.pages .page-content-wrapper.training {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 22fr 1fr;
+    grid-template-columns: 1fr 22fr 1fr;
+    margin-bottom: 20px;
+    max-width: 100% !important;
+    margin: 0 auto 20px auto;
+}
+
 
 .pages .main-nav {
 	padding: 3.5rem 0 0;
@@ -415,6 +426,21 @@ color: #000;
 	margin-top: -25rem;
 }
 
+.pages .page-container img.blogimg {
+	max-width: 100% !important;
+	border-radius: 40px !important;
+	position: static !important;
+	margin: 0 auto !important;
+}
+
+.pages .page-container #previewImage > img {
+	position: static !important;
+	max-width: 80% !important;
+	border-radius: 0 !important;
+	margin: 0 auto !important;
+	left:0;
+}
+
 .pages .page-container ul li {
 	margin-left: 4rem;
 }
@@ -442,7 +468,7 @@ color: #000;
 
 
 .header .parallax {
-	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
+	background:url("../img/demo/header.webp") 50% 0 no-repeat;
 	background-size:cover;
 	width:100%;
 	height:120vh;
@@ -502,7 +528,7 @@ color: #000;
 	background: -o-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 	background: -ms-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 	color: #fff;
-	max-width: 100rem;
+	max-width: 95%;
 	flex-flow: row no-wrap;
     align-items: stretch;
     justify-content: space-between;
@@ -790,6 +816,7 @@ p.contactme a {
 
 .affiliations img {
 	max-width: 130px;
+	width: auto;
 	text-align: center;
 	padding: 40px;
 }
@@ -869,6 +896,22 @@ p.contactme a {
 .menu li a:hover, 
 .menu li:hover>a {
     background:rgba(58,80,107,.25);
+}
+
+
+#mytable td {
+	width: 25%;
+}
+
+#mytable textarea {
+	width: 99%;
+	height: 100%;
+	padding-bottom: 20px;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+border: none; outline: none;
 }
 
 
@@ -1052,7 +1095,7 @@ section .gutter {
 	grid-row: 1/5;
 	padding:0 0;
 	grid-column: 1/2;
-	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
+	background:url("../img/demo/header.webp") 50% 0 no-repeat;
 	background-size:cover;
 	position: absolute;
 	top:0;
@@ -1279,10 +1322,10 @@ section.sessions .gutter {
 .sessions-content-wrapper {
 	display:-ms-grid;
 	display:grid;
-	/*-ms-grid-columns:10fr 6fr 6fr;
-	grid-template-columns:10fr 6fr 6fr;*/
-	-ms-grid-columns:12fr 6fr;
-	grid-template-columns:12fr 6fr;
+	ms-grid-columns:6fr 6fr 6fr;
+	grid-template-columns:6fr 6fr 6fr;
+	/* -ms-grid-columns:12fr 6fr;
+	grid-template-columns:12fr 6fr; */
 	-ms-grid-column:2;
 	-ms-grid-column-span:1;
 	grid-column:2/3;
@@ -1301,7 +1344,7 @@ section.sessions .gutter {
 .sessiontext {
 	padding: 20px;
 	font-size: 2.2rem;
-	/* min-height: 700px; */
+	min-height: 800px;
 	color: #fff;
 }
 
@@ -2493,11 +2536,12 @@ section.sessions .gutter {
 .testimonials .testimonials-container-wrapper {
 	-ms-grid-column:1;
 	-ms-grid-column-span:3;
-	grid-column:1/4;
+	grid-column:2/3;
 	-ms-grid-rows:auto;
 	grid-template-rows:auto;
 	-ms-grid-row:2;
 	grid-row:2;
+	max-width: 100%;
 }
 .testimonials .tab-container {
 	-ms-grid-column:2;
@@ -2600,7 +2644,7 @@ section.sessions .gutter {
 	margin:0 auto;
 	margin-bottom:20px;
 }
-.testimonials .tab-content h5 {
+.testimonials .tab-content p.name {
 	font-size:3.5rem;
 	line-height:1;
 	margin:0 0 20px;
@@ -2609,6 +2653,7 @@ section.sessions .gutter {
 	font-size:1.8rem;
 	margin:0;
 }
+
 
 
 
@@ -2726,6 +2771,14 @@ section.sessions .gutter {
 
 .pages.bookings .section-header-wrapper {
     padding-top: 0px;
+}
+
+.pages .framed {
+	max-width: 80%;
+	border: 1px solid #000 !important;
+	padding: 2rem !important;
+	margin: 0 auto !important;
+	font-size: 2.5rem !important;
 }
 
 /* ---------------------------------------- 
@@ -3420,7 +3473,7 @@ section.sessions .gutter {
 	.testimonials .tabs li {
 		height:85px;
 	}
-	.testimonials .tab-content h5 {
+	.testimonials .tab-content h5, .testimonials .tab-content p.name {
 		margin-bottom:10px;
 	}
 
@@ -3499,7 +3552,7 @@ section.sessions .gutter {
 	.testimonials .tabs li {
 		background-size:auto 50px;
 	}
-	.testimonials .tab-content h5 {
+	.testimonials .tab-content h5, .testimonials .tab-content p.name {
 		margin-bottom:10px;
 	}
 	.contact-form-wrapper, 
@@ -3580,7 +3633,7 @@ section.sessions .gutter {
 	.testimonials .tabs li {
 		background-size:auto 40px;
 	}
-	.testimonials .tab-content h5 {
+	.testimonials .tab-content h5, .testimonials .tab-content p.name {
 		margin-bottom:10px;
 	}
 	.contact-form-wrapper, 

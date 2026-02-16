@@ -1,0 +1,122 @@
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+#main, #scoring {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  input-width-segment: 4em !important;
+}
+
+.modal {
+  z-index: 1051 !important;
+}
+
+.modal-title {
+  display: block !important;
+  margin-top: 10px !important;
+}
+
+.modal-content ul {
+  display: block;
+  padding: 1rem 60px !important;
+}
+
+.closebutton {
+  text-align: center;
+  display: block;
+}
+
+footer {
+  position: fixed;
+  margin: 12px;
+  bottom: 0;
+  right: 0;
+}
+
+#container {
+  width: 80%;
+}
+
+#categories, #scoring {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+#final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid gray;
+  padding-bottom: 2rem;
+}
+
+section p {
+  margin: 20px auto;
+}
+
+section span.stratbutton {
+  display: block;
+  background-color: #1D723B;
+  width: 100%;
+  color: #fff !important;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type='range'] {
+  box-shadow: 0 0 0 0;
+}
+
+p {
+  text-align: justify;
+  max-width: var(--input-width);
+  font-size: 2rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+#chart {
+  /* max-width: 450px; */
+  max-width: 80%;
+  margin: auto;
+}
+
+.ico-download {
+  background-color: #1c2541;
+  color: #fff;
+  border: 0 none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#scoring {
+  border-top: 1px solid gray;
+  max-width: 80%;
+  margin-top: 2rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80% !important;
+        margin: 1.75rem auto;
+    }
+}
+
+@media screen and (max-width: 899px) {
+
+  #chart {
+  /* max-width: 450px; */
+  max-width: 90%;
+  margin: auto;
+}
+
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Profile Wheel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="octocat.css">
+  <link rel="stylesheet" href="inputRangeStyle.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Brighter ADHD and Neurodiversity Coaching and Training - The Profile Wheel</title>
+  <meta name="description" content="Plot your strengths and struggles on to a graph, and consider interventions for places where you might need some support">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+ <script src="
+https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.bundle.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/bootstrap-modal-js@2.0.1/demoFiles/bootstrap.min.css
+" rel="stylesheet">
+
+
+  <!-- Favicons --> 
+  
+
+  <link rel="icon" href="https://brighter.coach/assets/ico/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://brighter.coach/assets/ico/apple-icon.png">
+
+
+  <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="https://brighter.coach/assets/ico/favicon-16x16.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://brighter.coach/assets/ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brighter.coach/assets/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brighter.coach/assets/ico/favicon-16x16.png">
+<link rel="manifest" href="https://brighter.coach/assets/ico/site.webmanifest">
+  <link rel="apple-touch-icon" href="https://brighter.coach/assets/ico/apple-touch-icon-iphone-60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://brighter.coach/assets/ico/apple-touch-icon-ipad-76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://brighter.coach/assets/ico/apple-touch-icon-iphone-retina-120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://brighter.coach/assets/ico/apple-touch-icon-ipad-retina-152x152.png">
+<meta property="og:image" content="assets/logo.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="500">
+<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#1d5850">
+<meta name="msapplication-TileColor" content="#1d5850">
+<meta name="theme-color" content="#1d5850">
+
+  <!-- Styles -->
+  <link href="https://brighter.coach/css/normalize.css" rel="stylesheet" media="all"><!-- Normalize (https://github.com/necolas/normalize.css/) -->
+  <link href="https://brighter.coach/css/styles.css" rel="stylesheet" media="all"><!-- Main Styles -->
+  <link href="https://brighter.coach/css/animate.min.css" rel="stylesheet" media="all"><!-- Animated Modal (Blog) (https://github.com/joaopereirawd/animatedModal.js) -->
+  <link href="https://brighter.coach/css/owl.carousel.min.css" rel="stylesheet" media="all"><!-- Owl Carousel (https://github.com/OwlCarousel2/OwlCarousel2) -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:300,400,500" rel="stylesheet"><!-- Google Fonts (https://fonts.google.com/) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <!-- IE Styles -->
+  <style>
+  @media all and (-ms-high-contrast:none)
+    {
+      .pages .session-profile .fa {
+        padding-top:10px;
+      }
+      .carousel-stage, .spinner, .js-spin-bwd .spinner-right, .js-spin-fwd .spinner-right, .js-spin-bwd .spinner, .js-spin-fwd .spinner, .js-spin-bwd .spinner-right .spinner-face.js-next, .js-spin-bwd .spinner-face.js-next, .spinner-right .spinner-face.js-next, .spinner-face.js-next, .js-active {
+        transform:none;
+      }
+    }
+  </style>
+  
+  <!-- Scripts -->
+  <script src="https://use.fontawesome.com/3e2da29de5.js"></script><!-- Font Awesome (http://fontawesome.io/) -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+  <section id="about">
+    <h1>My Profile Wheel</h1>
+    <p></p> 
+  </section>
+  
+
+  <section id="main">
+  <header>
+    
+  </header>
+
+  <div id="container">
+    <div id="chart"></div>
+    <div id="categories"></div>
+   
+
+
+  <footer>
+    
+  </footer>
+</section>
+
+<div id="scoring">
+
+</div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="wheelOfLife.js"></script>
+  <script>
+    const defaultConfig = [
+      {
+        name: 'Social',
+        color: '#FF6F92',
+        description: 'Communicating with spoken words verbally and non-verbally, in calls, meetings and when giving a presentation.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalSocial" class="stratbutton">Social Communication Strategies</span>',
+      },
+      {
+        name: 'Words',
+        color: '#4DA3C0',
+        description: 'Spelling, reading, writing, typing, and otherwise processing text-based information.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalWords" class="stratbutton">Words Strategies</span>'
+      },
+      {
+        name: 'Numbers',
+        color: '#4BCB4B',
+        description: 'Managing calculations, times and dates, and other numerical information, whether in your head or on paper. Processing numerical information.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalNumbers" class="stratbutton">Numbers Strategies</span>'
+      },
+      {
+        name: 'Movement',
+        color: '#F6D600',
+        description: 'Moving around in the physical world. Doing sports, manipulating small an large tools and objects, getting from A to B smoothly.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalMovement" class="stratbutton">Movement Strategies</span>'
+      },
+      {
+        name: 'Creativity',
+        color: '#A47BC4',
+        description: 'Having new or novel ways of thinking about things or solving problems. May involve artistic ability, but not just limited to artistic ability.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalCreativity" class="stratbutton">Creativity Strategies</a>'
+      },
+      {
+        name: 'Time Management',
+        color: '#FF8F5B',
+        description: 'Knowing how long things take, feeling the urgency of time passing, getting things done on time, not leaving things until the last minute.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalTime" class="stratbutton">Time Strategies</a>'
+      },
+      {
+        name: 'Focus',
+        color: '#009B77',
+        description: 'Keeping your concentration on the topic at hand, even when it is uninteresting or difficult',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalFocus" class="stratbutton">Focus Strategies</a>'
+      },
+      {
+        name: 'Organising',
+        color: '#FF5E40',
+        description: 'Keeping information and your physical space in order, knowing where things are stored and how to find them when you need them',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalOrganising" class="stratbutton">Organising Strategies</a>'
+      },
+      {
+        name: 'Starting and stopping',
+        color: '#A74BC2',
+        description: 'Switching between tasks, managing interruptions, knowing what "done" looks like, starting and finishing at the times you intend.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalStartStop" class="stratbutton">Starting and Stopping Strategies</a>'
+      },
+      {
+        name: 'Sensory Processing',
+        color: '#00B2A9',
+        description: 'Managing distractions and stress even in busy/loud/bright environments.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalSensory" class="stratbutton">Sensory Processing Strategies</a>'
+      },
+      {
+        name: 'Emotions',
+        color: '#FF7A30',
+        description: 'Staying cool in a crisis, managing frustration, handling rejection and criticism.',
+        link: '<span data-bs-toggle="modal" data-bs-target="#myModalEmotions" class="stratbutton">Emotion Strategies</a>'
+      },
+    ];
+    WheelOfLife.setup(document.getElementById("chart"), document.getElementById("categories"), defaultConfig);
+  </script>
+
+<!-- Modal Social -->
+<div id="myModalSocial" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalSocial">&times;</button>
+        <h4 class="modal-title">Social Communication</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Get peer feedback - what specific areas could I do differently?</li>
+          <li>Record yourself - awkward, but can be helpful for gaining perspective</li>
+          <li>Imagine the conversation - envision different questions that might come up in a meeting, and write yourself some social scripts 
+          <li>Keep track of what went well - when did you succeed socially? What did you do? Celebrate this, you can learn from it!</li>
+          <li>Focus on key points - you don’t need to script every word. Focusing on an outline of what you want the person to understand frees you up to communicate it in a way that feels right to you.</li> 
+          <li>Pay attention to environmental factors - does a quieter or busier space help with answering the phone? Do headphones help/hinder?</li> 
+          <li>Take notes - knowing you won’t forget something important can help with feeling less stressed.</li> 
+          <li>Use sensory grounding techniques - fidget toys or worry stones - to help regulate your emotions before a difficult meeting or call.</li> 
+          <li>Ask to pause to think - “Can I think for a second?” “I find it hard to think on the spot. Can I pause this conversation and get back to you?”</li>
+          <li>Plan for difficult situations - Communicate openly with your colleagues or manager about what you need and come up with a plan to handle difficult situations, like a signal that means “I need extra time to think”.</li>
+          <li>Check your understanding - when responding to someone, say “can I check I’ve understood you fully?” and summarise your understanding of what they’ve said.</li>
+          <li>Tap out the syllables of what you want to say until there’s a pause in the conversation - movement can help with working memory. </li>
+          <li>Grounding - focus on physical sensations like your feet on the floor to stay feeling anchored and present.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalSocial">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalWords" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalWords">&times;</button>
+        <h4 class="modal-title">Words</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>If you want to speed up your reading, practise scanning a text to answer a specific question you have about it, rather than looking to understand every detail.</li>
+          <li>If you tend to skim-read, practise deliberately slowing yourself down by increasing the size of text on your screen, covering up most of the page, or printing the document and highlighting as you go.</li>
+          <li>Think about what senses distract you the most when proofreading, and modify your environment to adjust for this. Can you experiment with doing a proofreading task in a quieter space? Wearing headphones? What changes for you?</li>
+          <li>Use speech to text to read your own writing back to you (it's built into a lot of modern devices). You might find you are able to pick up errors listening back which you weren't able to spot before.</li>
+          <li>Experiment with adjusting screen settings like font size and typeface, dark mode and light mode, to see what feels easiest on your eyes. Try a different setup for a few hours or a whole day, then try a different one, and see how your work changes.</li>
+          <li>Try changing how your writing looks - handwrite instead of typing, use a different colour for font or paper, change the size of the page or the spatial layout to make it more interesting and increase focus.</li>
+          <li>Do you prefer to think about ideas one at a time, or do you prefer to look at the "big picture"? If a document you're working on has too many ideas at once on it and you need to progress through one by one, try covering up or sectioning off the part you're working on. If you'd rather think about the whole picture, take a pause to think about the purpose of, and perhaps read through, the whole document you're working on before you start writing anything.</li>
+          <li>Create a checklist of your most common errors (this might be something you need to do over a period of time). Do you have trouble with words that sound like each other? With punctuation? With adding syllables? With past/present tense? Giving yourself a list of things to look for gives you a more specific set of tasks to approach the problem.</li>
+          <li>Set expectations. If you need extra time to proofread, ask for it with plenty of time to spare - let the person know that you're looking to give them the best material possible.</li>
+          <li>Know when to delegate! If you have a colleague who's a particularly strong reader, find out if you can share the final stage of proofreading with them.</li>
+          <li>If typing or writing is difficult, think about how you could try out different kinds of physical support - proprioception (your sense of where you are in space) can change the experience of writing for some people. You could try sitting in a different type of chair, planting your feet on the floor, sitting cross legged or kneeling, or wearing clothes with some compression to slightly support your joints - see if this makes even a slight difference to the experience of typing or writing.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalWords">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalNumbers" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalNumbers">&times;</button>
+        <h4 class="modal-title">Numbers</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Connect numbers to real-world events. If you're looking at a percentage, how many real people is that using a product or system? What might their lives be like? How might using this change things for them?</li>
+          <li>Build rewards into the process of difficult tasks rather than saving them for afterwards - listen to music you love, get some delicious snacks, or alternate calculations with a micro-break to do something genuinely fun.</li>
+          <li>Use a piece of paper or some clay to make maths like fractions and percentages make more sense. See if this makes a difference to how you work.</li>
+          <li>Make quick guides for numerical tasks you have to do over and over. Write them down, and put them somewhere near your workspace that you can see easily.</li>
+          <li>Use props! There is no shame in using a calculator, or just typing the problem into Google (which has a great calculator built into the search bar). Life is hard enough - if it helps, use it.</li>
+          <li>Regularly practising mental maths can be helpful. Duolingo has a maths curriculum! Commit to an amount of regular practice that feels manageable, even if it seems small. How long a time window could you guarantee you'd always be able to commit to?</li>
+          <li>Explain charts and graphs to someone else and see if the act of teaching improves your understanding or helps you to spot things you've missed.</li>
+          <li>Studies of identity suggest that believing you are bad at maths (rather unhelpfully) reduces maths performance. Every time you successfully do a numerical task, log that somewhere. Come back to this log regularly and sit with how it feels to have a record of your success.</li>
+          <li>Consider your senses. Do you have access to a quieter space or to a space with more natural light? Try using it and see if it makes a difference to your ability to process.</li>
+           <li>Ask colleagues or friends who are comfortable with numbers how they would approach a problem. See if their explanation helps you find a new way to approach it.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalNumbers">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalMovement" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalMovement">&times;</button>
+        <h4 class="modal-title">Movement</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Make sure you are well resourced before you start a physical task. Have you eaten and drunk water? Are you overtired? Planning more challenging tasks for times of day when you are better resourced may help at least a little.</li>
+          <li>Make sure your clothes and shoes are comfortable and give you good feedback. Shoes that make a sound when you take a step can be distracting for some but can give others useful information about where you are in space.</li>
+          <li>Consider your environment. Is anything out of place? If so, could you potentially knock it over or trip over it? Set aside some time to audit your environment and move things out of the way that might cause trouble.</li>
+          <li>Related to the above point - ask colleagues (or household members if you work from home) to join in with decluttering the environment so that you can all move around more easily and safely.</li>
+          <li>As you move around, use a torch and point it potential obstacles as you move around. This will focus your vision on possible obstacles and should reduce the risk of bumping into things.</li>
+          <li>Are there points in your day where you could reduce walking around? How much movement is actually needed? Could some things be done more efficiently? Could you have a conversation with your manager about this?</li>
+          <li>If you need to slow down in busy places, it might be necessary to speak to your colleagues about this. Practise saying things like "I need to slow down a bit to make sure I get this right", or "Can you hold on for a moment? I need to concentrate", or "Can you hold that thought until we've got to where we're going? I want to make sure I can listen to you properly". You don't need to explain much detail unless you want to and feel safe to.</li>
+          <li>Touch objects in your environment to give your brain a little extra feedback on where you are in space.</li>
+          <li>Visualise movements you need to make ahead of time. Picture yourself completing the task as vividly as you can. This can improve performance in physical tasks - your muscle fibres are firing to some extent even when you are only imagining using them!</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalMovement">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalCreativity" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalCreativity">&times;</button>
+        <h4 class="modal-title">Creativity</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Try "informational interviews" - find out how people you know and admire solved a difficult problem. Get them to talk you through their process. See what you can learn!</li>
+          <li>Try going to a new place, like a cafe, a park, or a point of interest near you, just to think. See what emerges.</li>
+          <li>Feeling under pressure can make creativity harder. Ask for time to think - practise saying "can I get back to you on that?".</li>
+          <li>Practise free-associating ideas, and capture them somewhere as you do, whether that's a notebook or your notes app. They don't all have to be good ideas - the point is to get used to the feeling of idea generation, which you can draw on when you're asked to come up with an idea on the spot.</li>
+          <li>Take time to remember a previous creative success - whether that's artistic creativity, or solving a problem. Recall how you got there, and how it felt in your body, the thoughts you had, the space you were in. Prime your brain with past creativity to support you to be creative in the present.</li>
+          <li>Take (and ask for) time to research and collect ideas. That might look like online or book-based research into whatever you're working on, or it might look like watching films, reading history, listening to music, anything that sparks you to think in a new way.</li>
+          <li>Map out what you already know spatially, in a mind-map or a kanban board, and look for gaps to fill.</li>
+          <li>Start with deliberately bad solutions to a problem - take the pressure off. Involve a colleague or friend in an "anti-brainstorm" of the worst possible ways in - then figure out how to flip some of them around and turn them into something useful. </li>
+          <li>Try non-verbal ways of creating and presenting your ideas - for example, instead of a written project proposal, agree to produce a mood board.</li>
+          <li>Start with the ideal final solution - ask "What would you like to have happen?" and then working back.</li>
+          <li>It might sound counterintuitive, but try going to the extremes first - if reality was no object, what would 100% guarantee you'd get the results you want? Are there any elements of that, even if small, that are achievable?</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalCreativity">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalTime" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalTime">&times;</button>
+        <h4 class="modal-title">Time Management</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Include travel or transition time as a "buffer" when booking events into your calendar. If someone else books appointments for meetings on your behalf, ask if they might be willing to include buffer time to help make the time involved in transitions feel more real.</li>
+          <li>If you have a far-away deadline, schedule interim check-ins with your manager or a colleague, or even a friend, to make sure you're on track.</li>
+          <li>Timeblock quarter-way and halfway check-ins for big projects with longer deadlines. If you're not where you hoped you would be by the time you reach the check-in, reflect on whether there are any patterns in things that might be stealing your time, and whether you could remove or replan them.</li>
+          <li>Try the <a href="img/grdd.png">Get Ready, Do, Done</a> method (see the linked image).</li>
+          <li>Use visual timer apps or analogue clocks - and make sure there's one visible from every possible place you might be sitting or standing. Seeing the time passing spatially can be helpful for some people.</li>
+          <li>Set aside a few minutes at the start of each day to figure out what you need to do and when you need to do it. Is there time for everything? If not, what can you rearrange? Protect this time, however short it is, by letting your colleagues or housemates know you're setting aside time to use your time effectively.</li>
+          <li>Try body doubling with a partner in the room or virtually - some people find this makes the urgency of time passing feel more vivid. Some workplaces have Slack channels (or similar) for body doubling - could this work in your workplace?</li>
+          <li>"I'll do it later" can sometimes be a trap - if you can't attend to something right now, schedule a time to plan it. Note down enough context that you'll be able to return to it easily.</li>
+          <li>Create a new habit of saying "Let me check my commitments first" - even if you're pretty sure you'll be free - so that you don't over-schedule yourself.</li>
+          <li>If you don't know how long activities tend to take you, time yourself over a period of time. Collect data you can use to make decisions in the future.</li>
+          <li>Use music playlists you know the length of (30 minutes, 60 minutes, etcetera) as timers. You may find that you start to get a sense of how long you've been doing an activity as you start to learn the order of tracks in the playlist.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalTime">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalFocus" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalFocus">&times;</button>
+        <h4 class="modal-title">Focus</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Use an app like ScreenZen (it's free!) to remind you to pause and breathe before opening a distracting app, giving you time to ask if this is really what you need right now.</li>
+          <li>If someone is explaining a process to you and you are struggling to maintain focus, ask if they can explain it to you while you do it yourself. Actively doing something can sometimes make it easier to focus than just listening to somebody describing it.</li>
+          <li>Pay attention to your senses. Is there a lot of stimulation in the environment which might be making it harder to focus? If so, see if you can move spaces, use headphones/earplugs, or just reduce visual clutter by moving it out of your way for now.</li>
+          <li>Try body doubling with a partner in the room or virtually - some people find this makes the urgency of time passing feel more vivid. Some workplaces have Slack channels (or similar) for body doubling - could this work in your workplace?</li>
+          <li>Remember the acronym INUG: Interest, Novelty, Urgency, Gamification. You can increase focus by using any one of these - connect the task to something you really care about, find a brand new and novel tool to complete it, leave it right up until the deadline (not recommended unless all else fails, urgency is stressful!) or create a competition or challenge whether against yourself or someone else.</li>
+          <li>Use a gamifying app for your tasks like Forest (in which you grow a tree while running a task timer), Finch (a virtual pet where completing your tasks gains you resources), Habitica (an RPG for your to do lists), or Focus Noodles (in which your phone becomes a bowl of ramen while your timer runs - pick it up, and steam escapes).</li>
+          <li>Take the absolute smallest next step. "Eating the frog" is fine when your focus is already good. If you're struggling, choose the easiest and most completable task to get you back in the zone and feeling the reward.</li>
+          <li>Try mixing up your tasks deliberately. If you're struggling to focus, "ping ponging" between 2-3 tasks can allow some people to work more intentionally on each than sticking to one.</li>
+          <li>If things keep popping into your head that you feel like you need to attend to immediately in case you forget them, start making a habit of writing them down. You can do this on paper or in an app like Simplenote which syncs between just about every device you can imagine.</li>
+          <li>Schedule some 10-minute movement sessions - just getting up and shaking out the excess energy can be helpful, as can taking a short walk around the space. Ask your colleagues to join you if you feel able to.</li>
+          <li>If you're already procrastinating, try procrastinating productively! Write down every possible obstacle you might encounter in the task you're trying to do, and then write down how you'll avoid falling into it. For example, if I know I tend to get distracted if I'm feeling hungry, I'll put a snack on my desk before I start.</li>
+          <li>Don't give yourself too much to focus on! Identify 1-3 main focuses for the day, then stick to them. Anything else is a bonus.</li>
+
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalFocus">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalOrganising" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalOrganising">&times;</button>
+        <h4 class="modal-title">Organising</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Use the "point of performance" principle - keep everything in the place where it needs to be used rather than categorising it by type of object. When you're done using it, it doesn't need to be taken somewhere else to put it away.</li>
+          <li>If you tend to lose things, use transparent storage or open storage containers so that you can easily see what's inside. If you can't do this for any reason, consider labelling your storage instead.</li>
+          <li>Organise things which tend to get lost intuitively - make the very first place you looked for an item when you were trying to find it its permanent home</li>
+          <li>Create a "launch pad" - there may be things you need to take with you every time you leave one space to move to another. Create a container for these things - your keys, your water bottle - and make sure that's where you store them when you arrive in the space, so that they're all there for you to pick up when you need to go.</li>
+          <li>Block out time for "closing duties" at the end of your working day. What will the you who sits down at their desk tomorrow really wish was set up and ready for them? Create time to do that at the end of the day, as a kindness to future you.</li>
+          <li>Have one folder - virtual and/or physical - for urgent tasks which need to be attended to in the next 24 hours. Set reminders or ask a friend or colleague to prompt you to check this folder every day to make sure nothing is missed.</li>
+          <li>Make sure there's always a bin within reach of where you tend to work or sit. Anything that isn't needed any more can be easily thrown away rather than stacked up waiting to be dealt with.</li>
+          <li>Ask your colleagues for recommendations of tools that help them stay organised. See if you can find out <i>why</i> a tool works for them - we are all different, and what they find challenging may not be the same as what you find challenging. Get as granular as you can to give yourself a sense of what might be worth trying.</li>
+          <li>Keep a small bowl or tray everywhere you spend time regularly - your desk, your bedside table, and so on - to hold random objects which don't have an obvious home - and set aside a couple of minutes a day to check one of these containers and see if there's a permanent home you can sort the objects into.</li>
+          <li>Build rewards into the process of difficult tasks rather than saving them for afterwards - listen to music you love, get some delicious snacks, or alternate paragraphs with a micro-break to do something genuinely fun.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalOrganising">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalStartStop" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalStartStop">&times;</button>
+        <h4 class="modal-title">Starting and Stopping</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Build in rewards for during a task rather than after - saving listening to a podcast you really love for <i>while</i> you're doing a hard-to-start task, rather than telling yourself you can't have it until afterwards, can sometimes make the task easier to begin.</li>
+          <li>If you struggle to stop tasks when in flow, try setting alarms to remind you of when to stop instead of when to start - or timeblock tasks you know are likely to absorb you before another event so that you feel more pressure to stop.</li>
+          <li>Ask for prompts from a trusted person if you know there's a task you're likely to have difficulty moving on to. You can just say, "I tend to get absorbed in tasks like X, can you check in with me at 3pm to make sure I'm ready to get started on task Y?" Having another person holding you accountable can sometimes make the transition easier.</li>
+          <li>Build in (and block out time for) transition time for tasks. Even if you don't have to leave your physical location, for some of us getting into the headspace for a task is more of a journey than for others.</li>
+          <li>Before you start a task, imagine yourself completing it in as much detail as possible, step by step. Imagine the movements you will make and how your body will feel. Getting yourself into the headspace for a task before physically moving your body to do it can sometimes make starting easier.</li>
+          <li>Try narrating the process of starting and stopping out loud (the psychologist Vygotsky noticed a link between narrating actions and executive functioning in 1934). What steps do you have to take? What are you doing right now? How are you feeling? Speak it out loud, to yourself or to a willing friend or colleague.</li>
+          <li>You may have heard of the "eat the frog" strategy for productivity, in which you do the hardest thing first. If starting is hard, the "eat the cake" strategy - doing the easiest or nicest thing first, to get you into flow - can be more effective.</li>
+          <li>Group similar tasks together so that the transition between them feels smaller. If you rely on someone else to assign you tasks at work, ask if they can help you by grouping them by similarity.</li>
+          <li>Watch out for "danger fun" - activities that you know tend to be difficult for you to stop. If they aren't essential, sometimes it's safer not to start them at all!</li>
+          <li>Build rewards into the process of difficult tasks rather than saving them for afterwards - listen to music you love, get some delicious snacks, or alternate paragraphs with a micro-break to do something genuinely fun.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalStartStop">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalSensory" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalSensory">&times;</button>
+        <h4 class="modal-title">Sensory Processing</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Explore whether there might be options for being more physically comfortable in your workspace. That could mean anything from ergonomic furniture to using a box as a foot rest, adjusting your chair height, or using an extra cushion. Try changing one thing to see if it improves your experience.</li>
+          <li>Think about the clothes you are most comfortable in. Take a little time to come up with three outfits which are appropriate to your job but still comfortable. You might prefer natural fabrics, loose clothing, or clothes with a stretch to them. Take your own comfort seriously and see if it has an impact.</li>
+          <li>Remind yourself of your sensory preferences - note them down somewhere and take a moment to be fully aware of them. Consider whether any small adjustments could be made to your job to better fit these sensory preferences, and whether you might be able to ask for them.</li>
+          <li>Agree with your colleagues on a signal or sign to indicated periods of time when you need to not be disturbed (like setting a status on Teams or a physical sign at your desk). If this feels impossible, it might be time to have a frank conversation with your manager or colleagues to find out if there are any periods of the day in which you can work quietly without being disturbed. If not, you may need to find other strategies, but you might be surprised that flexibility exists where you weren't aware of it.</li>
+          <li>Use headphones or earplugs to reduce noise. Or consider using a sound masking app like Rainymood to block out unpleasant noise with the sound of rain. If all of these are impossible, figure out if you can move to sit in a corner, so that sound can only come from 90 degrees rather than all around you.</li>
+          <li>Adjust lighting and temperature to your sensory needs where possible. If you work in a shared office, this might look like a personally controlled lamp at your desk, or wearing tinted glasses or coloured lenses. If temperature is an issue, a handwarmer or personal fan can be helpful for some people.</li>
+          <li>Start a conversation about your sensory needs with your manager to see if any adjustments can be made. Frame this positively - attending to your needs can and will increase your concentration and productivity.</li>
+          <li>Experiment with fidget toys - these can sometimes be really helpful for sensory regulation. There is a huge range available, and many are very inexpensive - you might need to experiment to find some that really work for you.</li>
+          <li>Come up with some brief non-verbal signals to indicate that you need a sensory break to step out and reset. Agree these with some trusted colleagues in advance.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalSensory">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModalEmotions" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" data-bs-target="#myModalEmotions">&times;</button>
+        <h4 class="modal-title">Emotions</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Consider the role of your senses. When we are reacting emotionally, it can feel like what's going on in our minds is the only thing that matters. But our nervous systems can be overloaded from multiple directions at once. Taking yourself to a quiet place with dim lighting (or a busy place where you can people watch if that makes you feel calmer) can help reduce overall stress so that you can process your emotions more effectively.</li>
+          <li>Ask for feedback from people you trust directly if you are anxious or worried. Being able to say "I'm not sure if I've done this right, I'd welcome your opinion on where I could improve it" creates psychological safety, which improves both wellbeing and performance.</li>
+          <li>Keep a record of things you've done well and are satisfied with. Negative emotions tend to be stickier, whereas many of us barely register the positives long enough to form a memory about them. Start collecting evidence of when things go well and set aside time to really sit with the feeling. Start building emotional resilience based on evidence of the things you can do well.</li>
+          <li>Frame feelings of anxiety as a possible warning signal, but not necessarily in the way that seems most obvious. Worrying what other people think of your work could be a sign you have low self-esteem about the quality of your work. It could also mean you're not receiving sufficient feedback from others, or that your work has been criticised in a way that leaves you unsure what to actually do about it. Spend time reflecting on what the actual underlying causes might be - you could list out both the external (other people) and internal (in your own mind) possibiities, then decide how to respond.</li>
+          <li>Use a sensory anchor to calm you when feeling emotionally overwhelmed and carry it around with you. This could be something cool and smooth like a pebble, or a soft piece of fabric. Make a habit of using it in times of stress.</li>
+          <li>Write down everything in your head that is bothering you. This can be helpful in getting a more objective view of a situation, and can also be useful if you need to prepare feedback to communicate about a difficult situation later. Review what you've written the next day to make sure it still rings true.</li>
+          <li>Think of 3 nearby spaces where you can go if you need to "tap out" in moments of high emotion. Note these down somewhere you can remind yourself of them easily in moments of crisis - a card in your wallet might do.</li>
+          <li>Choose one or two people you feel safe with. Tell them that you sometimes experience strong emotions and ask if you can signal to them if you need time out of a situation so they can help you leave and calm down. Knowing they are there might make it less likely you will need to do this!</li>
+          <li>Practise open conversation and debriefing difficult interactions. First, remind yourself of 3 times you have been helpful to your colleagues, and 3 times they are helpful to you, to distance you a step or two from the difficult situation. Then say or message "that meeting didn't go very well and I feel worried. Can we talk about it?" Creating an environment in which open interaction is normalised makes the workplace better for everyone.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p class="closebutton" data-bs-dismiss="modal" data-bs-target="#myModalEmotions">Close</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+
+</html>

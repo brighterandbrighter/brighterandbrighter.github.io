@@ -1322,10 +1322,10 @@ section.sessions .gutter {
 .sessions-content-wrapper {
 	display:-ms-grid;
 	display:grid;
-	/*-ms-grid-columns:10fr 6fr 6fr;
-	grid-template-columns:10fr 6fr 6fr;*/
-	-ms-grid-columns:12fr 6fr;
-	grid-template-columns:12fr 6fr;
+	ms-grid-columns:6fr 6fr 6fr;
+	grid-template-columns:6fr 6fr 6fr;
+	/* -ms-grid-columns:12fr 6fr;
+	grid-template-columns:12fr 6fr; */
 	-ms-grid-column:2;
 	-ms-grid-column-span:1;
 	grid-column:2/3;
@@ -1344,7 +1344,7 @@ section.sessions .gutter {
 .sessiontext {
 	padding: 20px;
 	font-size: 2.2rem;
-	/* min-height: 700px; */
+	min-height: 800px;
 	color: #fff;
 }
 
