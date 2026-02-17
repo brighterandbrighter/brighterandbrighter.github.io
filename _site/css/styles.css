@@ -80,6 +80,8 @@ h6, .testimonials .tab-content p.name {
 h1 {
 	font-size:3.5rem;
 }
+
+
 h2 {
 	font-size:3.25rem;
 }
@@ -645,6 +647,23 @@ color: #000;
 }
 
 
+.pagetitle {
+		position: absolute;
+		width: 150px;
+		margin-top: 135px;
+		color: #fff;
+		text-align: center;
+		left: 50px;
+	}
+
+.pagetitle h1.header-text {
+	font-size: 2rem;
+		font-family: "Figtree", sans-serif;
+		font-weight: normal;
+
+}
+
+
 /* ---------------------------------------- 
 	Social Profiles
 ---------------------------------------- */
@@ -687,6 +706,13 @@ color: #000;
 	text-align:center;
 	font-size:10rem;
 	text-shadow: 0 1px 0 black;
+position: absolute;
+top: -100vh;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: 1;
+color: #fff;
 
 
 }
@@ -1344,7 +1370,7 @@ section.sessions .gutter {
 .sessiontext {
 	padding: 20px;
 	font-size: 2.2rem;
-	min-height: 800px;
+	min-height: 850px;
 	color: #fff;
 }
 
@@ -3338,6 +3364,7 @@ section.sessions .gutter {
     	margin-top: 2rem;
 	}
 
+
 	.pages .btn-top {
     	margin-top: 5rem;
 	}
@@ -3373,12 +3400,13 @@ section.sessions .gutter {
 		-ms-grid-columns:2fr 5fr 12fr 5fr 2fr;
 		grid-template-columns:2fr 5fr 12fr 5fr 2fr;
 	}
-	.text-rotator,
+	
+	/* .text-rotator,
 	.intro-heading h2, 
 	.skills-heading h2,
 	.hero-text,
 	.fees-heading h2 {
-		font-size:10rem;
+		font-size:8rem;
 	}
 	.section-header h1, .section-header h2 {
 		font-size:9.5rem;
@@ -3389,7 +3417,7 @@ section.sessions .gutter {
 	}
 	.services-info-content h2 {
 		font-size:9rem;
-	}
+	} */
 
 		.contact-form-wrapper {
 		    padding-right: 40px;
@@ -3430,6 +3458,14 @@ section.sessions .gutter {
 
 	.pages .logo {
     	margin-top: 1rem;
+	}
+
+	.text-rotator, .hero-text {
+		font-size: 8rem;
+	}
+
+	.hero-text .inner button {
+		margin-top: -30px;
 	}
 
 }
@@ -3483,6 +3519,10 @@ section.sessions .gutter {
 
 	.logo {
     	margin-top: 0px;
+	}
+
+	.pagetitle {
+		margin-top: 160px;
 	}
 
 	.pages .btn-top {
@@ -3559,6 +3599,22 @@ section.sessions .gutter {
 	.footer-left-content {
 		padding-right:50px;
 	}
+
+	.pagetitle {
+		width: 168px;
+		margin-top: 125px;
+		padding: 0;
+		left: 0;
+		box-sizing: content-box;
+
+	}
+
+.pagetitle h1.header-text {
+	margin-left: 42px;
+	font-size: 1.8rem;
+	width: 168px
+}
+
 }
 
 
@@ -4266,6 +4322,7 @@ button.btn-top {
     align-items: stretch;
     justify-content: space-between;
     margin: 0 auto;
+
 }
 
 /* Modal Content/Box */
@@ -4352,10 +4409,24 @@ button.btn-top {
 
 }
 
+.pagetitle {
+		width: 120px;
+		margin-top: 105px;
+		padding: 0;
+		left: 0;
+	}
+
+.pagetitle h1.header-text {
+	margin-left: 50px;
+	font-size: 1.8rem;
+}
+
 	.logo img {
 		left: 0;
 		top: 0;
 	}
+
+
 
 	.affiliations img, .whatpeoplesay img {
 	max-width: 80px;
@@ -4553,6 +4624,8 @@ button.btn-top {
 		page-break-after:avoid; 
 		page-break-inside:avoid;
 	}
+
+		
 	ul, 
 	ol, 
 	dl { 
