@@ -3839,16 +3839,16 @@ section.sessions .gutter {
 		color:#fff;
 		margin:0;
 		-webkit-box-flex:1;
-		-ms-flex:1 0 33%;
-		flex:1 0 33%;
+		-ms-flex:1 0 100%;
+		flex:1 0 100%;
 		-webkit-box-sizing:border-box;
 		box-sizing:border-box;
 		border-top:1px solid rgba(58,80,107,.3);
 		border-left:1px solid rgba(58,80,107,.3);
 	}
 	.menu li a {
-		font-size:1.3rem;
-		padding:20px 10px;
+		font-size:1.4rem;
+		padding:30px 10px;
 	}
 	.menu li a:hover, 
 	.menu li:hover>a {
