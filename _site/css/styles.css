@@ -1286,6 +1286,7 @@ section .gutter {
 .whatpeoplesay-content ul ul {
 	list-style: disc;
 	padding-left:20px;
+	padding-top: 20px;
 }
 
 .intro-content ul ul li,
@@ -4455,9 +4456,7 @@ button.btn-top {
 		top: 0;
 	}
 
-
-
-	.affiliations img, .whatpeoplesay img {
+.affiliations img, .whatpeoplesay img {
 	max-width: 80px;
 }
 .pages .menu-wrapper {
