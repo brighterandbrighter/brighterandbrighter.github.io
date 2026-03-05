@@ -649,17 +649,18 @@ color: #000;
 
 .pagetitle {
 		position: absolute;
-		width: 150px;
-		margin-top: 135px;
+		max-width: 300px;
+		margin-top: 50px;
 		color: #fff;
 		text-align: center;
-		left: 50px;
+		right: 50px;
 	}
 
 .pagetitle h1.header-text {
 	font-size: 2rem;
 		font-family: "Figtree", sans-serif;
 		font-weight: normal;
+		color: rgba(255, 255, 255, 0.85);
 
 }
 
@@ -674,11 +675,16 @@ color: #000;
 	display:inline-block;
 	margin-left:20px;
 	font-size:2.4rem;
-	color:#6fffe9;
+	/* color:#6fffe9; */
 }
+.social a {
+	color: #fff;
+	color: rgba(255, 255, 255, 0.5);
+}
+
 .social-top, .btn-top {
 	position:absolute;
-	top:50px;
+	top:80px;
 	right:50px;
 	z-index:20;
 }
@@ -1096,6 +1102,10 @@ section .gutter {
 .about-content p {
 	font-size: 2.8rem;
 }
+
+.about-content p.smalltext {
+		font-size: 1.4rem;
+	}
 
 .intro-heading-wrapper, .about-heading-wrapper, .fees-heading-wrapper  {
 	display:-ms-grid;
@@ -3528,10 +3538,6 @@ section.sessions .gutter {
     	margin-top: 0px;
 	}
 
-	.pagetitle {
-		margin-top: 160px;
-	}
-
 	.pages .btn-top {
     	margin-top: 3rem;
 	}
@@ -3607,11 +3613,10 @@ section.sessions .gutter {
 		padding-right:50px;
 	}
 
-	.pagetitle {
+	/* .pagetitle {
 		width: 168px;
 		margin-top: 125px;
 		padding: 0;
-		left: 0;
 		box-sizing: content-box;
 
 	}
@@ -3620,7 +3625,7 @@ section.sessions .gutter {
 	margin-left: 42px;
 	font-size: 1.8rem;
 	width: 168px
-}
+} */
 
 }
 
@@ -4388,12 +4393,28 @@ button.btn-top {
 	html {
 		font-size:45%;
 	}
-	.logo, 
-	.social-top {
+	.logo {
 		left:0;
 		right:0;
+		margin-top: 20px;
 		text-align:center;
 	}
+
+	.social-top {
+		margin-top: 20px;
+		text-align:center;
+	}
+
+	.pagetitle {
+		margin-top: 40px;
+		left:0;
+		right: 0;
+		text-align: center;
+		max-width: 250px;
+		margin: 40px auto 0;
+	}
+
+
 	.logo {
 		margin-left: 6rem;
 		margin-top: -1rem;
@@ -4416,17 +4437,18 @@ button.btn-top {
 
 }
 
-.pagetitle {
+/* .pagetitle {
 		width: 120px;
 		margin-top: 105px;
 		padding: 0;
 		left: 0;
-	}
+	} 
 
 .pagetitle h1.header-text {
 	margin-left: 50px;
 	font-size: 1.8rem;
-}
+} */
+
 
 	.logo img {
 		left: 0;
