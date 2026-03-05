@@ -1571,6 +1571,10 @@ section.sessions .gutter {
     grid-template-columns: 11fr 12fr;
 }
 
+.owl-item a {
+	color: #fff !important;
+}
+
 
 /* ---------------------------------------- 
 	Skills
