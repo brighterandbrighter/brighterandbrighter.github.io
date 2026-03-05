@@ -2964,6 +2964,9 @@ section.sessions .gutter {
 	z-index:10;
 }
 
+.owl-item a {
+	color: #fff !important;
+}
 
 
 
