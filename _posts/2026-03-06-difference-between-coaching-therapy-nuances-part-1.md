@@ -1,5 +1,5 @@
 ---
-title: What's *really* the difference between coaching and therapy? Part 1/2 - the nuances
+title: What's <em>really</em> the difference between coaching and therapy? Part 1/2 - the nuances
 layout: post
 author: Emma Winston
 authorlink: /about
