@@ -694,11 +694,12 @@ a {
 
 .pagetitle {
 	position: absolute;
-	max-width: 300px;
+	max-width: 400px;
 	margin-top: 50px;
 	color: #fff;
 	text-align: center;
-	right: 50px;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 
 .pagetitle h1.header-text {
@@ -722,6 +723,7 @@ a {
 	margin-left: 20px;
 	font-size: 2.4rem;
 	/* color:#6fffe9; */
+	transform: translate(0, -50%);
 }
 
 .social a {
@@ -3831,6 +3833,15 @@ section.sessions .gutter {
 		margin-top: 0px;
 	}
 
+	.pagetitle {
+			max-width: 350px;
+	}
+
+	.hero-text .text {
+		padding-top: 60px;
+	}
+
+
 }
 
 
@@ -3914,19 +3925,9 @@ section.sessions .gutter {
 		padding-right: 50px;
 	}
 
-	/* .pagetitle {
-		width: 168px;
-		margin-top: 125px;
-		padding: 0;
-		box-sizing: content-box;
-
+	.pagetitle {
+			max-width: 250px;
 	}
-
-.pagetitle h1.header-text {
-	margin-left: 42px;
-	font-size: 1.8rem;
-	width: 168px
-} */
 
 }
 
@@ -4539,6 +4540,19 @@ section.sessions .gutter {
 
 	}
 
+	.pagetitle {
+		max-width: 100%;
+	}
+
+
+	.pagetitle h1.header-text {
+		font-size: 2rem;
+	}
+
+	.logo img {
+		max-width: 150px;
+		max-height: 100px;
+	}
 
 }
 
@@ -4790,7 +4804,7 @@ button.btn-top {
 	}
 
 	.social-top {
-		margin-top: 20px;
+		margin-top: 30px;
 		text-align: center;
 	}
 
@@ -4827,17 +4841,19 @@ button.btn-top {
 
 	}
 
-	/* .pagetitle {
-		width: 120px;
+	.pagetitle {
+		width: 100%;
+		max-width: 100%;
+		display: block;
 		margin-top: 105px;
 		padding: 0;
-		left: 0;
+		text-align:center;
+		transform: translate(0, 0);
 	} 
 
 	.pagetitle h1.header-text {
-		margin-left: 50px;
-		font-size: 1.8rem;
-	} */
+		font-size: 2.8rem;
+	} 
 
 
 	.logo img {
@@ -4860,7 +4876,7 @@ button.btn-top {
 	}
 
 	.social-top {
-		top: 20px;
+		top: 30px;
 	}
 
 	.header-content .social li {
