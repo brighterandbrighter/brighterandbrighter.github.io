@@ -1,3 +1,6 @@
 title: Brighter ADHD and Neurodiversity Coaching
 
 permalink: /blog/:year/:month/:day/:title:output_ext
+
+sass:
+  style: compressed
