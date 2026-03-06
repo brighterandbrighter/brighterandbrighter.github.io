@@ -6,7 +6,7 @@ authorlink: /about
 image: /img/blog/caleb-jones-fork-in-path.jpg
 ---
 
-<p>As a coach, "What's the difference between coaching and therapy?" is a question I've heard asked so many times, in all contexts from training groups to conferences. This is the first part of my attempt to answer it.</p>
+<p>As <a href="/">an ADHD coach</a> who works alongside (and has coached!) many therapists, "What's the difference between coaching and therapy?" is a question I've heard asked so many times, in all contexts from training groups to conferences. This is the first part of my attempt to answer it.</p>
 
 <p>I am not the first person to try and write this article. I'm probably not even the hundredth. I'm guessing this blog post is quite likely to end up buried in the depths of Google search, because for whatever reason it's one that's been done over, and over, and over again.</p>
 
