@@ -1516,11 +1516,11 @@ section.sessions .gutter {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	-webkit-box-flex: 1;
+	/* -webkit-box-flex: 1;
 	-webkit-flex: 1 0 auto;
 	-moz-flex: 1 0 auto;
 	-ms-flex: 1 0 auto;
-	flex: 1 0 auto;
+	flex: 1 0 auto; */
 	-webkit-box-align: center;
 	-moz-flex-align: center;
 	-ms-flex-align: center;
@@ -1556,7 +1556,7 @@ section.sessions .gutter {
 	background: linear-gradient(45deg, rgba(35, 89, 81, 1) 0%, rgba(23, 99, 44, 1) 100%);
 	background: -webkit-linear-gradient(45deg, rgba(35, 89, 81, 1) 0%, rgba(23, 99, 44, 1) 100%);
 	padding-top: 20px;
-	min-height: 800px;
+	min-height: 900px;
 }
 
 .session-image a {
