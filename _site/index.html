@@ -32,22 +32,262 @@
 	<meta property="og:url" content="https://www.brighter.coach"/>
   <meta property="og:site_name" content="Brighter ADHD Coaching"/>
   <meta property="og:type" content="website"/>
- <script type="application/ld+json" class="schemantra">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@type": "OnlineBusiness",
-  "@id": "OnlineBusiness",
-  "email": "brightercoach@gmail.com",
-  "knowsAbout": ["ADHD coaching","ADHD","Autism","AuDHD","ADHD coach","Neurodiversity","Access to Work ADHD coaching"],
-  "url": "https://brighter.coach",
-  "alternateName": ["Brighter ADHD","Brighter Coach","Brighter ADHD Coaching","Brighter Neurodiversity Coaching"],
-  "founder": {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "Person",
-    "name": "Emma Winston"
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://brighter.coach/#business",
+      "name": "Brighter ADHD Coaching",
+      "url": "https://brighter.coach",
+      "logo": "https://brighter.coach/img/brighter-logo-rainbow.png",
+      "image": "https://brighter.coach/img/demo/profile-new.webp",
+      "description": "Certified ADHD coaching for adults, online and UK-wide. 1:1 coaching, ICF mentor coaching, and coaching supervision with Emma Winston, PCC and ACCG-certified ADHD coach.",
+      "email": "brightercoach@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Worldwide (online)"
+        }
+      ],
+      "serviceType": "ADHD Coaching",
+      "knowsAbout": [
+        "ADHD coaching",
+        "neurodivergent coaching",
+        "ICF mentor coaching",
+        "coaching supervision",
+        "adult ADHD",
+        "autism",
+        "executive function",
+        "Access to Work ADHD coaching"
+      ],
+      "founder": {
+        "@id": "https://brighter.coach/#emma"
+      },
+      "employee": {
+        "@id": "https://brighter.coach/#emma"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Coaching Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Adult 1:1 ADHD Coaching",
+              "description": "One-hour one-to-one coaching sessions for adults with ADHD, focusing on strategies, self-understanding, and creating a more fulfilling life working with your unique brain wiring.",
+              "provider": {
+                "@id": "https://brighter.coach/#business"
+              }
+            },
+            "price": "95",
+            "priceCurrency": "GBP",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "95",
+              "priceCurrency": "GBP",
+              "unitText": "per 50-minute session"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "ICF Mentor Coaching",
+              "description": "Mentor coaching sessions for coaches seeking ICF ACC or PCC credential, reviewed against ICF core competencies.",
+              "provider": {
+                "@id": "https://brighter.coach/#business"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Coaching Supervision",
+              "description": "Supervision sessions for coaches, mentors, and allied professionals. Informed by solution-focused, person-centred, and neuroaffirmative thinking.",
+              "provider": {
+                "@id": "https://brighter.coach/#business"
+              }
+            }
+          }
+        ]
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewBody": "I can honestly say my life is easier and happier after my coaching sessions with Emma. She is an amazing coach and person, and I would recommend her to anyone.",
+          "author": {
+            "@type": "Person",
+            "name": "C, Berkshire"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "reviewBody": "Your ability to ask the right questions, listen and just be with what I bring are exceptional. I feel like my beliefs about myself and my understanding of my ADHD have been completely reframed for the better.",
+          "author": {
+            "@type": "Person",
+            "name": "J, London"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "reviewBody": "Working with you, I managed to really shift my attitude to my challenges. You have a way of asking very insightful questions, but never in a forceful way.",
+          "author": {
+            "@type": "Person",
+            "name": "V, Hertfordshire"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3",
+        "bestRating": "5"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/emmawinston/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://brighter.coach/#emma",
+      "name": "Emma Winston",
+      "alternateName": "Emma A Winston",
+      "url": "https://brighter.coach/about",
+      "image": "https://brighter.coach/img/demo/profile-new.webp",
+      "jobTitle": "Certified ADHD Coach",
+      "description": "PCC and ACCG-certified ADHD coach with 320+ hours of ADHD-specific training and 1000+ client hours. Based in London, UK, working online with clients across the UK and internationally.",
+      "email": "brightercoach@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+     "alumniOf": [
+  {
+    "@type": "EducationalOrganization",
+    "name": "Goldsmiths, University of London",
+    "url": "https://www.gold.ac.uk"
   },
-  "keywords": ["ADHD coaching","ADHD coach","Neurodiversity coaching","AuDHD coach","Access to Work ADHD coaching"]
-}</script>
+  {
+    "@type": "EducationalOrganization",
+    "name": "ADD Coach Academy (ADDCA)",
+    "url": "https://addca.com"
+  }
+],
+      "knowsAbout": [
+        "ADHD coaching",
+        "AuDHD coaching",
+        "adult ADHD",
+        "neurodiversity coaching",
+        "autism",
+        "executive function",
+        "ADHD strategies",
+        "ICF coaching competencies",
+        "ICF mentor coaching",
+        "coaching supervision",
+        "neuroaffirmative coaching",
+        "Access to Work ADHD coaching",
+        "Coping strategy training sessions"
+        "late ADHD diagnosis",
+        "solution-focused coaching",
+        "person-centred coaching",
+        "pluralistic coaching"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Professional Certified Coach (PCC)",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "International Coaching Federation",
+            "url": "https://coachingfederation.org"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "ACCG-Certified ADHD Coach",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "ADD Coach Academy (ADDCA)"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Doctor of Philosophy (PhD)",
+          "credentialCategory": "Degree",
+          "description": "Doctorate completed within the Popular Music Research Unit at Goldsmiths, University of London. An interdisciplinary project drawing on sociology, anthropology, psychology, and media studies, including examination of person-centred psychological theory in non-clinical, community music contexts.",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Goldsmiths, University of London",
+            "url": "https://www.gold.ac.uk"
+          }
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "International Coaching Federation",
+          "url": "https://coachingfederation.org"
+        },
+        {
+          "@type": "Organization",
+          "name": "European Mentoring and Coaching Council",
+          "url": "https://www.emccglobal.org"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://brighter.coach/#business"
+      },
+      "subjectOf": {
+        "@id": "https://brighter.coach/about#page"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/emmawinston/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://brighter.coach/#website",
+      "url": "https://brighter.coach",
+      "name": "Brighter ADHD and Neurodiversity Coaching",
+      "description": "ADHD coaching for adults with Emma Winston, certified ADHD coach, online and UK-wide.",
+      "publisher": {
+        "@id": "https://brighter.coach/#emma"
+      }
+    }
+  ]
+}
+</script>
 <!--script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0129028cd24db695b3f408570/f5b9af9bf94c2d04abe3e2b77.js");</script-->
 	<!-- Styles -->
 	<link href="css/normalize.css" rel="stylesheet" media="all"><!-- Normalize (https://github.com/necolas/normalize.css/) -->
