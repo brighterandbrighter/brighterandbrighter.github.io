@@ -26,6 +26,7 @@
   font-family: "Figtree";
   src: local("Figtree"),
     url("../assets/Figtree-VariableFont_wght.ttf") format("ttf");
+    font-display:swap;
 }
 
 @font-face {
@@ -33,6 +34,7 @@
   src: local("Ginkgo"),
     url("../assets/Ginkgo-Regular.ttf") format("truetype"), url("../assets/Ginkgo-Regular.otf")
       format("opentype"), url("../assets/Ginkgo-Regular.woff") format("woff");
+      font-display:swap;
 }
 
 html {
