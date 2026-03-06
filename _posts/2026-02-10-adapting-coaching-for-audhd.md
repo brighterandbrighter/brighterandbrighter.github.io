@@ -2,13 +2,13 @@
 title: Adapting ADHD coaching for AuDHD
 layout: post
 author: Emma Winston
-authorlink: /about.html
+authorlink: /about
 image: /img/blog/infinity-symbol.jpg
 ---
 
 <h2>What is AuDHD coaching?</h2>
 
-<p>A lot of the people I work with as an <a href="/">ADHD coach</a> are either diagnosed or identify with both autism and ADHD, a combination sometimes referred to as AuDHD. I’m AuDHD myself – my autism diagnosis came first, and the ADHD diagnosis came soon after.</p>
+<p>A lot of the people I work with as an <a href="/">ADHD coach</a> are either diagnosed or identify with both autism and ADHD, a combination sometimes referred to as AuDHD. <a href="/about">I’m AuDHD myself</a> – my autism diagnosis came first, and the ADHD diagnosis came soon after.</p>
 
 <p>And although I tend to advertise and refer to myself as an ADHD coach (mainly because it’s the term most people tend to be looking for, and also because I consider myself a specialist in managing executive functioning challenges, which do show up frequently in autistic individuals but are really a defining hallmark of ADHD), probably a little over half my clients identify as both autistic and ADHD.<br>
 So I consider AuDHD coaching to be one of my specialisms, and I guess that makes me an AuDHD coach!</p>

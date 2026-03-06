@@ -2,7 +2,7 @@
 title: What to expect in an ADHD coaching discovery call
 layout: post
 author: Emma Winston
-authorlink: /about.html
+authorlink: /about
 image: /img/blog/videocall.png
 ---
 

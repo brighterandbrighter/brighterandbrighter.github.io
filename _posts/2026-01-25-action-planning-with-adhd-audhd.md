@@ -2,7 +2,7 @@
 title: Action planning - an ADHD coach's approach
 layout: post
 author: Emma Winston
-authorlink: /about.html
+authorlink: /about
 image: /img/blog/estee-janssens-planning.jpg
 ---
 

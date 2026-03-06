@@ -2,7 +2,7 @@
 title: What does an ADHD coach do?
 layout: post
 author: Emma A Winston
-authorlink: /about.html
+authorlink: /about
 image: /img/blog/tara-winstead-adhd.jpeg
 ---
 
@@ -32,7 +32,7 @@ If you change your mind on your desired outcome mid-conversation - no problem. A
 You might also think together about how you’ll know, or measure, when you’ve reached that outcome.
 
 ### 3. You’ll then explore your area of of focus together, through the lens of your ADHD, working towards your outcome. 
-There are lots of different ways this part of the session can look. You might work through exercises together or just unfold the details of your relationship with time. Some coaches ([like me!](/about.html)) might use creative methods such as art-based coaching, where you take time to express what time is like for you visually and perhaps how you want to feel about it, then discuss with your coach what you’ve made. 
+There are lots of different ways this part of the session can look. You might work through exercises together or just unfold the details of your relationship with time. Some coaches ([like me!](/about)) might use creative methods such as art-based coaching, where you take time to express what time is like for you visually and perhaps how you want to feel about it, then discuss with your coach what you’ve made. 
 
 ### 4. You and your coach will think about what you’d like to do with what you’ve explored.
 If your desired outcome was having specific strategies to try out, you and your coach will work towards developing an action plan that feels realistic, sustainable, and (hopefully!) interesting to you, and figure out how you’ll measure what’s working and what isn’t. If you’re looking for a change in feeling or thinking, or exploring what emerges, it might be a case of figuring out what the next steps you’d like to take after the session are to support that shift. 
