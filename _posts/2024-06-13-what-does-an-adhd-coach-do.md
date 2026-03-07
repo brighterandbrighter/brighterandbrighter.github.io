@@ -1,7 +1,7 @@
 ---
 title: What does an ADHD coach do?
 layout: post
-author: Emma A Winston
+author: Emma Winston
 authorlink: /about
 image: /img/blog/tara-winstead-adhd.jpeg
 ---
