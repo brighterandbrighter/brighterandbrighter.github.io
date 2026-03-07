@@ -510,7 +510,7 @@ a {
 
 
 .header .parallax {
-	background: url("../img/demo/header.webp") 50% 0 no-repeat;
+	background: url("https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/header.webp") 50% 0 no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 120vh;
@@ -1195,7 +1195,7 @@ section .gutter {
 	grid-row: 1/5;
 	padding: 0 0;
 	grid-column: 1/2;
-	background: url("../img/demo/header.webp") 50% 0 no-repeat;
+	background: url("https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/header.webp") 50% 0 no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -5010,6 +5010,11 @@ button.btn-top {
 
 	.intro-content-wrapper button {
 		margin-top: 1rem;
+	}
+
+	.header .parallax {
+	background: url("https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/header-small.webp") 50% 0 no-repeat;
+
 	}
 
 }
