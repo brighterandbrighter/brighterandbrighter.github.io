@@ -56,7 +56,7 @@ I have some thoughts on why this might be; I’m not a scientist, but I have wor
 
 
 ### Structured freedom
-[ADHD coaching](/coaching.html) can be a lovely blend of structure and freedom. The process we walk through in a session, from topic to outcome to measurement to exploration to action to prompts, is a kind of rehearsal of what Dr Thomas Brown calls [the executive functions](https://www.brownadhdclinic.com/the-brown-model-of-add-adhd) — the processes handled by the part of the brain that tends to be challenged in ADHD. Practising decision-making, prioritising, anchoring in time, emotional regulation, and so on, in a safe environment, gives us a way to practise these skills in real-time in a way that doesn’t feel overwhelming. 
+[ADHD coaching](/coaching) can be a lovely blend of structure and freedom. The process we walk through in a session, from topic to outcome to measurement to exploration to action to prompts, is a kind of rehearsal of what Dr Thomas Brown calls [the executive functions](https://www.brownadhdclinic.com/the-brown-model-of-add-adhd) — the processes handled by the part of the brain that tends to be challenged in ADHD. Practising decision-making, prioritising, anchoring in time, emotional regulation, and so on, in a safe environment, gives us a way to practise these skills in real-time in a way that doesn’t feel overwhelming. 
 
 At the same time, within the structure we set for ourselves, we can go anywhere. ADHD brains tend to thrive off interest; we can follow what sparks that interest for you, whatever that looks like. A good coach will listen and tune into that; you’ll collaborate, but they’ll let you steer towards what appeals to you, and help you build on your strengths. 
 
