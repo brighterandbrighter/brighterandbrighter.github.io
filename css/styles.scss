@@ -29,14 +29,14 @@
 @font-face {
 	font-family: "Figtree";
 	src: local("Figtree"),
-		url("../assets/Figtree-VariableFont_wght.ttf") format("ttf");
+		url("https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/assets/Figtree-VariableFont_wght.ttf") format("ttf");
 	font-display: swap;
 }
 
 @font-face {
 	font-family: "Ginkgo";
 	src: local("Ginkgo"),
-		url("../assets/Ginkgo-Regular.ttf") format("truetype"), url("../assets/Ginkgo-Regular.otf") format("opentype"), url("../assets/Ginkgo-Regular.woff") format("woff");
+		url("https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/assets/Ginkgo-Regular.ttf") format("truetype"), url("../assets/Ginkgo-Regular.otf") format("opentype"), url("../assets/Ginkgo-Regular.woff") format("woff");
 	font-display: swap;
 }
 
@@ -65,7 +65,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: #1c2541 url(../assets/up-arrow.png) no-repeat center 43%;
+	background: #1c2541 url(https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/assets/up-arrow.png) no-repeat center 43%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
