@@ -5247,3 +5247,78 @@ button.btn-top {
 		transform: translateY(-50%);
 	}
 }
+
+
+/* ----------------------------------------
+	Homepage hero: shrink with window height
+	The hero is one screen tall. In a short window the headline, the small
+	title above it and the button used to collide. Here the headline takes
+	its normal size (1em) or a size based on the window height, whichever is
+	smaller. In a tall window nothing changes. The lines beneath the
+	headline only scale down once the window is short enough to need it.
+	Three tiers, because the header is laid out differently at each width.
+---------------------------------------- */
+
+/* Desktop (900px and wider) */
+.hero-text .inner .text {
+	font-size: min(1em, calc(12.5vh - 4rem));
+}
+
+@media only screen and (min-width:900px) and (max-height:840px) {
+	.hero-text .inner .subhead {
+		font-size: min(4rem, .45em);
+	}
+
+	.hero-text .inner button {
+		font-size: min(2.5rem, max(.3em, 13px));
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: min(2rem, max(.25em, 12px));
+	}
+}
+
+/* Tablets and phones held sideways (600px to 899px wide) */
+@media only screen and (min-width:600px) and (max-width:899px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc(12.7vh - 3.4rem));
+	}
+}
+
+@media only screen and (min-width:600px) and (max-width:899px) and (max-height:560px) {
+	.hero-text .inner .subhead {
+		font-size: min(4rem, .667em);
+	}
+
+	.hero-text .inner button {
+		font-size: min(2.5rem, max(.42em, 13px));
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: min(2rem, max(.33em, 12px));
+	}
+}
+
+/* Phones (under 600px wide) */
+@media only screen and (max-width:599px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc(10vh - 4.2rem));
+	}
+}
+
+@media only screen and (max-width:599px) and (max-height:700px) {
+	.hero-text .inner .subhead {
+		font-size: min(4rem, .8em);
+	}
+
+	.hero-text .inner button {
+		font-size: min(2.5rem, max(.5em, 13px));
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: min(2rem, max(.4em, 12px));
+	}
+}
