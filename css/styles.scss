@@ -5107,3 +5107,143 @@ button.btn-top {
 		white-space: nowrap;
 	} 
 }
+
+/* ----------------------------------------
+	Navigation dropdowns
+	Markup: <li class="has-submenu"><a href="#">Label <span class="caret">▾</span></a><ul class="submenu">…</ul></li>
+---------------------------------------- */
+.menu .submenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu .caret {
+	display: inline-block;
+	margin-left: .3em;
+	font-size: .85em;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+}
+
+/* Desktop: floating panel */
+@media only screen and (min-width:900px) {
+	.menu .submenu {
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		min-width: 26rem;
+		padding: .8rem 0;
+		background: rgba(11, 19, 43, .97);
+		border-radius: 8px;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+		text-align: left;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: opacity .15s ease-in-out, visibility .15s ease-in-out;
+		transition: opacity .15s ease-in-out, visibility .15s ease-in-out;
+		z-index: 300;
+	}
+
+	/* Home page: the menu bar sits at the bottom of the header, so the panel opens upwards */
+	.home .menu .submenu {
+		bottom: 100%;
+	}
+
+	/* Other pages: the menu bar sits at the top, so the panel opens downwards */
+	.pages .menu .submenu {
+		top: 9.8rem;
+	}
+
+	.menu .has-submenu:hover>.submenu,
+	.menu .has-submenu:focus-within>.submenu,
+	.menu .has-submenu.open>.submenu {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.menu .has-submenu:hover .caret,
+	.menu .has-submenu.open .caret {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	.menu .submenu li {
+		display: block;
+		margin: 0;
+	}
+
+	.menu .submenu li a,
+	.pages .menu .submenu li a {
+		padding: 1.4rem 2.4rem;
+		margin-top: 0;
+		font-size: 1.4rem;
+		white-space: nowrap;
+	}
+}
+
+/* Mobile: sub-items always visible, indented under a quieter label */
+@media only screen and (max-width:899px) {
+	.menu .has-submenu>a,
+	.pages .menu .has-submenu>a {
+		pointer-events: none;
+		padding-bottom: 12px;
+		opacity: .65;
+		font-size: 1.2rem;
+		letter-spacing: .08em;
+	}
+
+	.menu .has-submenu .caret {
+		display: none;
+	}
+
+	.menu .submenu li {
+		display: block;
+		border-left: 0;
+		border-top: 0;
+		background: transparent;
+	}
+
+	.menu .submenu li a,
+	.pages .menu .submenu li a {
+		padding: 14px 10px;
+		margin-top: 0;
+	}
+
+	.menu .submenu li:last-child a,
+	.pages .menu .submenu li:last-child a {
+		padding-bottom: 26px;
+	}
+}
+
+
+/* ----------------------------------------
+	Inner-page header on phones and tablets
+	Logo left, menu icon in the centre, "Book a call" button on the right,
+	all on one line so the icon no longer sits on top of the button.
+---------------------------------------- */
+@media only screen and (max-width:899px) {
+	.pages .btn-top,
+	.pages button.btn-top {
+		right: 16px;
+		top: 11.4rem;
+		margin-top: 0;
+		width: auto;
+		white-space: nowrap;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+	.pages .logo {
+		margin-left: 20px;
+		margin-top: 0;
+		top: 11.4rem;
+	}
+
+	.pages .logo img {
+		top: 0;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+}

@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="assets/ico/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="assets/ico/apple-icon.png">
+	<link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/header.webp">
 
 	<!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon-16x16.png">
@@ -41,7 +42,7 @@
       "@id": "https://brighter.coach/#business",
       "name": "Brighter ADHD Coaching",
       "url": "https://brighter.coach",
-      "logo": "https://brighter.coach/img/brighter-logo-rainbow.png",
+      "logo": "https://brighter.coach/img/brighter-logo-rainbow.webp",
       "image": "https://brighter.coach/img/demo/profile-new.webp",
       "description": "Certified ADHD coaching for adults, online and UK-wide. 1:1 coaching, ICF mentor coaching, and coaching supervision with Emma Winston, PCC and ACCG-certified ADHD coach.",
       "email": "brightercoach@gmail.com",
@@ -185,106 +186,6 @@
       ]
     },
     {
-      "@type": "Person",
-      "@id": "https://brighter.coach/#emma",
-      "name": "Emma Winston",
-      "alternateName": "Emma A Winston",
-      "url": "https://brighter.coach/about",
-      "image": "https://brighter.coach/img/demo/profile-new.webp",
-      "jobTitle": "Certified ADHD Coach",
-      "description": "PCC and ACCG-certified ADHD coach with 320+ hours of ADHD-specific training and 1000+ client hours. Based in London, UK, working online with clients across the UK and internationally.",
-      "email": "brightercoach@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "London",
-        "addressCountry": "GB"
-      },
-     "alumniOf": [
-  {
-    "@type": "EducationalOrganization",
-    "name": "Goldsmiths, University of London",
-    "url": "https://www.gold.ac.uk"
-  },
-  {
-    "@type": "EducationalOrganization",
-    "name": "ADD Coach Academy (ADDCA)",
-    "url": "https://addca.com"
-  }
-],
-      "knowsAbout": [
-        "ADHD coaching",
-        "AuDHD coaching",
-        "adult ADHD",
-        "neurodiversity coaching",
-        "autism",
-        "executive function",
-        "ADHD strategies",
-        "ICF coaching competencies",
-        "ICF mentor coaching",
-        "coaching supervision",
-        "neuroaffirmative coaching",
-        "Access to Work ADHD coaching",
-        "Coping strategy training sessions",
-        "late ADHD diagnosis",
-        "solution-focused coaching",
-        "person-centred coaching",
-        "pluralistic coaching"
-      ],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Professional Certified Coach (PCC)",
-          "credentialCategory": "Professional Certification",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "International Coaching Federation",
-            "url": "https://coachingfederation.org"
-          }
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "ACCG-Certified ADHD Coach",
-          "credentialCategory": "Professional Certification",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "ADD Coach Academy (ADDCA)"
-          }
-        },
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Doctor of Philosophy (PhD)",
-          "credentialCategory": "Degree",
-          "description": "Doctorate completed within the Popular Music Research Unit at Goldsmiths, University of London. An interdisciplinary project drawing on sociology, anthropology, psychology, and media studies, including examination of person-centred psychological theory in non-clinical, community music contexts.",
-          "recognizedBy": {
-            "@type": "Organization",
-            "name": "Goldsmiths, University of London",
-            "url": "https://www.gold.ac.uk"
-          }
-        }
-      ],
-      "memberOf": [
-        {
-          "@type": "Organization",
-          "name": "International Coaching Federation",
-          "url": "https://coachingfederation.org"
-        },
-        {
-          "@type": "Organization",
-          "name": "European Mentoring and Coaching Council",
-          "url": "https://www.emccglobal.org"
-        }
-      ],
-      "worksFor": {
-        "@id": "https://brighter.coach/#business"
-      },
-      "subjectOf": {
-        "@id": "https://brighter.coach/about#page"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/in/emmawinston/"
-      ]
-    },
-    {
       "@type": "WebSite",
       "@id": "https://brighter.coach/#website",
       "url": "https://brighter.coach",
@@ -301,12 +202,18 @@
 	<!-- Styles -->
 	<link href="css/normalize.css" rel="stylesheet" media="all"><!-- Normalize (https://github.com/necolas/normalize.css/) -->
 	<link href="css/styles.css" rel="stylesheet" media="all"><!-- Main Styles -->
-	<link href="css/animate.min.css" rel="stylesheet" media="all"><!-- Animated Modal (Blog) (https://github.com/joaopereirawd/animatedModal.js) -->
-	<link href="css/owl.carousel.min.css" rel="stylesheet" media="all"><!-- Owl Carousel (https://github.com/OwlCarousel2/OwlCarousel2) -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preload" href="css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/animate.min.css"></noscript>
+	<link rel="preload" href="css/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="css/owl.carousel.min.css"></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:300,400,500" rel="stylesheet"><!-- Google Fonts (https://fonts.google.com/) -->
-<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:300,400,500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</noscript>
 	
 	<!-- IE Styles -->
 	<style>
@@ -419,13 +326,24 @@
 	</style>
 	
 	<!-- Scripts -->
-	<script src="https://use.fontawesome.com/3e2da29de5.js"></script><!-- Font Awesome (http://fontawesome.io/) -->
+	<link rel="preload" href="https://use.fontawesome.com/3e2da29de5.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://use.fontawesome.com/3e2da29de5.css"></noscript>
 
   <!--[if lt IE 9]>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 	<![endif]-->
 
 	<link rel="canonical" href="https://brighter.coach">
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-74F0RV6BVR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-74F0RV6BVR');
+</script>
 </head>
 
 
@@ -450,8 +368,8 @@
 			<!-- Logo -->
 			<div class="logo">
 				<a href="/">
-					<img class="normal" src="img/brighter-logo-white.png" alt="Brighter ADHD Coaching">
-					<img class="hover" src="img/brighter-logo-rainbow.png" alt="Brighter ADHD Coaching">
+					<img class="normal" src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/brighter-logo-white.webp" alt="Brighter ADHD Coaching" fetchpriority="high">
+					<img class="hover" src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/brighter-logo-rainbow.webp" alt="Brighter ADHD Coaching">
 				</a>
 			</div><!-- .logo -->
 		
@@ -664,7 +582,7 @@
 											</div>
 
 											<div class="member-image session-image">
-												<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/tree.jpeg" alt="A tree against a bright sky">
+												<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/tree.jpeg" alt="A tree against a bright sky" loading="lazy">
 												<div class="sessiontext">
 											
 													<p>1-hour one-to-one coaching sessions are a chance to better understand your brain, to develop strategies that <i>really</i> work for you, and to think through how to create a more fulfilling life, working with instead of against your unique brain wiring.</p>
@@ -712,7 +630,7 @@
 											</div>
 
 											<div class="member-image session-image">
-												<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/forest.jpeg" alt="A green forest">
+												<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/forest.jpeg" alt="A green forest" loading="lazy">
 
 												<div class="sessiontext">
 											
@@ -755,7 +673,7 @@
 											</div>
 
 											<div class="member-image session-image">
-												<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/sprout.jpeg" alt="A growing sprout">
+												<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/sprout.jpeg" alt="A growing sprout" loading="lazy">
 
 												<div class="sessiontext">
 											
@@ -986,7 +904,7 @@ I have not only learned loads of new strategies and techniques to help manage my
 						<div class="gutter"></div>
 
 						<div class="background">
-								<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/profile-new.webp" alt="Photo of Emma Winston, a woman with dark hair and glasses wearing a floral shirt and smiling at the camera" />
+								<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/profile-new.webp" alt="Photo of Emma Winston, a woman with dark hair and glasses wearing a floral shirt and smiling at the camera" loading="lazy" />
 						</div>
 						
 						<!-- Intro Heading -->						
@@ -1045,12 +963,12 @@ I have not only learned loads of new strategies and techniques to help manage my
 						<div class="affiliations-content-wrapper">
 							
 							<div class="affiliations-content">					
-								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/icf-pcc-badge.png" width="130" height="130" alt="International Coaching Federation - Professional Certified Coach"/></a>
+								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/icf-pcc-badge.png" width="130" height="130" alt="International Coaching Federation - Professional Certified Coach" loading="lazy" /></a>
 								<a href="https://coachingfederation.org/find-a-coach/verify-a-coach"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/icf-member-badge.png" width="130" height="130" alt="International Coaching Federation Member"/></a>
-								<img src="img/demo/accgbadge.png" width="130" height="130" alt="Trained and certified at ADDCA"/> 
-								<a href="https://www.adhdcoaches.org/"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/aco.png" width="130" height="130" alt="ACO Member" /></a>
-								<a href="https://www.schoolofadhdcoaching.com/"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/soacbadge.png" width="130" height="130" alt="Supervisor and facilitator at SOAC"/></a>
-								<a href="hhttps://www.emccglobal.org/accreditation/eia/eia-awards/"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/emcc-sp-badge.png" width="130" height="130" alt="EMCC Senior Practitioner"/></a>
+								<img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/accgbadge.png" width="130" height="130" alt="Trained and certified at ADDCA" loading="lazy"/> 
+								<a href="https://www.adhdcoaches.org/"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/aco.png" width="130" height="130" alt="ACO Member" loading="lazy" /></a>
+								<a href="https://www.schoolofadhdcoaching.com/"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/soacbadge.png" width="130" height="130" alt="Supervisor and facilitator at SOAC" loading="lazy"/></a>
+								<a href="https://www.emccglobal.org/accreditation/eia/eia-awards/"><img src="https://cdn.jsdelivr.net/gh/brighterandbrighter/brighterandbrighter.github.io@main/img/demo/emcc-sp-badge.png" width="130" height="130" alt="EMCC Senior Practitioner" loading="lazy"/></a>
 
 
 								<div class="affiliations-text"><p>I am a member of the <a href="https://coachingfederation.org/find-a-coach/verify-a-coach">International Coaching Federation</a>, holding a PCC-level credential, and hold Senior Practitioner status with the <a href="https://www.emccglobal.org/accreditation/eia/eia-awards/">European Mentoring and Coaching Council</a>. I abide by the ICF's Code of Ethics and the EMCC's Global Code of Ethics. I am also ACCG-certified by my training organisation ADDCA (their most advanced level of internal certification), and am currently in training as a coaching supervisor with SolutionsAcademy.</p></div>
@@ -1277,7 +1195,7 @@ I have not only learned loads of new strategies and techniques to help manage my
     	<p>I will never spam you, and will never use your details for anything other than notifying you of available spaces for coaching. You can unsubscribe from availability notifications at any time.</p>
     	<p>Coaching slots open up semi-regularly, but usually one at a time, and I progress down the list in groups. You will receive a notification straight away if any spaces become available.</p>
 </div>
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+<!--script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script--></div>
 
 
 
@@ -1635,10 +1553,17 @@ var btn = document.querySelectorAll(".myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
+
 for(item of btn) {
-	item.onclick = function() {
-	  mod.style.display = "block";
-	}
+    item.onclick = function() {
+        mod.style.display = "block";
+        // Load mc-validate only when needed
+        if (!document.querySelector('script[src*="mc-validate"]')) {
+            var script = document.createElement('script');
+            script.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js';
+            document.body.appendChild(script);
+        }
+    }
 }
 
 // When the user clicks on <span> (x), close the modal
