@@ -5250,75 +5250,240 @@ button.btn-top {
 
 
 /* ----------------------------------------
-	Homepage hero: shrink with window height
-	The hero is one screen tall. In a short window the headline, the small
-	title above it and the button used to collide. Here the headline takes
-	its normal size (1em) or a size based on the window height, whichever is
-	smaller. In a tall window nothing changes. The lines beneath the
-	headline only scale down once the window is short enough to need it.
-	Three tiers, because the header is laid out differently at each width.
+	Homepage hero: short windows only
+	The hero is one screen tall. When the window is too short to hold the
+	headline, the line under it and the button, they used to run into the
+	page title above and the menu below. Every rule here sits inside a
+	max-height query, set to the height at which the text starts to touch
+	at that screen width. In any taller window none of this applies and
+	the header is exactly as it was. Below that height the whole text
+	block shrinks in proportion, just enough to fit.
 ---------------------------------------- */
 
-/* Desktop (900px and wider) */
-.hero-text .inner .text {
-	font-size: min(1em, calc(12.5vh - 4rem));
-}
-
-@media only screen and (min-width:900px) and (max-height:840px) {
-	.hero-text .inner .subhead {
-		font-size: min(4rem, .45em);
-	}
-
-	.hero-text .inner button {
-		font-size: min(2.5rem, max(.3em, 13px));
-		padding: .8em 1.6em;
-	}
-
-	.hero-text .inner p.contactme {
-		font-size: min(2rem, max(.25em, 12px));
-	}
-}
-
-/* Tablets and phones held sideways (600px to 899px wide) */
-@media only screen and (min-width:600px) and (max-width:899px) {
+/* Very wide screens (2400px and up): only when the window is 1146px tall or less */
+@media only screen and (min-width:2400px) and (max-height:1146px) {
 	.hero-text .inner .text {
-		font-size: min(1em, calc(12.7vh - 3.4rem));
+		font-size: min(1em, calc((100vh - 292px) * 0.1311), calc((100vh - 202px) * 0.1379));
 	}
-}
 
-@media only screen and (min-width:600px) and (max-width:899px) and (max-height:560px) {
 	.hero-text .inner .subhead {
-		font-size: min(4rem, .667em);
+		font-size: .4em;
 	}
 
 	.hero-text .inner button {
-		font-size: min(2.5rem, max(.42em, 13px));
+		font-size: max(.25em, 12px);
 		padding: .8em 1.6em;
 	}
 
 	.hero-text .inner p.contactme {
-		font-size: min(2rem, max(.33em, 12px));
+		font-size: max(.2em, 11px);
 	}
 }
 
-/* Phones (under 600px wide) */
-@media only screen and (max-width:599px) {
+/* 1800px to 2399px wide: only when the window is 968px tall or less */
+@media only screen and (min-width:1800px) and (max-width:2399px) and (max-height:968px) {
 	.hero-text .inner .text {
-		font-size: min(1em, calc(10vh - 4.2rem));
+		font-size: min(1em, calc((100vh - 206px) * 0.1312), calc((100vh - 196px) * 0.1377));
 	}
-}
 
-@media only screen and (max-width:599px) and (max-height:700px) {
 	.hero-text .inner .subhead {
-		font-size: min(4rem, .8em);
+		font-size: .4em;
 	}
 
 	.hero-text .inner button {
-		font-size: min(2.5rem, max(.5em, 13px));
+		font-size: max(.25em, 12px);
 		padding: .8em 1.6em;
 	}
 
 	.hero-text .inner p.contactme {
-		font-size: min(2rem, max(.4em, 12px));
+		font-size: max(.2em, 11px);
+	}
+}
+
+/* 1600px to 1799px wide: only when the window is 833px tall or less */
+@media only screen and (min-width:1600px) and (max-width:1799px) and (max-height:833px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 206px) * 0.1276), calc((100vh - 196px) * 0.1354));
+	}
+
+	.hero-text .inner button {
+		margin-top: -1.2em;
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .5em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.3125em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.25em, 11px);
+	}
+}
+
+/* 1400px to 1599px wide: only when the window is 769px tall or less */
+@media only screen and (min-width:1400px) and (max-width:1599px) and (max-height:769px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 194px) * 0.1428), calc((100vh - 190px) * 0.1216));
+	}
+
+	.hero-text .text {
+		padding-top: .852em;
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .5em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.3125em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.25em, 11px);
+	}
+}
+
+/* 1200px to 1399px wide: only when the window is 795px tall or less */
+@media only screen and (min-width:1200px) and (max-width:1399px) and (max-height:795px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 238px) * 0.1293), calc((100vh - 186px) * 0.1366));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .4444em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.2778em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.2222em, 11px);
+	}
+}
+
+/* 900px to 1199px wide: only when the window is 630px tall or less */
+@media only screen and (min-width:900px) and (max-width:1199px) and (max-height:630px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 178px) * 0.1274), calc((100vh - 182px) * 0.1352));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .5em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.3125em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.25em, 11px);
+	}
+}
+
+/* 730px to 899px wide (tablets, phones held sideways): only when the window is 566px tall or less */
+@media only screen and (min-width:730px) and (max-width:899px) and (max-height:566px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 172px) * 0.1218), calc((100vh - 152px) * 0.1319));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .6667em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.4167em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.3333em, 11px);
+	}
+}
+
+/* 600px to 729px wide: only when the window is 614px tall or less */
+@media only screen and (min-width:600px) and (max-width:729px) and (max-height:614px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 172px) * 0.1086), calc((100vh - 152px) * 0.1165));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .6667em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.4167em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.3333em, 11px);
+	}
+}
+
+/* Phones, 396px to 599px wide: only when the window is 645px tall or less */
+@media only screen and (min-width:396px) and (max-width:599px) and (max-height:645px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 298px) * 0.1037), calc((100vh - 146px) * 0.1129));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .8em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.5em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.4em, 11px);
+	}
+}
+
+/* Phones, 334px to 395px wide: only when the window is 665px tall or less */
+@media only screen and (min-width:334px) and (max-width:395px) and (max-height:665px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 298px) * 0.0981), calc((100vh - 146px) * 0.1056));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .8em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.5em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.4em, 11px);
+	}
+}
+
+/* Small phones, under 334px wide: only when the window is 701px tall or less */
+@media only screen and (max-width:333px) and (max-height:701px) {
+	.hero-text .inner .text {
+		font-size: min(1em, calc((100vh - 298px) * 0.0893), calc((100vh - 146px) * 0.0955));
+	}
+
+	.hero-text .inner .subhead {
+		font-size: .8em;
+	}
+
+	.hero-text .inner button {
+		font-size: max(.5em, 12px);
+		padding: .8em 1.6em;
+	}
+
+	.hero-text .inner p.contactme {
+		font-size: max(.4em, 11px);
 	}
 }
